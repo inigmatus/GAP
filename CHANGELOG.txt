@@ -24,7 +24,7 @@ CC ENHANCEMENT REQUESTS
 - HasNotPassengers desired to check if loaded passengers have unloaded - #339
 
 CC BUGS DISCOVERED:
-- HasKerbal index attribute defaulting to 0 regardless of value - #340
+- HasKerbal index attribute defaulting to 0 regardless of value - #340 - fixed in upcomming CC release.
 - Awareness that landed means 0 speed at both legs of journey - #341 - fixed in upcomming CC release.
 
 KSC BUGS DISCOVERED:
