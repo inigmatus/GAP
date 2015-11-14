@@ -45,7 +45,7 @@ CONTRACT_TYPE
 		type = ReachState
 		title = Land back at KSC runway Speed 0
 		hideChildren = true
-		minSpeed = 0.0
+		maxSpeed = 0.0
 		disableOnStateChange = false
 	}
 	
