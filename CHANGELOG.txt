@@ -1,5 +1,10 @@
 CHANGELOG:
 
+11/14/15 - SSI Aerospace 0.0.2 released on GitHub
+- New KSC Coast Guard Rescue Fishermen Contract
+- Require Basic Jet Engine or KAX A7 Aerosport propeller (both require Aviation tech in stock Career)
+- Spawn boat with Kerbals
+
 11/13/15 - SSI Aerospace 0.0.1b released on GitHub
 -KSC Flight 101 Contract fails if you destroy the vessel.
 -KSC Flight 101 contract requires availability of mk1 crew cabin.
@@ -24,4 +29,5 @@ KSC BUGS DISCOVERED:
 
 
 TO DO:
-- New KSC Coast Guard Rescue Fisherman Contract
+- KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location?
+- Help keptin get KAX updated on CKAN (which means I need to learn it too)
