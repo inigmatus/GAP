@@ -1,5 +1,9 @@
 CHANGELOG:
 
+11/14/15 - SSI Aerospace 0.0.3 Initial Test Release
+- Fixed maxSpeed for landings
+- Updated KSC Coast Guard logo and craft assets
+
 11/14/15 - SSI Aerospace 0.0.2 released on GitHub
 - New KSC Coast Guard Rescue Fishermen Contract
 - Require Basic Jet Engine or KAX A7 Aerosport propeller (both require Aviation tech in stock Career)
