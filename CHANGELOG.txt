@@ -33,6 +33,7 @@ KSC BUGS DISCOVERED:
 
 
 TO DO:
+- Test weight of 1
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location?
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - KSC Sea Tours charter to bring a boat to shore waypoint, to sea waypoint, and back. Player encouraged to keep boat at shore waypoint since it would considered a dock for future tours.
