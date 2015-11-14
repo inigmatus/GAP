@@ -1,7 +1,7 @@
 CHANGELOG:
 
 11/14/15 - SSI Aerospace 0.0.3 Initial Test Release
-- Fixed maxSpeed for landings
+- maxSpeed 0.1 workaround for landings CC issue #341
 - Updated KSC Coast Guard logo and craft assets
 
 11/14/15 - SSI Aerospace 0.0.2 released on GitHub
@@ -25,7 +25,7 @@ CC ENHANCEMENT REQUESTS
 
 CC BUGS DISCOVERED:
 - HasKerbal index attribute defaulting to 0 regardless of value - #340
-- Awareness that landed means 0 speed at both legs of journey - #341
+- Awareness that landed means 0 speed at both legs of journey - #341 - fixed in upcomming CC release.
 
 KSC BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
