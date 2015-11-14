@@ -35,3 +35,9 @@ KSC BUGS DISCOVERED:
 TO DO:
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location?
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
+- KSC Sea Tours charter to bring a boat to shore waypoint, to sea waypoint, and back. Player encouraged to keep boat at shore waypoint since it would considered a dock for future tours.
+- KSC Sea Tours charters to spawn a persistent dock at the shore waypoint.
+- SSI contract to test air flight with empty passengers to KSC Island and return.
+- Mission progression: SSI test flight, KSC Flight 101, KSC Coast Guard Rescue fishermen (reported distress by Flight 101)
+- Kerbal Space Command STS 107 orbital rescue
+- Figure out how to spawn without blowing up one of my space shuttles on launch pad or Island.
