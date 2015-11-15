@@ -21,7 +21,7 @@ CHANGELOG:
 
 CC ENHANCEMENT REQUESTS
 - Heading attribute desired for SpawnKerbal - #337
-- HasNotPassengers desired to check if loaded passengers have unloaded - #339
+- HasNotPassengers desired to check if loaded passengers have unloaded - #339 - Not parameter added in upcomming CC release.
 
 CC BUGS DISCOVERED:
 - HasKerbal index attribute defaulting to 0 regardless of value - #340 - fixed in upcomming CC release.
@@ -33,7 +33,7 @@ KSC BUGS DISCOVERED:
 
 
 TO DO:
-- Test weight of 1
+- Test Take Command mod to see if SpawnCrew will work to spawn Kerbals in Command Seats.
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location?
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - KSC Sea Tours charter to bring a boat to shore waypoint, to sea waypoint, and back. Player encouraged to keep boat at shore waypoint since it would considered a dock for future tours.
@@ -42,3 +42,44 @@ TO DO:
 - Mission progression: SSI test flight, KSC Flight 101, KSC Coast Guard Rescue fishermen (reported distress by Flight 101)
 - Kerbal Space Command STS 107 orbital rescue
 - Figure out how to spawn without blowing up one of my space shuttles on launch pad or Island.
+
+
+PLANNED MISSIONS: (in order of general appearance, some missions may appear at the same times as others nearby)
+SSI Aerospace: First Flight (Take off and Land)
+KSC Island Tours: Shoreline Tour (to waypoint and back)
+SSI Aerospace: Test Flight to 2000m
+Kerbal Space Program: KSC Islands Survey
+Kerbal Space Program: KSC Island Landing (plant flag by Tower)
+Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
+KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
+KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
+SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
+KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
+KSC Air Shuttle: KSC Island Airfield 2 Crew Rotation (Exchange 2 staff on KSC Island)
+KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized)
+KSC Air Shuttle: KSC Island Airfield 4 Crew Rotation (Exchange 4 staff on KSC Island)
+SSI Aerospace: Test Flight of Mk2 Crew Cabin to 10,000m
+KSC Coast Guard: Downed Test Pilot Recovery (pick up from remote island in ocean)
+SSI Aerospace: Carrier Landing Test (optional, for science and prestige (spawn KSS Jadon Kerman))
+KSC Coast Guard: Downed Test Pilot Recovery (pick up Kerbal in ocean) (require search pattern?) (popup asking player to disable targeting?)
+KSC Air Shuttle: KSC Island Airfield 8 Crew Rotation (Exchange 8 staff on KSC Island)
+KSC Island Tours: Fly 4 tourists over KSC Islands
+KSC Island Tours: Fly 8 tourists over KSC Islands
+SSI Aerospace: Seaplane Test (land in water at waypoint, land back at KSC) (can use a jet seaplane, but KAX recommended)
+SSI Aerospace: Helicopter Test (land on top of VAB) (can create a VTOL, but KAX recommended)
+KSC Island Tours: Seaplane or Boat to 3rd Island
+KSC Coast Guard: Rescue clibers on top of K2 in the West Mountains
+SSI Aerospace: Test Flight of Mk3 Crew Cabin to 20,000m
+Kerbal Space Center: KSC Flight 101 (land 12 tourists, and exchange 4 staff on KSC Island)
+SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
+Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
+Kerbal Space Program: Kerbal Space Center 2 Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
+Kerbal Space Center: KSC Flight 102 (land 12 tourists, and exchange 4 staff at KSC 2)
+Kerbal Space Program: North Pole Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
+Kerbal Space Program: North Pole Base Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
+KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
+SSI Aerospace: STS Space Shuttle First Flight
+Space Transportation System: STS-1 (Cargo Bay Test)
+KSC Coast Guard: STS SRB Booster Recovery (KAS mod preferred)
+Space Transportation System: STS-30 (Satellite Launch)
+Space Transportation System: STS-108 (Rescue Mission for STS-107)
