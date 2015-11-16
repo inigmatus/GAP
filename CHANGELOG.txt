@@ -21,11 +21,8 @@ CHANGELOG:
 
 CC ENHANCEMENT REQUESTS
 - Heading attribute desired for SpawnKerbal - #337
-- HasNotPassengers desired to check if loaded passengers have unloaded - #339 - Not parameter added in upcomming CC release.
 
 CC BUGS DISCOVERED:
-- HasKerbal index attribute defaulting to 0 regardless of value - #340 - fixed in upcomming CC release.
-- Awareness that landed means 0 speed at both legs of journey - #341 - fixed in upcomming CC release.
 
 KSC BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -33,15 +30,13 @@ KSC BUGS DISCOVERED:
 
 
 TO DO:
+- Test Air Charter A (flesh out Not parameter use)
+- Rescue Fishermen make code format consistent with Air Charter A
+- SSI Aerospace: First Flight (KAX aware)
 - Test Take Command mod to see if SpawnCrew will work to spawn Kerbals in Command Seats.
-- KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location?
+- KSC Island Tours: Shoreline Tour (to waypoint and back) (see Whitecat106 Maritime pack)  *might defer this to Maritime entirely*
+- KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack)
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
-- KSC Sea Tours charter to bring a boat to shore waypoint, to sea waypoint, and back. Player encouraged to keep boat at shore waypoint since it would considered a dock for future tours.
-- KSC Sea Tours charters to spawn a persistent dock at the shore waypoint.
-- SSI contract to test air flight with empty passengers to KSC Island and return.
-- Mission progression: SSI test flight, KSC Flight 101, KSC Coast Guard Rescue fishermen (reported distress by Flight 101)
-- Kerbal Space Command STS 107 orbital rescue
-- Figure out how to spawn without blowing up one of my space shuttles on launch pad or Island.
 
 
 PLANNED MISSIONS: (in order of general appearance, some missions may appear at the same times as others nearby)
