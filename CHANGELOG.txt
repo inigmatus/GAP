@@ -31,8 +31,8 @@ KSC BUGS DISCOVERED:
 
 TO DO:
 - Test Air Charter A (flesh out Not parameter use)
-- Rescue Fishermen make code format consistent with Air Charter A
 - SSI Aerospace: First Flight (KAX aware)
+- RescueFishermen flag wanted
 - Test Take Command mod to see if SpawnCrew will work to spawn Kerbals in Command Seats.
 - KSC Island Tours: Shoreline Tour (to waypoint and back) (see Whitecat106 Maritime pack)  *might defer this to Maritime entirely*
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack)
