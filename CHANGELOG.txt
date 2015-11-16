@@ -1,5 +1,10 @@
 CHANGELOG:
 
+0.0.4
+- added new contracts
+- renamed all contracts
+- updated all contracts to require use of Contract Configurator 1.8.1
+
 11/14/15 - SSI Aerospace 0.0.3 Initial Test Release
 - maxSpeed 0.1 workaround for landings CC issue #341
 - Updated KSC Coast Guard logo and craft assets
