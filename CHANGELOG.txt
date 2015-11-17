@@ -1,6 +1,7 @@
 CHANGELOG:
 
 0.0.4
+- added SSI 2000m contract
 - added SSI First Flight contract
 - added heading to spawned Kerbals
 - renamed all contracts
@@ -39,15 +40,6 @@ KSC BUGS DISCOVERED:
 
 
 TO DO:
-- Set Not HasPassengers to show all passengers (requires their debarkation), then run silent checks for outbound and inbound debarkation. Perhaps nest this in an Any set to disableOnState change to true, thus permitting requiring HasPassengers for inbound, and then run a separate Has Passengers check to ensure inbound passenger delivery.
-
-PARAM {Any
-  PARAM {Not
-    PARAM {HasPassengers}
-    }
-  PARAM {HasPassengers}
-  }
-
 - Test vessel identification in SSI1 and ability to recover kerbal and vessel separately as an allowable option to complete contract.
 - Add part validation to SSI1 to check for prop or jet
 - KSC Island Tours: Shoreline Tour (to waypoint and back) (see Whitecat106 Maritime pack)  *might defer this to Maritime entirely*
