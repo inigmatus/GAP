@@ -1,9 +1,13 @@
 CHANGELOG:
 
 0.0.4
-- added new contracts
+- added SSI First Flight contract
+- added heading to spawned Kerbals
 - renamed all contracts
-- updated all contracts to require use of Contract Configurator 1.8.1
+- updated to require minimum version of Contract Configurator 1.8.1
+- updated passenger manifest info in Air Charter contract
+- fixed minSpeed issues
+- fixed SpawnKerbal issues
 
 11/14/15 - SSI Aerospace 0.0.3 Initial Test Release
 - maxSpeed 0.1 workaround for landings CC issue #341
@@ -44,16 +48,16 @@ PARAM {Any
   PARAM {HasPassengers}
   }
 
-- Test Air Charter A (flesh out Not parameter use)
-- SSI Aerospace: First Flight (KAX aware)
-- Test Take Command mod to see if SpawnCrew will work to spawn Kerbals in Command Seats.
+- Test vessel identification in SSI1 and ability to recover kerbal and vessel separately as an allowable option to complete contract.
+- Add part validation to SSI1 to check for prop or jet
 - KSC Island Tours: Shoreline Tour (to waypoint and back) (see Whitecat106 Maritime pack)  *might defer this to Maritime entirely*
-- KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack)
+- KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 
 
+
 PLANNED MISSIONS: (in order of general appearance, some missions may appear at the same times as others nearby)
-SSI Aerospace: First Flight (Take off and Land)
+SSI Aerospace: First Flight (Take off and Land) - DONE!
 KSC Island Tours: Shoreline Tour (to waypoint and back)
 SSI Aerospace: Test Flight to 2000m
 Kerbal Space Program: KSC Islands Survey
@@ -63,8 +67,8 @@ KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoi
 KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
-KSC Air Shuttle: KSC Island Airfield 2 Crew Rotation (Exchange 2 staff on KSC Island)
-KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized)
+KSC Air Shuttle: KSC Island Airfield 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
+KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized) - DONE! (waiting to be put in sequence)
 KSC Air Shuttle: KSC Island Airfield 4 Crew Rotation (Exchange 4 staff on KSC Island)
 SSI Aerospace: Test Flight of Mk2 Crew Cabin to 10,000m
 KSC Coast Guard: Downed Test Pilot Recovery (pick up from remote island in ocean)
