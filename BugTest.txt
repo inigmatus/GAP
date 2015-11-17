@@ -4,8 +4,8 @@ CONTRACT_TYPE
 {
 	name = BugTest
     title = Bug Test
-    group = AirShuttle
-	agent = KSC Air Shuttle
+    group = SSI Air Charters
+	agent = KSC Air Charters
    
     description = Bug Test.
 	
@@ -26,7 +26,7 @@ CONTRACT_TYPE
    	maxCompletions = 0
    	maxSimultaneous = 1
 
- 	rewardScience = 5.0
+ 	rewardScience = 500000.0
   	rewardReputation = 5.0
   	rewardFunds = 10000.0
  	failureReputation = 20.0

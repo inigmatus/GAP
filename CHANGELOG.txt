@@ -30,9 +30,12 @@ CHANGELOG:
 
 
 CC ENHANCEMENT REQUESTS
-- Heading attribute desired for SpawnKerbal - #337
+- #344 Enhancement to include check for if exists in loaded part list, else ignore PartUnlocked requirement
+- #343 RecoverVessel doesn't appear to be recognized in Space Center view 
 
 CC BUGS DISCOVERED:
+- #342 title attribute for KerbalDeaths not working or is needed
+- #345 prestige = Exceptional not recognized? 
 
 KSC BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -40,11 +43,14 @@ KSC BUGS DISCOVERED:
 
 
 TO DO:
-- Test vessel identification in SSI1 and ability to recover kerbal and vessel separately as an allowable option to complete contract.
-- Add part validation to SSI1 to check for prop or jet
+- Balance rewards with stock contracts
 - KSC Island Tours: Shoreline Tour (to waypoint and back) (see Whitecat106 Maritime pack)  *might defer this to Maritime entirely*
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
+- Revisit testing for recovery of Kerbal and craft separately. CC#343
+- Update SSI1 to check for KAX parts, currently only checking for jet CC#344
+- Update SST1 to check for KerbalDeaths and provide appropriate title CC#342
+- Update SST1 to Exceptional prestige CC#345
 
 
 

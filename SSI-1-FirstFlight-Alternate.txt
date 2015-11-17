@@ -1,0 +1,151 @@
+//Air Charter to KSC Island
+
+CONTRACT_TYPE
+{
+//Contract Descriptions
+	name = SSI1FirstFlight
+	title = The first powered airplane flight!
+	group = SSI
+	agent = SSI Aerospace
+	description = Wilbur and Orville Kerman of SSI Aerospace want you to build and test an airplane, but one that actually flies this time. 
+	synopsis = Simply launch an airplane from the runway, and get up into the air... and land back on the ground without messing it up.
+	notes = Wilbur and Orville both wanted to go, but the coin they flipped landed on its side. Hence why you were choosen.
+	completedMessage = Flight Completed!
+
+//Contract Limits
+	minExpiry = 7.0
+	maxExpiry = 7.0
+	deadline = 0
+	cancellable = true
+	declinable = true
+	autoAccept = false
+	prestige = Trivial
+   	targetBody = Kerbin
+   	maxCompletions = 1
+   	maxSimultaneous = 1
+
+//Contract Rewards
+ 	rewardScience = 5.0
+  	rewardReputation = 5.0
+  	rewardFunds = 8000.0
+ 	failureReputation = 5.0
+  	failureFunds = 10000.0
+  	advanceFunds = 2000
+	weight = 10.0
+
+//Requirements for Contract to Appear	
+	REQUIREMENT
+	{
+		name = Any
+		type = Any
+
+		REQUIREMENT
+		{
+			name = PartUnlocked
+			type = PartUnlocked
+			part = JetEngine
+		}
+
+		REQUIREMENT
+		{
+			name = PartUnlocked
+			type = PartUnlocked
+			part = KAXsportprop
+		}
+	}
+
+//Requirements for Contract Completion
+
+	PARAMETER
+	{
+		name = VesselParameterGroup
+		type = VesselParameterGroup
+		define = SSI X-1
+
+		PARAMETER
+		{
+			name = NewVessel
+			type = NewVessel
+		}
+
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			hideChildren = true
+			minCrew = 1
+			maxCrew = 1
+			title = You must have a volunteer. No kites this time.
+		}
+	}
+
+	PARAMETER
+	{
+		name = ReachState
+		type = ReachState
+		title = Get airborne
+		hideChildren = true
+		situation = FLYING
+		minSpeed = 15
+		targetBody = Kerbin
+		disableOnStateChange = true
+		completeInSequence = true
+	}
+	
+	PARAMETER
+	{
+		name = ReachState
+		type = ReachState
+		title = Land safely
+		hideChildren = true
+		situation = LANDED
+		maxSpeed = 0.0
+		targetBody = Kerbin
+		disableOnStateChange = false
+		completeInSequence = true
+	}
+
+	PARAMETER
+	{
+		name = RecoverKerbals
+		type = All
+		title = Recover your airplane with your volunteer
+		hideChildren = false
+		completeInSequence = true
+		
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			hideChildren = true
+			minCrew = 1
+			maxCrew = 1
+			completeInSequence = false
+		}
+		
+			PARAMETER
+		{
+			name = VesselNotDestroyed
+			type = VesselNotDestroyed
+		}
+	
+		PARAMETER
+		{
+			name = VesselParameterGroup
+			type = VesselParameterGroup
+			hideChildren = true
+			vessel = SSI X-1
+			
+			PARAMETER
+			{
+				name = RecoverVessel
+				type = RecoverVessel
+				hideChildren = false
+				completeInSequence = true
+			}
+		
+		}
+	
+	}
+	
+}
