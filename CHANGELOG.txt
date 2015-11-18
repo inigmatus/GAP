@@ -1,6 +1,6 @@
 CHANGELOG:
 
-0.0.4
+11/14/15 - SSI Aerospace 0.0.4
 - added SSI 2000m contract
 - added SSI First Flight contract
 - added heading to spawned Kerbals
