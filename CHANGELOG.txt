@@ -47,6 +47,7 @@ TO DO:
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - Revisit testing for recovery of Kerbal and craft separately. CC#343
 - Update SST1 to check for KerbalDeaths and provide appropriate title CC#342
+- Save fishing vessel with light on for night missions.
 
 
 
