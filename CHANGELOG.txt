@@ -49,6 +49,24 @@ TO DO:
 - Update SST1 to check for KerbalDeaths and provide appropriate title CC#342
 - Save fishing vessel with light on for night missions.
 
+PLANNED AIR FLIGHTS:
+KSC Air Charter Flight A
+Crew Rotation: 2 Kerbals
+
+KSC Air Charter Flight B
+Crew Rotation: 4 Kerbals
+
+KSC Air Charter Flight C
+Crew Rotation: 8 Kerbals
+
+KSC Airlines Flight 101
+Tourists: 16
+
+KSC Airlines Flight 102
+Tourists: 42
+
+KSC Airlines Flight 103
+Tourists: 84
 
 
 PLANNED MISSIONS: (in order of general appearance, some missions may appear at the same times as others nearby)
@@ -62,28 +80,46 @@ KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoi
 KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
-KSC Air Shuttle: KSC Island Airfield 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
+KSC Air Charter Flight A: 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
+
 KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized) - DONE! (waiting to be put in sequence)
-KSC Air Shuttle: KSC Island Airfield 4 Crew Rotation (Exchange 4 staff on KSC Island)
+KSC Air Charter Flight B: 4 Crew Rotation (Exchange 4 staff on KSC Island)
+
 SSI Aerospace: Test Flight of Mk2 Crew Cabin to 10,000m
 KSC Coast Guard: Downed Test Pilot Recovery (pick up from remote island in ocean)
 SSI Aerospace: Carrier Landing Test (optional, for science and prestige (spawn KSS Jadon Kerman))
 KSC Coast Guard: Downed Test Pilot Recovery (pick up Kerbal in ocean) (require search pattern?) (popup asking player to disable targeting?)
-KSC Air Shuttle: KSC Island Airfield 8 Crew Rotation (Exchange 8 staff on KSC Island)
-KSC Island Tours: Fly 4 tourists over KSC Islands
-KSC Island Tours: Fly 8 tourists over KSC Islands
+KSC Air Charter Flight C: 8 Crew Rotation (Exchange 8 staff on KSC Island)
+
+KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands)
+
+KSC Island Tours: Flight 2 (Fly 8 tourists over KSC Islands)
+
 SSI Aerospace: Seaplane Test (land in water at waypoint, land back at KSC) (can use a jet seaplane, but KAX recommended)
 SSI Aerospace: Helicopter Test (land on top of VAB) (can create a VTOL, but KAX recommended)
-KSC Island Tours: Seaplane or Boat to 3rd Island
+KSC Island Tours: Flight 38 (8 Tourists in seaplane or boat to 3rd Island)
+
 KSC Coast Guard: Rescue clibers on top of K2 in the West Mountains
 SSI Aerospace: Test Flight of Mk3 Crew Cabin to 20,000m
-Kerbal Space Center: KSC Flight 101 (land 12 tourists, and exchange 4 staff on KSC Island)
+Kerbal Space Center: KSC Flight 101 (16 tourists to KSC Island and back)
+
+Kerbal Space Center: KSC Flight 102 (42 tourists to KSC Island and back)
+
+Kerbal Space Center: KSC Flight 103 (84 tourists to KSC Island and back)
+
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: Kerbal Space Center 2 Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
-Kerbal Space Center: KSC Flight 102 (land 12 tourists, and exchange 4 staff at KSC 2)
+Kerbal Space Center: KSC Flight 201 (land 12 tourists, and exchange 4 staff at KSC 2)
+
+Kerbal Space Center: KSC Flight 202 (land 40 tourists, and exchange 4 staff at KSC 2)
+
+Kerbal Space Center: KSC Flight 203 (land 82 tourists, and exchange 4 staff at KSC 2)
+
 Kerbal Space Program: North Pole Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: North Pole Base Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
+Kerbal Space Center: KSC Flight 301 (land 8 tourists, and exchange 4 staff at North Pole Base)
+
 KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
 SSI Aerospace: STS Space Shuttle First Flight
 Space Transportation System: STS-1 (Cargo Bay Test)
