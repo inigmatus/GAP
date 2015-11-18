@@ -66,6 +66,7 @@ KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, W
 KSC Air Shuttle: KSC Island Airfield 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
 KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized) - DONE! (waiting to be put in sequence)
 KSC Air Shuttle: KSC Island Airfield 4 Crew Rotation (Exchange 4 staff on KSC Island)
+KSC Coast Guard: Drop navigation buoys
 SSI Aerospace: Test Flight of Mk2 Crew Cabin to 10,000m
 KSC Coast Guard: Downed Test Pilot Recovery (pick up from remote island in ocean)
 SSI Aerospace: Carrier Landing Test (optional, for science and prestige (spawn KSS Jadon Kerman))
