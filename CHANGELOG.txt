@@ -42,6 +42,7 @@ KSC BUGS DISCOVERED:
 
 TO DO:
 - Balance rewards with stock contracts
+- Setup contract dependencies so that while even in pre-release only the SSI First Flight contract appears and is required. This will allow mid game installs of the pack as well and maintain a logical continuity.
 - KSC Island Tours: Shoreline Tour (to waypoint and back) (see Whitecat106 Maritime pack)  *might defer this to Maritime entirely*
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
