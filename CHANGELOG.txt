@@ -1,6 +1,6 @@
 CHANGELOG:
 
-0.0.4
+11/14/15 - SSI Aerospace 0.0.4
 - added SSI 2000m contract
 - added SSI First Flight contract
 - added heading to spawned Kerbals
@@ -53,8 +53,8 @@ TO DO:
 
 PLANNED MISSIONS: (in order of general appearance, some missions may appear at the same times as others nearby)
 SSI Aerospace: First Flight (Take off and Land) - DONE!
-KSC Island Tours: Shoreline Tour (to waypoint and back)
-SSI Aerospace: Test Flight to 2000m
+KSC Island Tours: Shoreline Tour (to waypoint and back) - On hold for Maritime pack collab
+SSI Aerospace: Test Flight to 2000m - DONE!
 Kerbal Space Program: KSC Islands Survey
 Kerbal Space Program: KSC Island Landing (plant flag by Tower)
 Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
