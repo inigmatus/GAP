@@ -49,7 +49,7 @@ TO DO:
 - Update SST1 to check for KerbalDeaths and provide appropriate title CC#342
 - Save fishing vessel with light on for night missions.
 
-PLANNED AIR FLIGHTS:
+PLANNED AIR FLIGHTS to KSC ISLAND:
 KSC Air Charter Flight A
 Crew Rotation: 2 Kerbals
 
@@ -58,6 +58,15 @@ Crew Rotation: 4 Kerbals
 
 KSC Air Charter Flight C
 Crew Rotation: 8 Kerbals
+
+KSC Island Tours Flight 1
+Tourists: 4
+
+KSC Island Tours Flight 2
+Tourists: 8
+
+KSC Island Tours Flight 38
+Seaplane Tourists: 8
 
 KSC Airlines Flight 101
 Tourists: 16
@@ -68,8 +77,22 @@ Tourists: 42
 KSC Airlines Flight 103
 Tourists: 84
 
+PLANNED AIR FLIGHTS to KSC 2:
+KSC Flight 201
+Tourists: 12 Staff: 4
 
-PLANNED MISSIONS: (in order of general appearance, some missions may appear at the same times as others nearby)
+KSC Flight 202
+Tourists: 40 Staff: 4
+
+KSC Flight 203
+Tourists: 82 Staff: 4
+
+PLANNED FLIGHT TO NORTH POLE BASE:
+KSC Flight 301 
+Tourists: 8 Staff: 4
+
+
+PLANNED MISSIONS PROGRESSION: (in order of general appearance, some missions may appear at the same times as others nearby)
 SSI Aerospace: First Flight (Take off and Land) - DONE!
 KSC Island Tours: Shoreline Tour (to waypoint and back)
 SSI Aerospace: Test Flight to 2000m
