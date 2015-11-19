@@ -1,4 +1,4 @@
-SSI Aerospace: Early Career Air Charters (Giving Aircraft a Purpose)
+SSI Aerospace: Early Career Air Charters (Giving Aircraft a Purpose) 
 
 -This contract pack requires Contract Configurator. Get it installed from CKAN today for your KSP.
 
