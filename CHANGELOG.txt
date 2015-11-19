@@ -1,7 +1,8 @@
 CHANGELOG: 
 
 0.0.5
-- Added KSCI shoreline tour
+- Added KSP Island Survey
+- Added KSCI Shoreline Tour (regular repeatable)
 - Added KerbalDeaths failure check to all contracts
 - fixed WP index
 
@@ -47,11 +48,13 @@ KSC BUGS DISCOVERED:
 RELEASE TO DO:
 - Set minimum version in Groups
 - Adjust weights for all missions
-- Compare rewards
+- Uncomment dependencies
+- Compare rewards and balance with Stock and SETI
 
 TO DO:
 - Kerbal Space Program: KSC Islands Survey - test waypoints (last one not repeating?)
 - Kerbal Space Program: KSC Island Landing (plant flag by Tower)
+- SSI Aerospace: KAX Helicopter Protype (fly and land on VAB helipad)
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
@@ -115,6 +118,7 @@ KSC Island Tours: Shoreline Tour (to waypoints and back) - DONE!
 SSI Aerospace: Test Flight to 2000m - DONE! s3
 Kerbal Space Program: KSC Islands Survey s4
 Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5
+SSI Aerospace: KAX Helicopter Protype (fly and land on VAB helipad)
 Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) s4
 KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
