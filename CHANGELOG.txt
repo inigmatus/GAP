@@ -55,7 +55,7 @@ TO DO:
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
-- Revisit testing for recovery of Kerbal and craft separately. CC#343
+- Revisit testing for recovery of Kerbal and craft separately in SSI-1 alternate. CC#343
 - Save fishing vessel with light on for night missions.
 
 downed pilot coordinates: 
