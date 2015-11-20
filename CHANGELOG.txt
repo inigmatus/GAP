@@ -157,24 +157,25 @@ SSI Aerospace: Test Flight of Mk3 Crew Cabin to 20,000m
 Kerbal Space Center: KSC Flight 101 (16 tourists to KSC Island and back)
 Kerbal Space Center: KSC Flight 102 (42 tourists to KSC Island and back)
 Kerbal Space Center: KSC Flight 103 (84 tourists to KSC Island and back)
-1.0
+0.8
 
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: Kerbal Space Center 2 Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
 Kerbal Space Center: KSC Flight 201 (land 12 tourists, and exchange 4 staff at KSC 2)
-
 Kerbal Space Center: KSC Flight 202 (land 40 tourists, and exchange 4 staff at KSC 2)
-
 Kerbal Space Center: KSC Flight 203 (land 82 tourists, and exchange 4 staff at KSC 2)
+0.9
 
 Kerbal Space Program: North Pole Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: North Pole Base Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
 Kerbal Space Center: KSC Flight 301 (land 8 tourists, and exchange 4 staff at North Pole Base)
-
 KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
+1.0
+
 SSI Aerospace: STS Space Shuttle First Flight
 Space Transportation System: STS-1 (Cargo Bay Test)
 KSC Coast Guard: STS SRB Booster Recovery (KAS mod preferred)
 Space Transportation System: STS-30 (Satellite Launch)
 Space Transportation System: STS-108 (Rescue Mission for STS-107)
+1.1
