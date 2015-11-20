@@ -40,6 +40,7 @@ CC ENHANCEMENT REQUESTS
 - #343 RecoverVessel doesn't appear to be recognized in Space Center view 
 
 CC BUGS DISCOVERED:
+- #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes
 
 KSC BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
