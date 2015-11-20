@@ -72,49 +72,28 @@ islandairfield: 15116.4511993308, 17321.1929978932, -555.525000717695
 
 
 PLANNED AIR FLIGHTS to KSC ISLAND:
-KSC Air Charter Flight A
-Crew Rotation: 2 Kerbals
+KSC Air Charter Flights A-C
+Crew Rotation: 2-8 Kerbals
 
-KSC Air Charter Flight B
-Crew Rotation: 4 Kerbals
-
-KSC Air Charter Flight C
-Crew Rotation: 8 Kerbals
-
-KSC Island Tours Flight 1
-Tourists: 4
-
-KSC Island Tours Flight 2
-Tourists: 8
+KSC Island Tours Flights 1-2
+Tourists: 4-8
 
 KSC Island Tours Flight 38
 Seaplane Tourists: 8
 
-KSC Airlines Flight 101
-Tourists: 16
-
-KSC Airlines Flight 102
-Tourists: 42
-
-KSC Airlines Flight 103
-Tourists: 84
+KSC Airlines Flights 101-103
+Tourists: 16-84
 
 PLANNED AIR FLIGHTS to KSC 2:
-KSC Flight 201
-Tourists: 12 Staff: 4
+KSC Flights 201-203
+Tourists: 12-82 Staff: 4
 
-KSC Flight 202
-Tourists: 40 Staff: 4
-
-KSC Flight 203
-Tourists: 82 Staff: 4
-
-PLANNED FLIGHT TO NORTH POLE BASE:
+PLANNED FLIGHTS TO NORTH POLE BASE:
 KSC Flight 301 
 Tourists: 8 Staff: 4
 
 
-PLANNED MISSIONS PROGRESSION: (in order of general appearance, some missions may appear at the same times as others nearby)
+PLANNED MISSION PROGRESSION and TARGET MILESTONES: (in order of general appearance, some missions may appear at the same times as others nearby)
 SSI Aerospace: First Flight (Take off and Land) - DONE! s5
 KSC Island Tours: Shoreline Tour (to waypoints and back) - DONE!
 SSI Aerospace: Test Flight to 2000m - DONE! s3
@@ -122,9 +101,9 @@ Kerbal Space Program: KSC Islands Survey - DONE! s4
 0.1
 
 KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
-KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
 Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5
 KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
+KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
 0.2
 
 Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) s4
