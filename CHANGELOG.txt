@@ -51,6 +51,7 @@ RELEASE TO DO:
 - Uncomment dependencies
 - Compare rewards and balance with Stock and SETI
 - Fly all missions?
+- Test random generator limits
 
 TO DO:
 - Update Flight Completed message with something more meaningful and rewarding.
@@ -62,6 +63,7 @@ TO DO:
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Revisit testing for recovery of Kerbal and craft separately in SSI-1 alternate. CC#343
 - Save fishing vessel with light on for night missions.
+- Test random() for tours and flights
 
 downed pilot coordinates: 
 lat: -3.45735351481164
