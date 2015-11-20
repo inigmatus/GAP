@@ -53,10 +53,10 @@ RELEASE TO DO:
 - Fly all missions?
 
 TO DO:
+- Update Flight Completed message with something more meaningful and rewarding.
+- test and release 0.1
 - KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - Kerbal Space Program: KSC Island Landing (plant flag by Tower)
-- Update Flight Completed message with something more meaningful and rewarding.
-- release 0.1
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
