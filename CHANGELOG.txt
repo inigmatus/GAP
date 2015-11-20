@@ -1,7 +1,7 @@
 CHANGELOG: 
 
 0.0.5
-- Added SSI Helicopter Prototype contract
+- Added SSI Helicopter/VTOL Prototype contract (KAX aware)
 - Added Kerbal Space Program: KSC Islands Survey
 - Added KSCI Shoreline Tour (regular repeatable)
 - Added KerbalDeaths failure check to all contracts
@@ -40,7 +40,6 @@ CC ENHANCEMENT REQUESTS
 - #343 RecoverVessel doesn't appear to be recognized in Space Center view 
 
 CC BUGS DISCOVERED:
-- #342 title attribute for KerbalDeaths not working or is needed
 
 KSC BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -54,8 +53,8 @@ RELEASE TO DO:
 - Fly all missions?
 
 TO DO:
+- KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - Kerbal Space Program: KSC Island Landing (plant flag by Tower)
-- SSI Aerospace: KAX Helicopter Protype (fly and land on VAB helipad) - wait to put into sequence
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
@@ -118,17 +117,17 @@ PLANNED MISSIONS PROGRESSION: (in order of general appearance, some missions may
 SSI Aerospace: First Flight (Take off and Land) - DONE! s5
 KSC Island Tours: Shoreline Tour (to waypoints and back) - DONE!
 SSI Aerospace: Test Flight to 2000m - DONE! s3
-Kerbal Space Program: KSC Islands Survey - Mostly DONE! s4
-Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5
-Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) s4
+Kerbal Space Program: KSC Islands Survey - DONE! s4
 KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
+Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5
 KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
+Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) s4
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
-KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
 KSC Air Charter Flight A: 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
-
-KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized) - DONE! (waiting to be put in sequence)
 KSC Air Charter Flight B: 4 Crew Rotation (Exchange 4 staff on KSC Island)
+
+KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
+KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized) - DONE! (waiting to be put in sequence)
 
 SSI Aerospace: Test Flight of Mk2 Crew Cabin to 10,000m
 KSC Coast Guard: Downed Test Pilot Recovery (pick up from remote island in ocean)
