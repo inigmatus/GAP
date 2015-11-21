@@ -55,8 +55,6 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- Test HasResourceCapacity for SSI-1 (make an invalid craft)
-- Update Flight Completed message with something more meaningful and rewarding.
 - test and release 0.1
 - KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - Kerbal Space Program: KSC Island Landing (plant flag by Tower)
@@ -66,6 +64,7 @@ TO DO:
 - Revisit testing for recovery of Kerbal and craft separately CC#343
 - Save fishing vessel with light on for night missions.
 - Test random() to consolidate tours and flights
+- Larger Island Tours graphic (make island larger)
 
 downed pilot coordinates: 
 lat: -3.45735351481164
