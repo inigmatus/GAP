@@ -72,6 +72,14 @@ alt: 0.0401431489735842
 height: 0.0401431489735842
 islandairfield: 15116.4511993308, 17321.1929978932, -555.525000717695
 
+KSCI helipad
+
+lat -1.52769942000914
+long 288.121430118477
+alt 134.248337459634
+height 19.4794603842311
+helicopter
+
 
 PLANNED AIR FLIGHTS to KSC ISLAND:
 KSC Air Charter Flights A-C
@@ -100,7 +108,7 @@ SSI Aerospace: First Flight (Take off and Land) - DONE! s5
 KSC Island Tours: Shoreline Tour (to waypoints and back) - DONE!
 SSI Aerospace: Test Flight to 2000m - DONE! s3
 Kerbal Space Program: KSC Islands Survey - DONE! s4
-0.1
+0.1 - DONE
 
 KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5
