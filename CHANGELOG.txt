@@ -1,6 +1,6 @@
 CHANGELOG: 
 
-TBD - 0.1
+11/21/15 - 0.1
 - Added SSI Helicopter/VTOL Prototype contract (KAX aware)
 - Added Kerbal Space Program: KSC Islands Survey
 - Added KSCI Shoreline Tour (regular repeatable)
@@ -55,7 +55,6 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- test and release 0.1
 - KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - Kerbal Space Program: KSC Island Landing (plant flag by Tower)
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
