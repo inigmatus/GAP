@@ -1,5 +1,11 @@
 CHANGELOG: 
 
+TBD 0.2
+- Added Kerbal Space Program: KSC Island Landing (plant flag by Tower)
+- Added KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
+- balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.
+- added contract dependencies
+
 11/21/15 - 0.1
 - Added SSI Helicopter/VTOL Prototype contract (KAX aware)
 - Added Kerbal Space Program: KSC Islands Survey
@@ -37,14 +43,15 @@ CHANGELOG:
 
 
 CC ENHANCEMENT REQUESTS
-- #343 RecoverVessel doesn't appear to be recognized in Space Center view 
+- #351 Final Frontier Integration
 
 CC BUGS DISCOVERED:
 - #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes
 
-KSC BUGS DISCOVERED:
+KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
 - load passengers bug window stays alive if recovered but no option selected
+- SpawnKerbal attribute owned=false does not disable Recovery in Space Center view CC #353, caused by KSP bug.
 
 RELEASE TO DO:
 - Set minimum version in Groups
@@ -55,15 +62,13 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
-- Kerbal Space Program: KSC Island Landing (plant flag by Tower)
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
-- Revisit testing for recovery of Kerbal and craft separately CC#343
 - Save fishing vessel with light on for night missions.
 - Test random() to consolidate tours and flights
 - Larger Island Tours graphic (make island larger)
+- convert all lat/long to pqs for RSS compatibility
 
 downed pilot coordinates: 
 lat: -3.45735351481164
@@ -110,8 +115,8 @@ SSI Aerospace: Test Flight to 2000m - DONE! s3
 Kerbal Space Program: KSC Islands Survey - DONE! s4
 0.1 - DONE
 
-KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
-Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5
+KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water) - DONE!
+Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5 - DONE!
 KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
 KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
 0.2
