@@ -5,6 +5,7 @@ TBD 0.2
 - Added KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.
 - added contract dependencies
+- added new logos and made all logos transparent
 
 11/21/15 - 0.1
 - Added SSI Helicopter/VTOL Prototype contract (KAX aware)
