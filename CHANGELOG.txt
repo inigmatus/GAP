@@ -63,8 +63,9 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- Larger Island Tours graphic (make island larger)
-- Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP)
+- KSC Island Tours: 3 Hour Tour (to farther waypoint and back) - fix control tower waypoint.
+- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
+- Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Save fishing vessel with light on for night missions.
 - Test random() to consolidate tours and flights
