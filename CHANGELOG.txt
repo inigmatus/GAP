@@ -48,6 +48,7 @@ CC ENHANCEMENT REQUESTS
 
 CC BUGS DISCOVERED:
 - #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes
+- #355 RecoverKerbal and HasKerbal not recognizing spawned passengers in Command Seats (using Take Command mod or manually moved to seat)
 
 KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -63,8 +64,8 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- KSC Island Tours: 3 Hour Tour (to farther waypoint and back) - fix control tower waypoint.
-- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
+- KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
+- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6 CC #355
 - Release 0.2
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
 - SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
