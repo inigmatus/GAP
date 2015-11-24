@@ -65,8 +65,12 @@ RELEASE TO DO:
 TO DO:
 - KSC Island Tours: 3 Hour Tour (to farther waypoint and back) - fix control tower waypoint.
 - KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
-- Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
 - Release 0.2
+- Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
+- SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
+- KSC Air Charters Flight A: 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
+- KSC Air Charters Flight B: 4 Crew Rotation (Exchange 4 staff on KSC Island)
+- Relase 0.3
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Save fishing vessel with light on for night missions.
 - Test random() to consolidate tours and flights
