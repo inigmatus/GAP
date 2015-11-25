@@ -68,7 +68,7 @@ RELEASE TO DO:
 
 TO DO:
 - KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
-- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6 CC #355
+- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6 CC #355 - TESTED EXTENSIVELY. Take Command visibly hides spawned passengers in Command Seats. Reported to TC.
 - Release 0.2
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
 - SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
