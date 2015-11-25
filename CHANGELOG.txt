@@ -6,6 +6,7 @@ TBD 0.2
 - balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.
 - added contract dependencies
 - added new logos and made all logos transparent
+- requires Contract Configurator 1.8.3
 
 11/21/15 - 0.1
 - Added SSI Helicopter/VTOL Prototype contract (KAX aware)
@@ -45,10 +46,12 @@ TBD 0.2
 
 CC ENHANCEMENT REQUESTS
 - #351 Final Frontier Integration
+- #357 Add support to include .cfg files within a .cfg file for repeat code inclusion
+- #359 SpawnVessel Vessel PQS rather than just lat and long?
 
 CC BUGS DISCOVERED:
-- #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes
-- #355 RecoverKerbal and HasKerbal not recognizing spawned passengers in Command Seats (using Take Command mod or manually moved to seat)
+- #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes - working on testing this one out
+- #355 SpawnVessel crew not recognized by HasPassengers
 
 KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -74,6 +77,7 @@ TO DO:
 - Relase 0.3
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
 - Save fishing vessel with light on for night missions.
+- Test #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes - working on testing this one out
 - Test random() to consolidate tours and flights
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - convert all lat/long to pqs for RSS compatibility
