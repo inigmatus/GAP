@@ -6,6 +6,7 @@ TBD 0.2
 - balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.
 - added contract dependencies
 - added new logos and made all logos transparent
+- reformatted all contracts to follow code order: requirements, description, behaviors, parameters
 - requires Contract Configurator 1.8.3
 
 11/21/15 - 0.1
@@ -43,16 +44,18 @@ TBD 0.2
 11/11/15 - SSI Aerospace 0.0.1a released for testing.
 -Fly to island and pickup 2 Kerbals and return them safely to KSC runway and recover vessel.
 
+CONTRACT PACK KNOWN ISSUES:
+- random crew names may be the same, thus eliminating a Kerbal. simply cancel the contract or reload from save before contract acceptance. raised support request CC #365
 
-CC ENHANCEMENT REQUESTS
+CC ENHANCEMENT REQUESTS:
 - #351 Final Frontier Integration
-- #357 Add support to include .cfg files within a .cfg file for repeat code inclusion
-- #359 SpawnVessel Vessel PQS rather than just lat and long?
+- #357 Add support to include .cfg files within a .cfg file for repeat code inclusion - accepted for next CC release
+- #359 SpawnVessel Vessel PQS rather than just lat and long? - accepted for next CC release
 
 CC BUGS DISCOVERED:
-- #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes - working on testing this one out
-- #355 SpawnVessel crew not recognized by HasPassengers
-- #363 possibly related to #350 spawned craft over water spawns on ocean floor and explodes.
+- #355 SpawnVessel crew not recognized by HasPassengers. Workaround: use name = RandomKerbalName(Random()) in SpawnVessel/Crew and name = @/TourBus.Kerbals().ElementAt(0) in HasPassengers
+- #363 possibly related to #350 spawned craft over water spawns on ocean floor and explodes. (work around is to rebuild craft not using command pod for starter piece, not a re-root, a rebuild. entirely.)
+- #364 load passengers dialog box not killed if no selection and one recovers craft before accepting passengers.
 
 KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -61,6 +64,7 @@ KSP BUGS DISCOVERED:
 
 RELEASE TO DO:
 - Set minimum version in Groups
+- Check all requirements: are they logical and make sense to stock tech tree, or are requirements checking for alternate trees/mods?
 - Adjust weights for all missions
 - Uncomment dependencies
 - Compare rewards and balance with Stock and SETI
@@ -68,9 +72,9 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- test #355 work around HasCrew instead of HasPassengers BugTest.cfg
-- KSC Island Tours: 3 Hour Tour - test dock spawning on land, if not fixable before release, use bungalows.
-- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement for Command Chair only planes, else push to 0.6 CC #355 - TESTED EXTENSIVELY. Take Command visibly hides spawned passengers in Command Seats. Reported to TC. TC is testing. Might simply spawn passengers at runway for manual loading as a work around.
+- KSC Island Tours: 3 Hour Tour - make nice dock to fit pandora's sea plane
+- KSC Island Tours: 3 Hour Tour - add bungalows
+- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - consider adding check for Take Command and Command Seats and having a Tour Bus for manual loading into Command Seats. (Default tech level 7 oh my!)
 - Release 0.2
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - nearly done. test hangar waypoint, test control room waypoint.
 - SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
