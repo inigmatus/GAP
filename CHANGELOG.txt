@@ -70,9 +70,9 @@ RELEASE TO DO:
 TO DO:
 - test #355 work around HasCrew instead of HasPassengers BugTest.cfg
 - KSC Island Tours: 3 Hour Tour - test dock spawning on land, if not fixable before release, use bungalows.
-- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6 CC #355 - TESTED EXTENSIVELY. Take Command visibly hides spawned passengers in Command Seats. Reported to TC. TC is testing.
+- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement for Command Chair only planes, else push to 0.6 CC #355 - TESTED EXTENSIVELY. Take Command visibly hides spawned passengers in Command Seats. Reported to TC. TC is testing. Might simply spawn passengers at runway for manual loading as a work around.
 - Release 0.2
-- Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
+- Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - nearly done. test hangar waypoint, test control room waypoint.
 - SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 - KSC Air Charters Flight A: 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
 - KSC Air Charters Flight B: 4 Crew Rotation (Exchange 4 staff on KSC Island)
