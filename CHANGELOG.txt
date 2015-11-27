@@ -137,6 +137,7 @@ Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 KSC Air Charter Flight A: 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
 KSC Air Charter Flight B: 4 Crew Rotation (Exchange 4 staff on KSC Island)
+KSC Coast Guard: Buoy Drop (drop three beacons in the waters off KSC) (see maritime missions for possible copy/merger)
 0.3
 
 KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
