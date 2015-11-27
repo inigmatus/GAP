@@ -52,6 +52,7 @@ CC ENHANCEMENT REQUESTS
 CC BUGS DISCOVERED:
 - #350 Spawning on water causes Kerbals or vessels to reappear at ocean floor sometimes - working on testing this one out
 - #355 SpawnVessel crew not recognized by HasPassengers
+- #363 possibly related to #350 spawned craft over water spawns on ocean floor and explodes.
 
 KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -67,8 +68,9 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- KSC Island Tours: 3 Hour Tour (to farther waypoint and back)
-- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6 CC #355 - TESTED EXTENSIVELY. Take Command visibly hides spawned passengers in Command Seats. Reported to TC.
+- test #355 work around HasCrew instead of HasPassengers BugTest.cfg
+- KSC Island Tours: 3 Hour Tour - test dock spawning on land, if not fixable before release, use bungalows.
+- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6 CC #355 - TESTED EXTENSIVELY. Take Command visibly hides spawned passengers in Command Seats. Reported to TC. TC is testing.
 - Release 0.2
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - test hangar waypoint, test control room waypoint.
 - SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
@@ -81,6 +83,7 @@ TO DO:
 - Test random() to consolidate tours and flights
 - Help keptin get KAX updated on CKAN (which means I need to learn it too)
 - convert all lat/long to pqs for RSS compatibility
+- lighten the color blue on the Island Tours flag
 
 downed pilot coordinates: 
 lat: -3.45735351481164
