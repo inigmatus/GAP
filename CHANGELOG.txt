@@ -72,6 +72,7 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
+- Create starter contract for SSI, provide and reward with starting tech: command seat, girder, KAX engine, wing, airleron.
 - KSC Island Tours: 3 Hour Tour - add bungalows
 - KSC Island Tours: set waypoint to cay and recovery after unload passengers (but permit recovery at KSC if desired by player, so use an any/all).
 - Test gender generation in preparation (see #355 notes)
