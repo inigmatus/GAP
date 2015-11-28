@@ -72,8 +72,9 @@ RELEASE TO DO:
 - Test random generator limits
 
 TO DO:
-- KSC Island Tours: 3 Hour Tour - make nice dock to fit pandora's sea plane
 - KSC Island Tours: 3 Hour Tour - add bungalows
+- KSC Island Tours: set waypoint to cay and recovery after unload passengers (but permit recovery at KSC if desired by player, so use an any/all).
+- Test gender generation in preparation (see #355 notes)
 - KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - consider adding check for Take Command and Command Seats and having a Tour Bus for manual loading into Command Seats. (Default tech level 7 oh my!)
 - Release 0.2
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - nearly done. test hangar waypoint, test control room waypoint.
