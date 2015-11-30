@@ -78,6 +78,7 @@ RELEASE TO DO:
 - Update README
 
 TO DO:
+- KSC Island Tours: 3 Hour Tour - add destroy vessel behavior on contract completion.
 - KSC Island Tours: 3 Hour Tour - investigate passenger unload premature completion. avoid tugboat scenario.
 - KSC Island Tours: 3 Hour Tour - recovery optional at Island or KSC.
 - Test gender generation in preparation for Flight 1 (see #355 notes or fix in #366) or use new kerbal creation function for 1.8.4
