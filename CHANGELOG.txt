@@ -1,7 +1,6 @@
 CHANGELOG: 
 
 TBD 0.2
-- Added initial SSI contract offering experimental parts (Command Seat, batteries, small rover wheels, mini separator) for immediate use
 - Added Kerbal Space Program: KSC Island Landing (plant flag by Tower)
 - Added KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.
@@ -60,6 +59,7 @@ CC BUGS DISCOVERED:
 - #363 possibly related to #350 spawned craft over water spawns on ocean floor and explodes. (work around is to rebuild craft not using command pod for starter piece, not a re-root, a rebuild. entirely.)
 - #364 load passengers dialog box not killed if no selection and one recovers craft before accepting passengers. - fixed in 1.8.4
 - #369 Experimental Part, when not locked after completing contract, remains Experimental, even when tech is researched later by player
+- #371 UnlockPart freezing game to Mission Control view. Unable to Quit to Menu
 
 KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -78,21 +78,21 @@ RELEASE TO DO:
 - Update README
 
 TO DO:
-- KSC Island Tours: 3 Hour Tour - add bungalows? Having issues with predictably spawning bungalow stably on incline. heh.
+- KSC Island Tours: 3 Hour Tour - add bungalows? i dont think it can spawn a second bungalow. test.
+- KSC Island Tours: 3 Hour Tour - fix location of FishNChips tourboat.
 - KSC Island Tours: 3 Hour Tour - add waypoints and unload passengers params.
 - KSC Island Tours: 3 Hour Tour - recovery optional at Island or KSC.
-- Test gender generation in preparation for Flight 1 (see #355 notes) or use new kerbal creation function for 1.8.4
+- Test gender generation in preparation for Flight 1 (see #355 notes or fix in #366) or use new kerbal creation function for 1.8.4
 - KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - use Spawn Kerbal near runway. SpawnVessel a Tour Bus with driver, to help bring them.
 - Test random() to consolidate tours and flights
-- Contract requirements check (especially with SSI-0 being offered now)
 - Release 0.2
 
+- Investigate best method to give players starting parts that have their Experimental flag cleared. (#371 for SSI-0, SSI-0-KAX, #369 for SSI-Declassification)
+- If Command Seats available, prepare all existing tour and charter contracts to pass using Command Seat only craft (spawn kerbals at runway, or in a bus)
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - nearly done. test hangar waypoint, test control room waypoint.
 - SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 - KSC Air Charters Flight A: 2 Crew Rotation (Exchange 2 staff on KSC Island) - DONE! (waiting to be put in sequence)
 - KSC Air Charters Flight B: 4 Crew Rotation (Exchange 4 staff on KSC Island)
-- Create KAX aware second starter contract for SSI, reward with starting tech: KAX engine, wing, aileron. 
-- Check for tech and offer contract to declassify experimental parts (lock them back up to clear the experimental flag) CC #369
 - Relase 0.3
 
 - KSC Coast Guard Rescue Fishermen Contract: Random spawn vessel location? (see Whitecat106 Maritime pack) use random() from CC wiki
