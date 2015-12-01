@@ -10,16 +10,6 @@ RELEASE TO DO:
 - Update README
 
 TO DO:
-- Test CC bug fixes for #369 #373
-- KSC Island Tours: 3 Hour Tour - test premature completion on EVA.
-- KSC Island Tours: 3 Hour Tour - recovery optional at Island or KSC.
-- KSC Island Tours: 3 Hour Tour - finalize bungalow spawn alts to prevent tipping over. (or give up altogether by screaming madly from the room)
-- KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - use Spawn Kerbal near runway. SpawnVessel a Tour Bus with driver, to help bring them.
-- Test gender generation in preparation for Flight 1 (see #355 notes or fix in #366) or use new kerbal creation function for 1.8.4
-- Test random() to consolidate tours and flights
-- for goodness sake, split out these milestone TO DOs from the change log. oy.
-- Release 0.2
-
 - Investigate best method to give players starting parts that have their Experimental flag cleared. (#369 and 371 for SSI-0, SSI-0-KAX, #369 for SSI-Declassification)
 - If Command Seats available, prepare all existing tour and charter contracts to pass using Command Seat only craft (spawn kerbals at runway, or in a bus)
 - Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - nearly done. test hangar waypoint, test control room waypoint.
