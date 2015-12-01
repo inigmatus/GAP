@@ -1,8 +1,9 @@
-SSI Aerospace: Early Career Air Charters (Giving Aircraft a Purpose) 
+Contract Pack: Giving Aircraft a Purpose - Air Flights, Tours, Coast Guard, STS
 
 -This contract pack requires Contract Configurator. Get it installed from CKAN today for your KSP.
+-This is fully stock compatible, however to enhance your experience, we recommend the Take Command mod, and Kerbal Aircraft eXpansion (KAX) mod.
 
-To install the contract pack, simply download the zip on the right and extract the SSI-Aerospace folder in your GameData/ContractPacks folder. Launch a KSP career game.
+To install the contract pack, simply download the zip on the right and extract the GAP folder in your GameData/ContractPacks folder. Launch a KSP career game.
 
 Career Contract Availability:
 After you acquire the J-29 "Juno" Basic Jet Engine, or the KAX A7 AeroSport Engine, the first three starter contracts become available:
