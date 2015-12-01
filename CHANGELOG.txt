@@ -56,11 +56,11 @@ CC ENHANCEMENT REQUESTS:
 - #368 Ability to Accept Negative Value in advanceFunds? - accepted for 1.9.0 with info functions in 1.8.4 see CC #370
 
 CC BUGS DISCOVERED:
+- #343 - Recovering vessel from Space Center or Tracking Station will not complete contracts. Work around is to load craft, and recover it.
 - #355/366 SpawnVessel crew not recognized by HasPassengers. Workaround: use name = RandomKerbalName(Random()) in SpawnVessel/Crew and name = @/TourBus.Kerbals().ElementAt(0) in HasPassengers - see BugTest
 - #363 possibly related to #350 spawned craft over water spawns on ocean floor and explodes. (work around is to rebuild craft not using command pod for starter piece, not a re-root, a rebuild. entirely.)
-- #364 load passengers dialog box not killed if no selection and one recovers craft before accepting passengers. - fixed in 1.8.4
 - #369 Experimental Part, when not locked after completing contract, remains Experimental, even when tech is researched later by player - to be fixed in 1.8.4
-- #371 UnlockPart freezing game to Mission Control view. Unable to Quit to Menu - fixed in 1.8.4
+- #373 SpawnPassengers kerbals and SpawnVessel/Crew kerbals on EVA are not Removed from Game when Contract Completes (SpawnKerbal unaffected) #373
 
 KSP BUGS DISCOVERED:
 - cancelled contracts not removing spawned kerbals on island. via alt f12 but only happens then. not in MC.
@@ -79,8 +79,9 @@ RELEASE TO DO:
 - Update README
 
 TO DO:
-- KSC Island Tours: 3 Hour Tour - investigate passenger unload premature completion. avoid tugboat scenario.
+- KSC Island Tours: 3 Hour Tour - investigate passenger unload premature completion with command seats. apparently unloading the last kerbal in arack completes param, even with four remaining.
 - KSC Island Tours: 3 Hour Tour - recovery optional at Island or KSC.
+- KSC Island Tours: 3 Hour Tour - finalize bungalow spawn alts to prevent tipping over.
 - KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - use Spawn Kerbal near runway. SpawnVessel a Tour Bus with driver, to help bring them.
 - Test gender generation in preparation for Flight 1 (see #355 notes or fix in #366) or use new kerbal creation function for 1.8.4
 - Test random() to consolidate tours and flights
