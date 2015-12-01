@@ -79,7 +79,7 @@ RELEASE TO DO:
 - Update README
 
 TO DO:
-- KSC Island Tours: 3 Hour Tour - investigate passenger unload premature completion with command seats. apparently unloading the last kerbal in arack completes param, even with four remaining.
+- KSC Island Tours: 3 Hour Tour - use Both Not and VesselType param, with unload param group to prevent premature EVA completion while unloading passengers.
 - KSC Island Tours: 3 Hour Tour - recovery optional at Island or KSC.
 - KSC Island Tours: 3 Hour Tour - finalize bungalow spawn alts to prevent tipping over.
 - KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands) - use Spawn Kerbal near runway. SpawnVessel a Tour Bus with driver, to help bring them.
