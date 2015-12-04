@@ -57,6 +57,14 @@ CONTRACT_TYPE
 		kerbal4 = NewKerbal()
 		kerbal5 = NewKerbal()
 	}
+	
+	DATA
+	{
+		type = int
+		
+		numPassengers = Random(2,6)
+	
+	}
 
 
 //BEHAVIORS TO DO WHEN CREATING CONTRACT
@@ -65,11 +73,13 @@ CONTRACT_TYPE
 		name = SpawnPassengers
 		type = SpawnPassengers
 		
-		passengerName = @/kerbal1
-		passengerName = @/kerbal2
-		passengerName = @/kerbal3
-		passengerName = @/kerbal4
-		passengerName = @/kerbal5
+//		passengerName = @/kerbal1
+//		passengerName = @/kerbal2
+//		passengerName = @/kerbal3
+//		passengerName = @/kerbal4
+//		passengerName = @/kerbal5
+
+		count = @/numPassengers
 		
 		kerbalType = Crew
 		
@@ -335,46 +345,90 @@ PARAMETER
 
 		PARAMETER
 		{
-			name = HasCrew
-			type = HasCrew
+			name = HasPassengers
+			type = HasPassengers
 			
-			kerbal = @/kerbal1
+//			kerbal = @/kerbal1
+			index = 0
+			count = 1
 			
 		}
 		
 		PARAMETER
 		{
-			name = HasCrew
-			type = HasCrew
+			name = HasPassengers
+			type = HasPassengers
 
-			kerbal = @/kerbal2
-
-		}
-		
-		PARAMETER
-		{
-			name = HasCrew
-			type = HasCrew
-
-			kerbal = @/kerbal3
+//			kerbal = @/kerbal2
+			index = 1
+			count = 1
 
 		}
 		
 		PARAMETER
 		{
-			name = HasCrew
-			type = HasCrew
+			name = HasPassengers
+			type = HasPassengers
 
-			kerbal = @/kerbal4
+//			kerbal = @/kerbal3
+			index = 2
+			count = 1
+			
+			REQUIREMENT
+			{
+				type = Expression
+				expression = @/numPassengers >= 3
+			}			
 
 		}
 		
 		PARAMETER
 		{
-			name = HasCrew
-			type = HasCrew
+			name = HasPassengers
+			type = HasPassengers
 
-			kerbal = @/kerbal5
+//			kerbal = @/kerbal4
+			index = 3
+			count = 1
+			
+			REQUIREMENT
+			{
+				type = Expression
+				expression = @/numPassengers >= 4
+			}	
+
+		}
+		
+		PARAMETER
+		{
+			name = HasPassengers
+			type = HasPassengers
+
+//			kerbal = @/kerbal5
+			index = 4
+			count = 1
+			
+			REQUIREMENT
+			{
+				type = Expression
+				expression = @/numPassengers >= 5
+			}	
+
+		}
+		
+		PARAMETER
+		{
+			name = HasPassengers
+			type = HasPassengers
+
+			index = 5
+			count = 1
+			
+			REQUIREMENT
+			{
+				type = Expression
+				expression = @/numPassengers == 6
+			}	
 
 		}
 		
