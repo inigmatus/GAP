@@ -1,14 +1,3 @@
-RELEASE TO DO:
-- Set minimum CC version in Groups
-- Check all contracts for requirements: are they logical and make sense to stock tech tree, or are requirements checking for alternate trees/mods?
-- Uncomment dependencies
-- Adjust weights for all missions
-- Compare rewards and balance
-- Fly all missions
-- Test random generator limits
-- Update CHANGELOG
-- Update README
-
 TO DO:
 - Investigate best method to give players starting parts that have their Experimental flag cleared. (#369 and 371 for SSI-0, SSI-0-KAX, #369 for SSI-Declassification)
 - If Command Seats available, prepare all existing tour and charter contracts to pass using Command Seat only craft (spawn kerbals at runway, or in a bus)
