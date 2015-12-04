@@ -1,0 +1,31 @@
+CONTRACT_TYPE
+{
+//REQUIREMENTS FOR CONTRACT TO APPEAR
+	
+
+//CONTRACT DESCRIPTION
+	name = BugTest
+	title = BugTest #
+
+	description = Description of bug.
+	synopsis = Test the bug.
+	completedMessage = You have tested the bug.
+
+
+//BEHAVIORS TO DO WHEN CREATING CONTRACT	
+
+
+//PARAMETERS FOR CONTRACT COMPLETION
+
+	PARAMETER
+	{
+		name = ReachState
+		type = ReachState
+		title = Stay still
+		situation = LANDED
+		minSpeed = 0
+		targetBody = Kerbin
+		
+	}
+	
+}
