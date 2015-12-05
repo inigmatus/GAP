@@ -1,13 +1,19 @@
-//Title
+//Agent: ContractTitle - ExtraInfo
 
 CONTRACT_TYPE
 {
-//Requirements for Contract to Appear	
+//REQUIREMENTS FOR CONTRACT TO APPEAR	
 	REQUIREMENT
 	{
 	}
+
 	
-//Contract Descriptions
+//DATA NODES TO PROCESS FOR CONTRACT USE
+	DATA
+	{
+	}
+
+//CONTRACT DESCRIPTION
 	name = ReferenceName
 	title = Title of Contract Here
 	group = Group
@@ -28,12 +34,13 @@ CONTRACT_TYPE
 	cancellable = true
 	declinable = true
 	autoAccept = false
-	prestige = Trivial
-   	targetBody = Kerbin
    	maxCompletions = 0
    	maxSimultaneous = 1
 
 //Contract Rewards
+	prestige = Trivial
+   	targetBody = Kerbin
+	
  	rewardScience = 5.0
   	rewardReputation = 5.0
   	rewardFunds = 10000.0
@@ -43,13 +50,13 @@ CONTRACT_TYPE
 	weight = 10.0
 
 
-//Behaviors to do when creating contract
+//BEHAVIORS TO DO WHEN CREATING CONTRACT
 	BEHAVIOUR
 	{
 	}
 
 	
-//Parameters for Contract Completion
+//PARAMETERS FOR CONTRACT COMPLETION
 	PARAMETER
 	{
 	}
