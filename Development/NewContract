@@ -47,7 +47,6 @@ CONTRACT_TYPE
 	minExpiry = 7.0
 	maxExpiry = 7.0
 	deadline = 0
-
    	
 //Contract Reward Modifiers
 	prestige = Trivial
