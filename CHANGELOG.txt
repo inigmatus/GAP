@@ -1,6 +1,7 @@
 CHANGELOG: 
 
 TBD 0.2
+- Added KSC Island Tours: Flight A (fly 2-4 tourists over islands and back)
 - Added Kerbal Space Program: KSC Island Landing (plant flag by Tower)
 - Added KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.

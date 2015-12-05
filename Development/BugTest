@@ -1,7 +1,10 @@
 CONTRACT_TYPE
 {
 //REQUIREMENTS FOR CONTRACT TO APPEAR
-	
+
+
+//DATA NODES TO PROCESS FOR CONTRACT USE
+
 
 //CONTRACT DESCRIPTION
 	name = BugTest
@@ -10,6 +13,8 @@ CONTRACT_TYPE
 	description = Description of bug.
 	synopsis = Test the bug.
 	completedMessage = You have tested the bug.
+	
+	maxSimultaneous = 1
 
 
 //BEHAVIORS TO DO WHEN CREATING CONTRACT	
@@ -21,9 +26,9 @@ CONTRACT_TYPE
 	{
 		name = ReachState
 		type = ReachState
-		title = Stay still
+		title = Get moving
 		situation = LANDED
-		minSpeed = 0
+		minSpeed = 5.0
 		targetBody = Kerbin
 		
 	}
