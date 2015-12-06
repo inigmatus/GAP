@@ -8,6 +8,7 @@ TBD 0.2
 - Added KSC Island Tours: Flight A (fly 2-4 tourists over islands and back)
 - Added KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
 - Added SSI: A Visit to Shuttlecraft Systems Inc. (giving players a default set of tech to start enjoying this mod, primarily Command Seat)
+- Renamed Coast Guard Rescue Fishermen to KSC Coast Guard: S.O.S. Distress Call (Speedboat)
 - balanced rewards for various missions. SSI science, Island Tours funds, Coast Guard reputation, Airlines focus funds and small science and rep, KSP same as Airlines.
 - added random number of passengers to all contracts with passengers
 - KSC Island Tours now pays out on a per passenger basis. More passengers means more money.
