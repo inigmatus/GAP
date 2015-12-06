@@ -30,7 +30,7 @@ The following contracts appear after completing the above contracts for their mi
 -KSC Island Tours: Aerial Tours: Flight A - Tourists: 2-4
 -KSC Island Tours: Flight 38 - Nightingale's Cay - Tourists: 2-6
 -KSP: KSC Island Landing
--KSP: Island Airfield Preparation
+-KSP: KSC Island Airfield Preparation
 -KSC Airlines: Flight 10 - Crew Rotation: 2
 
 -KSC Coast Guard: S.O.S. Distress Call
