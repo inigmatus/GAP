@@ -36,9 +36,10 @@ Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 KSC Island Tours: Flight B (Fly 2-6 tourists over KSC Islands) (require mk1 Crew Cabin)
 KSC Airlines Charter Flights 10,20: 2-6 Crew Rotation (Exchange 2-6 staff on KSC Island) (Mostly Done. I have to randomize)
-KSC Coast Guard: Buoy Drop (drop three beacons in the waters off KSC) (see maritime missions for possible copy/merger)
 0.3
 
+
+KSC Coast Guard: Buoy Drop (drop three beacons in the waters off KSC) (see maritime missions for possible copy/merger)
 KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
 KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) (prefer this was randomized) - DONE! (waiting to be put in sequence)
 0.4
