@@ -1,11 +1,16 @@
 CHANGELOG: 
 
 TBD 0.2
-- Added A Visit to Shuttlecraft Systems Inc. (giving players a default set of tech to enjoy this mod)
-- Added KSC Island Tours: Flight A (fly 2-4 tourists over islands and back)
+- Total Contracts: 13
+- Added KSC Island Tours: Flight 38 - Nightingale's Cay - Tourists: 2-6 (a fully spawned beach dock and tiki hut getaway)
+- Added Kerbal Space Program: KSC Island Airfield Preparation (land two Kerbals, put one in the hangar, the other in the control tower room)
 - Added Kerbal Space Program: KSC Island Landing (plant flag by Tower)
+- Added KSC Island Tours: Flight A (fly 2-4 tourists over islands and back)
 - Added KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water)
-- balanced rewards for various missions. SSI focus science, Island Tours focus funds, KSC Coast Guard focus reputation, KSC Air Charters focus funds and small science and rep.
+- Added SSI: A Visit to Shuttlecraft Systems Inc. (giving players a default set of tech to start enjoying this mod, primarily Command Seat)
+- balanced rewards for various missions. SSI science, Island Tours funds, Coast Guard reputation, Airlines focus funds and small science and rep, KSP same as Airlines.
+- added random number of passengers to all contracts with passengers
+- KSC Island Tours now pays out on a per passenger basis. More passengers means more money.
 - added contract dependencies
 - added new logos and made all logos transparent
 - reformatted all contracts to follow code order: requirements, description, behaviors, parameters

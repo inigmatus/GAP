@@ -2,11 +2,11 @@ PLANNED AIR FLIGHTS to KSC ISLAND:
 KSC Island Tours Flights 1-2
 Tourists: 4-8
 
-KSC Air Charter Flights A-C
+KSC Airlines Flights 10-30
 Crew Rotation: 2-8 Kerbals
 
 KSC Island Tours Flight 38
-Seaplane Tourists: 8
+Seaplane Tourists: 4-8
 
 KSC Airlines Flights 101-103
 Tourists: 16-84
@@ -29,10 +29,11 @@ Kerbal Space Program: KSC Islands Survey - DONE! s4
 
 KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water) - DONE!
 Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5 - DONE!
-KSC Island Tours: Flight A (Fly 2-6 tourists over KSC Islands) - test Take Command mod requirement else push to 0.6
+KSC Island Tours: Flight A (Fly 2-6 tourists over KSC Islands) - DONE!
+Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - DONE!
 0.2
 
-Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) s4
+
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m
 KSC Island Tours: Flight B (Fly 2-6 tourists over KSC Islands) (require mk1 Crew Cabin)
 KSC Airlines Charter Flights 10,20: 2-6 Crew Rotation (Exchange 2-6 staff on KSC Island) (Mostly Done. I have to randomize)
@@ -53,7 +54,7 @@ KSC Airlines Charter Flights 30,40: 4-8 Crew Rotation (Exchange 8 staff on KSC I
 KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands)
 KSC Island Tours: Flight 2 (Fly 8 tourists over KSC Islands)
 SSI Aerospace: Seaplane Test (land in water at waypoint, land back at KSC) (can use a jet seaplane, but KAX recommended)
-KSC Island Tours: Flight 38 (8 Tourists in seaplane or boat to 3rd Island)
+KSC Island Tours: Flight 38 (8 Tourists in seaplane or boat to 3rd Island) - almost done!
 0.6
 
 SSI Aerospace: Helicopter Prototype (land on top of VAB) (can create a VTOL, but KAX recommended) - DONE! (waiting to be put in sequence)
