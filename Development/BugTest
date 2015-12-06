@@ -17,6 +17,7 @@ CONTRACT_TYPE
 	maxSimultaneous = 1
 	
 	advanceFunds = 1000000
+	rewardScience = 1000000
 
 
 //BEHAVIORS TO DO WHEN CREATING CONTRACT	
