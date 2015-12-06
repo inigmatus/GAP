@@ -12,7 +12,7 @@ by inigma
 To install the contract pack, simply download the zip on the right and put the GAP folder in your GameData/ContractPacks folder. Launch a KSP career game.
 
 
-Career Contract Availability - 13 Contracts:
+Career Contract Availability - 14 Contracts:
 
 - SSI: A Visit with Shuttle Craft Systems Inc.
 This is your first contract. Offers you an Experimental Command Seat for keeps, as well as a few other basic parts for getting a boat into water, and ejecting a manned Command Pod if you are not using the Take Command mod.  You are NOT required to accept this contract.
@@ -25,6 +25,7 @@ After you acquire the J-29 "Juno" Basic Jet Engine, or the KAX A7 AeroSport Engi
 
 The following contracts appear after completing the above contracts for their mission track:
 
+-Wright Aeronautical: Airplane Ride - Tourists: 1-2
 -SSI: Fly an airplane to 2000m
 -KSP: KSC Islands Survey
 -KSC Island Tours: Aerial Tours: Flight A - Tourists: 2-4
