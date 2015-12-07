@@ -1,7 +1,7 @@
 CHANGELOG:
 
 TBD - GAP 0.3
-- Added SSI: Fly an airplane with a Mk1 Crew Cabin to 5000m
+- Added SSI: Test Flight of Mk1 Crew Cabin to 5000m
 - Added Wright Aeronautical: Barnstorm the R&D Center
 - Added disableOnStateChange status check in multiple contracts craft definitions to prevent cheating
 - Commented contract waypoints with PQS values for later conversion
