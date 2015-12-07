@@ -1,6 +1,12 @@
-CHANGELOG: 
+CHANGELOG:
 
-TBD 0.2
+TBD - GAP 0.3
+- Added Wright Aeronautical: Barnstorm the R&D Center
+- Added disableOnStateChange status check in multiple contracts craft definitions to prevent cheating
+- Commented contract waypoints with PQS values for later conversion
+- Fixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
+
+12/06/15 - GAP 0.2
 - Total Contracts: 14
 - Added KSC Island Tours: Flight 38 - Nightingale's Cay - Tourists: 2-6 (a fully spawned beach dock and tiki hut getaway)
 - Added Kerbal Space Program: KSC Island Airfield Preparation (land two Kerbals, put one in the hangar, the other in the control tower room)
@@ -19,7 +25,7 @@ TBD 0.2
 - requires Contract Configurator 1.8.3
 - renamed project from SSI Aerospace to Giving Aircraft a Purpose
 
-11/21/15 - 0.1
+11/21/15 - SSI Aerospace 0.1
 - Added SSI Helicopter/VTOL Prototype contract (KAX aware)
 - Added Kerbal Space Program: KSC Islands Survey
 - Added KSCI Shoreline Tour (regular repeatable)
