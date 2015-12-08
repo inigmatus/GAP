@@ -1,4 +1,4 @@
-DEVNOTES
+DEVNOTES must match https://bubbl.us/mindmap
 
 filename - Agency: Title
 *not yet created
