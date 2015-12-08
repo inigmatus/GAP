@@ -1,7 +1,7 @@
 DEVNOTES
 
 filename - Agency: Title
-*not yet developed
+*not yet created
 
 ===============
 1.0 Milestone:
@@ -9,31 +9,31 @@ filename - Agency: Title
 SSI-Start - SSI Aerospace: A Visit With Shuttlecraft Systems Inc.
 SSI-2000m - SSI Aerospace: Fly an Airplane to 2000m
 SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m
-SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m
-SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m
+*SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m
+*SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m
 *SSI-Seaplane - SSI Aerospace: Build and Fly a Seaplane
-*SSI-CarrierLanding - SSI Aerospace: Attempt an Aircraft Carrier Landing
-*SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad
+SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad
 
 Wright-FirstFlight - Wright Aeronautical: First Flight
-Wright-AirplaneRide - Wright Aeronautical: Airplane Ride - Passengers: 1-2-6
+Wright-AirplaneRide - Wright Aeronautical: Airplane Ride - Passengers: (1-2)
 Wright-Barnstorm - Wright Aeronautical: Barnstorm the R&D Center
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
+*KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 
-IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Tourists: 2-6
-IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Tourists: 2-4
-*IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Tourists: 2-6
-IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Tourists: 4-8
+IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Tourists: (2-6)
+IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Tourists: (2-4)
+*IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Tourists: (2-6)
+IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Tourists: (4-8)
 *IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: 4-8
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
-CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - S.S. Minnow
-*CoastGuard-PilotRescue - KSC Coast Guard: Rescue Downed Test Pilot
-*CoastGuard-BuoyDrop - KSC Coast Guard: Deploy 3 Buoys
-*CoastGuard-RescueClimbers - KSC Coast Guard: Rescue Stranded Mountain Climbers
+CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
+*CoastGuard-RecoverPilot - KSC Coast Guard: Recover Downed Test Pilot (pilotName)
+*CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 Navigation Buoys by Airplane
+*CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) Stranded Mountain Climbers
 
 Airlines-Flight-10 - KSC Airlines: Flight 10 - Crew Rotation: 2
 *Airlines-Flight-20 - KSC Airlines: Flight 20 - Crew Rotation: 4-8
@@ -51,57 +51,6 @@ Mach 2
 Mach 5
 KAB Merge
 ===============
-
-
-
-
-
-
-RELEASE MILESTONES: (in order of general appearance, some missions may appear at the same times as others nearby)
-SSI Aerospace: First Flight (Take off and Land) - DONE! s5
-KSC Island Tours: Shoreline Tour (to waypoints and back) - DONE!
-SSI Aerospace: Test Flight to 2000m - DONE! s3
-Kerbal Space Program: KSC Islands Survey - DONE! s4
-0.1 - DONE
-
-Wright Aeronautical: Airplane Ride (1-2 passengers) - DONE!
-KSC Coast Guard: Rescue Certification (navigate to near shoreline surface waypoint and pickup Kerbal in water) - DONE!
-Kerbal Space Program: KSC Island Landing (plant flag by Tower) s5 - DONE!
-KSC Island Tours: Flight A (Fly 2-6 tourists over KSC Islands) - DONE!
-Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - DONE!
-0.2
-
-SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m - DONE!
-KSC Island Tours: Flight B (Fly 2-6 tourists over KSC Islands) (require mk1 Crew Cabin)
-KSC Airlines: Charter Flight 10: 2-6 Crew Rotation (Exchange 2-6 staff on KSC Island) (Mostly Done. I have to randomize)
-0.3
-
-KSC Coast Guard: Buoy Drop (drop three beacons in the waters off KSC) (see maritime missions for possible copy/merger)
-KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
-KSC Coast Guard: S.S. Minnow Distress Call (rescue crew) - DONE! (prefer this was randomized)
-0.4
-
-SSI Aerospace: Test Flight of Mk2 Crew Cabin to 10,000m
-KSC Coast Guard: Downed Test Pilot Recovery (pick up from remote island in ocean)
-SSI Aerospace: Carrier Landing Test (optional, for science and prestige (spawn KSS Jadon Kerman))
-KSC Airlines Charter Flights 30,40: 4-8 Crew Rotation (Exchange 8 staff on KSC Island)
-0.5
-
-KSC Island Tours: Flight 1 (Fly 4 tourists over KSC Islands)
-KSC Island Tours: Flight 2 (Fly 8 tourists over KSC Islands)
-SSI Aerospace: Seaplane Test (land in water at waypoint, land back at KSC) (can use a jet seaplane, but KAX recommended)
-KSC Island Tours: Flight 38 (8 Tourists in seaplane or boat to 3rd Island) - almost done!
-0.6
-
-SSI Aerospace: Helicopter Prototype (land on top of VAB) (can create a VTOL, but KAX recommended) - DONE! (waiting to be put in sequence)
-KSC Coast Guard: Rescue clibers on top of K2 in the West Mountains
-0.7
-
-SSI Aerospace: Test Flight of Mk3 Crew Cabin to 20,000m
-Kerbal Space Center: KSC Flight 101 (16 tourists to KSC Island and back)
-Kerbal Space Center: KSC Flight 102 (42 tourists to KSC Island and back)
-Kerbal Space Center: KSC Flight 103 (84 tourists to KSC Island and back)
-1.0
 
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
@@ -124,22 +73,6 @@ Space Transportation System: STS-30 (Satellite Launch)
 Space Transportation System: STS-108 (Rescue Mission for STS-107)
 3.0
 
-
-
-downed pilot coordinates: 
-lat: -3.45735351481164
-long: 287.017011381642
-alt: 0.0401431489735842
-height: 0.0401431489735842
-islandairfield: 15116.4511993308, 17321.1929978932, -555.525000717695
-
-KSCI helipad
-
-lat -1.52769942000914
-long 288.121430118477
-alt 134.248337459634
-height 19.4794603842311
-helicopter
 
 
 PLANNED AIR FLIGHTS to KSC ISLAND:
