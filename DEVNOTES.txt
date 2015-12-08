@@ -1,26 +1,63 @@
-PLANNED AIR FLIGHTS to KSC ISLAND:
-KSC Island Tours Flights 1-2
-Tourists: 4-8
+DEVNOTES
 
-KSC Airlines Flights 10-30
-Crew Rotation: 2-8 Kerbals
+filename - Agency: Title
+*not developed
 
-KSC Island Tours Flight 38
-Seaplane Tourists: 4-8
+===============
+1.0 Milestone:
 
-KSC Airlines Flights 101-103
-Tourists: 16-84
+SSI-Start - SSI Aerospace: A Visit With Shuttlecraft Systems Inc.
+SSI-2000m - SSI Aerospace: Fly an Airplane to 2000m
+SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m
+SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m
+SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m
+*SSI-Seaplane - SSI Aerospace: Build and Fly a Seaplane
+*SSI-CarrierLanding - SSI Aerospace: Attempt an Aircraft Carrier Landing
+*SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad
 
-PLANNED AIR FLIGHTS to KSC 2:
-KSC Flights 201-203
-Tourists: 12-82 Staff: 4
+Wright-FirstFlight - Wright Aeronautical: First Flight
+Wright-AirplaneRide - Wright Aeronautical: Airplane Ride - Passengers: 1-2-6
+Wright-Barnstorm - Wright Aeronautical: Barnstorm the R&D Center
 
-PLANNED FLIGHTS TO NORTH POLE BASE:
-KSC Flight 301 
-Tourists: 8 Staff: 4
+KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
+KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
+KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
+
+IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Tourists: 2-6
+IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Tourists: 2-4
+*IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Tourists: 2-6
+IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Tourists: 4-8
+*IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: 4-8
+
+CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
+CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - S.S. Minnow
+*CoastGuard-PilotRescue - KSC Coast Guard: Rescue Downed Test Pilot
+*CoastGuard-BuoyDrop - KSC Coast Guard: Deploy 3 Buoys
+*CoastGuard-RescueClimbers - KSC Coast Guard: Rescue Stranded Mountain Climbers
+
+Airlines-Flight-10 - KSC Airlines: Flight 10 - Crew Rotation: 2
+*Airlines-Flight-20 - KSC Airlines: Flight 20 - Crew Rotation: 4-8
+*Airlines-Flight-30 - KSC Airlines: Flight 30 - Crew Rotation: 2-8
+*Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Crew Rotation: 16-84
+
+===============
+Post 1.x
+
+Sky Diving!
+Hang Glider!
+Wing Suit?
+Mach 1
+Mach 2
+Mach 5
+KAB Merge
+===============
 
 
-PLANNED MISSION PROGRESSION and TARGET MILESTONES: (in order of general appearance, some missions may appear at the same times as others nearby)
+
+
+
+
+RELEASE MILESTONES: (in order of general appearance, some missions may appear at the same times as others nearby)
 SSI Aerospace: First Flight (Take off and Land) - DONE! s5
 KSC Island Tours: Shoreline Tour (to waypoints and back) - DONE!
 SSI Aerospace: Test Flight to 2000m - DONE! s3
@@ -34,12 +71,10 @@ KSC Island Tours: Flight A (Fly 2-6 tourists over KSC Islands) - DONE!
 Kerbal Space Program: KSC Island Airfield Preparation Mission (land at KSCI with 2 Kerbals, walk one to Tower control room WP, walk the other to a hangar WP) - DONE!
 0.2
 
-
 SSI Aerospace: Test Flight of Mk1 Crew Cabin to 5000m - DONE!
 KSC Island Tours: Flight B (Fly 2-6 tourists over KSC Islands) (require mk1 Crew Cabin)
-KSC Airlines Charter Flights 10,20: 2-6 Crew Rotation (Exchange 2-6 staff on KSC Island) (Mostly Done. I have to randomize)
+KSC Airlines: Charter Flight 10: 2-6 Crew Rotation (Exchange 2-6 staff on KSC Island) (Mostly Done. I have to randomize)
 0.3
-
 
 KSC Coast Guard: Buoy Drop (drop three beacons in the waters off KSC) (see maritime missions for possible copy/merger)
 KSC Island Tours: Submarine Tour (to -200m) (spawn debris at bottom of ocean?, WP near it required for picture taking by passengers)
@@ -105,3 +140,25 @@ long 288.121430118477
 alt 134.248337459634
 height 19.4794603842311
 helicopter
+
+
+PLANNED AIR FLIGHTS to KSC ISLAND:
+KSC Island Tours Flights 1-2
+Tourists: 4-8
+
+KSC Airlines Flights 10-30
+Crew Rotation: 2-8 Kerbals
+
+KSC Island Tours Flight 38
+Seaplane Tourists: 4-8
+
+KSC Airlines Flights 101-103
+Tourists: 16-84
+
+PLANNED AIR FLIGHTS to KSC 2:
+KSC Flights 201-203
+Tourists: 12-82 Staff: 4
+
+PLANNED FLIGHTS TO NORTH POLE BASE:
+KSC Flight 301 
+Tourists: 8 Staff: 4
