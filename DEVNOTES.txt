@@ -17,7 +17,7 @@ SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad
 
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Passengers: (1-2)
-Wright-Barnstorm - Wright Aeronautical: Barnstorm the R&D Center
+Wright-BarnstormRearchCenter - Wright Aeronautical: Barnstorm the R&D Center
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
