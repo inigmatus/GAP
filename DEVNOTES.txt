@@ -44,6 +44,10 @@ Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Crew Rotation: 2
 ===============
 Post 1.x
 
+Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
+Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
+Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center (change file name from Wright-Barnstorm)
+
 Sky Diving!
 Hang Glider!
 Wing Suit?
