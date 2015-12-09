@@ -36,9 +36,9 @@ CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
 *CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 Navigation Buoys by Airplane
 *CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) Stranded Mountain Climbers
 
-Airlines-Flight-10 - KSC Airlines: Flight 10 - Crew Rotation: 2
-*Airlines-Flight-20 - KSC Airlines: Flight 20 - Crew Rotation: 4-8
-*Airlines-Flight-30 - KSC Airlines: Flight 30 - Crew Rotation: 2-8
+Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Crew Rotation: 2
+*Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Crew Rotation: 4-8
+*Airlines-Flight-30 - KSC Airlines: Charter Flight 30 - Crew Rotation: 2-8
 *Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Crew Rotation: 16-84
 
 ===============
