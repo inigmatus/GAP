@@ -1,4 +1,4 @@
-DEVNOTES must match https://bubbl.us/mindmap
+DEVNOTES must match https://bubbl.us/?h=934b/5fc8d0/37aoS1/A8mNuU&r=1187690956
 
 filename - Agency: Title
 *not yet created
@@ -6,7 +6,7 @@ filename - Agency: Title
 ===============
 1.0 Milestone:
 
-SSI-Start - SSI Aerospace: Visit with SSI Aerospace
+SSI-Start - SSI Aerospace: Visit SSI Aerospace
 SSI-2000m - SSI Aerospace: Fly an airplane to 2000m
 SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m
 *SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m
