@@ -3,8 +3,9 @@ CHANGELOG:
 TBD - GAP 0.3
 - added SSI: Test Flight of Mk1 Crew Cabin to 5000m
 - added Wright Aeronautical: Barnstorm the R&D Center
-- added disableOnStateChange status check in multiple contracts craft 
-- added Pegusus I Mobility Enhancer to SSI-Startdefinitions to prevent cheating
+- added disableOnStateChange status check in multiple contracts to prevent cheating
+- added Pegusus I Mobility Enhancer to SSI-Start parts
+- updated all contract filenames, titles, and dependencies to match DEVNOTES.txt which will be used as the master plan going forward
 - commented all waypoints with PQS values for later conversion
 - reduced KSC Airlines to yield only 1 science and 1 rep point.
 - removed deadline requirement for Visit with SSI Aerospace
