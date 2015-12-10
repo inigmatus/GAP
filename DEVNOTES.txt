@@ -6,18 +6,18 @@ filename - Agency: Title
 ===============
 1.0 Milestone:
 
-SSI-Start - SSI Aerospace: Visit SSI Aerospace
-SSI-2000m - SSI Aerospace: Fly an airplane to 2000m
-SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m
-*SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m
-*SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m
+SSI-Start - SSI Aerospace: Join SSI Aerospace!
+SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
+SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
+*SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
+*SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 *SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 *SSI-Submarine - SSI Aerospace: Build and test a submarine!
-SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad
+SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad!
 
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Passengers: (1-2)
-Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center
+Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
@@ -32,9 +32,9 @@ IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Tourists: (
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
-*CoastGuard-RecoverPilot - KSC Coast Guard: Recover Downed Test Pilot (pilotName)
-*CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 Navigation Buoys by Airplane
-*CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) Stranded Mountain Climbers
+*CoastGuard-RecoverPilot - KSC Coast Guard: Recover downed test pilot (pilotName)!
+*CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 navigation buoys by airplane.
+*CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) stranded mountain climber(s)!
 
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Crew Rotation: 2
 *Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Crew Rotation: 4-8

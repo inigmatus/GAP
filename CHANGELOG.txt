@@ -8,7 +8,9 @@ TBD - GAP 0.3
 - commented all waypoints with PQS values for later conversion
 - reduced KSC Airlines to yield only 1 science and 1 rep point.
 - removed deadline requirement for Visit with SSI Aerospace
-- dixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
+- requires Contract Configurator 1.9.1
+
+- fixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
 
 12/06/15 - GAP 0.2
 - Total Contracts: 14
@@ -26,7 +28,7 @@ TBD - GAP 0.3
 - added contract dependencies
 - added new logos and made all logos transparent
 - reformatted all contracts to follow code order: requirements, description, behaviors, parameters
-- requires Contract Configurator 1.8.3
+- requires Contract Configurator 1.9.0
 - renamed project from SSI Aerospace to Giving Aircraft a Purpose
 
 11/21/15 - SSI Aerospace 0.1
