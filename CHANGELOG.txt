@@ -1,11 +1,14 @@
 CHANGELOG:
 
 TBD - GAP 0.3
-- Added SSI: Test Flight of Mk1 Crew Cabin to 5000m
-- Added Wright Aeronautical: Barnstorm the R&D Center
-- Added disableOnStateChange status check in multiple contracts craft definitions to prevent cheating
-- Commented contract waypoints with PQS values for later conversion
-- Fixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
+- added SSI: Test Flight of Mk1 Crew Cabin to 5000m
+- added Wright Aeronautical: Barnstorm the R&D Center
+- added disableOnStateChange status check in multiple contracts craft 
+- added Pegusus I Mobility Enhancer to SSI-Startdefinitions to prevent cheating
+- commented all waypoints with PQS values for later conversion
+- reduced KSC Airlines to yield only 1 science and 1 rep point.
+- removed deadline requirement for Visit with SSI Aerospace
+- dixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
 
 12/06/15 - GAP 0.2
 - Total Contracts: 14
