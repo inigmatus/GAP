@@ -11,6 +11,8 @@ TBD - GAP 0.3
 - reduced KSC Airlines to yield only 1 science and 1 rep point.
 - removed new craft requirement from Wright Aeronautical: Build and fly your first airplane!
 - removed deadline requirement for Visit with SSI Aerospace
+- removed solid rocket motor requirement from all contracts except FirstFlight
+- removed RecoverVessel requirement in all contracts due to unfixable bug where KSC view recovery will not recognize recovered vessels and complete contracts. Recovery of kerbals for passenger contracts will remain the primary method of completing contracts. Solo missions will complete once you land at the correct destination in sequence, and safely (without destroying your craft or killing anyone).
 - requires Contract Configurator 1.9.1
 
 - fixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
