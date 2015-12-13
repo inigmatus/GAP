@@ -47,6 +47,8 @@ Post 1.x
 Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center (change file name from Wright-Barnstorm)
+CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
+CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
 
 Sky Diving!
 Hang Glider!
@@ -100,3 +102,30 @@ Tourists: 12-82 Staff: 4
 PLANNED FLIGHTS TO NORTH POLE BASE:
 KSC Flight 301 
 Tourists: 8 Staff: 4
+
+===================
+Standard Contract Verbiage:
+
+Your aircraft/spacecraft/machine must:
+	have a volunteer/certified pilot/engineer
+	have wings/parts
+	not have parts/motors/engines
+load passenger(s):
+	Joe Kerman
+	Erwin Kerman
+	at waypoint
+go to waypoint
+do a thing
+drop off passenger(s):
+	Joe Kerman
+and pick up passengers(s)/craft/part:
+	Joe Kerman
+	Lodorf Kerman
+	Vanguard Computer Core
+and land back at KSC runway
+safely
+	without destroying your aircraft/any vessels
+	or killing anyone
+and recover
+	Tourist: Joe Kerman
+	Crewman: Lodorf Kerman
