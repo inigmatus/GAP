@@ -5,15 +5,10 @@ CONTRACT_TYPE
 
 //DATA NODES TO PROCESS FOR CONTRACT USE
 
-	DATA
-	{
-		type = List<Kerbal>
-		kerbals = [ NewKerbal(), NewKerbal(), NewKerbal(), NewKerbal() ].Random(2,4)
-	}
 
 //CONTRACT DESCRIPTION
-	name = BugTest
-	title = BugTest #395
+	name = BugTest-SRBs
+	title = BugTest #SRBs
 
 	description = Description of bug.
 	synopsis = Test the bug.
@@ -21,7 +16,7 @@ CONTRACT_TYPE
 	
 	maxSimultaneous = 1
 	
-	advanceFunds = 1000000
+	advanceFunds = 10000000
 	rewardScience = 100000
 	rewardReputation = 10000
 
@@ -32,16 +27,15 @@ CONTRACT_TYPE
 //PARAMETERS FOR CONTRACT COMPLETION
 	PARAMETER
 	{
-		name = HasPassengers
-		type = HasPassengers
-		title = Passenger: @kerbal.First()
-		hideChildren = true
+		name = PartValidation
+		type = PartValidation
 		
-		ITERATOR
+		NONE
 		{
-			type = Kerbal
-			kerbal = @/kerbals
+			part = MassiveBooster
+			
 		}
+		
 	}
 
 
