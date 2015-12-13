@@ -67,3 +67,59 @@ CONTRACT_TYPE
 	}
 	
 }
+
+//========================
+//old passenger manifest:
+
+	// PARAMETER
+	// {
+		// name = HasPassengers
+		// type = HasPassengers
+		// title = @/kerbals.ElementAt(0)	
+		
+		// kerbal = @/kerbals.ElementAt(0)
+		
+		// hideChildren = true
+		
+		// REQUIREMENT
+		// {
+			// type = Expression
+			
+			// expression = @/numPassengers >= 1
+			
+		// }
+		
+	// }
+	
+	// PARAMETER
+	// {
+		// name = HasPassengers
+		// type = HasPassengers
+		// title = Tourist: @/kerbals.ElementAt(1)
+		
+		// kerbal = @/kerbals.ElementAt(1)
+		
+		// hideChildren = true
+		
+		// REQUIREMENT
+		// {
+			// type = Expression
+			
+			// expression = @/numPassengers >= 2
+			
+		// }
+		
+	// }
+
+
+
+
+
+
+
+
+
+
+
+
+
