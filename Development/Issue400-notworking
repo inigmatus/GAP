@@ -52,8 +52,8 @@ CONTRACT_TYPE
 
 
 //CONTRACT DESCRIPTION
-	name = SSI-KAX-Helicopter
-	title = Land on a Helipad!
+	name = SSI-KAX-Helicopter-testing
+	title = Land on a Helipad! - testing
 	group = SSI Aerospace
 	agent = SSI Aerospace
 
