@@ -106,18 +106,18 @@ CONTRACT_TYPE
 		dissassociateVesselsOnContractCompletion = true
 
 		//PV for Pods is required for later VPG vessel recall, for command seat only aircraft. CC #400
-		PARAMETER
-		{
-			name = PartValidation
-			type = PartValidation
+		// PARAMETER
+		// {
+			// name = PartValidation
+			// type = PartValidation
 			
-			category = Pods
+			// category = Pods
 
-			disableOnStateChange = false
-			hideChildren = true
-			hidden = true
+			// disableOnStateChange = false
+			// hideChildren = true
+			// hidden = true
 			
-		}
+		// }
 
 		PARAMETER
 		{
