@@ -38,7 +38,8 @@ CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
 
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Crew Rotation: 2
 *Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Crew Rotation: 4-8
-*Airlines-Flight-30 - KSC Airlines: Charter Flight 30 - Crew Rotation: 2-8
+*Airlines-Flight-30 - KSC Airlines: Charter Flight 40 - Crew Rotation: 2-8
+*Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Crew Rotation: 2-8 (for science)
 *Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Crew Rotation: 16-84
 
 ===============
