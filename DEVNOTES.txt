@@ -118,11 +118,14 @@ go to waypoint
 do a thing
 drop off passenger(s):
 	Joe Kerman
-and pick up passengers(s)/craft/part:
+and pick up/rescue/retrieve passengers(s)/crewmen/craft/part:
 	Joe Kerman
 	Lodorf Kerman
 	Vanguard Computer Core
-and land back at KSC runway
+and land back / at KSC runway/helipads/destinations
+	at either
+		this location
+		or that location
 safely
 	without destroying your aircraft/any vessels
 	or killing anyone
