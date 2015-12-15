@@ -1,6 +1,7 @@
 CHANGELOG:
 
 TBD - GAP 0.3
+- added Space Transportation System: STS-1 Space Shuttle Intrepid (for testing)
 - added KSC Island Tours: Aerial Tour: Flight 2 - Tourists: 2-6
 - added SSI: Test Flight of Mk1 Crew Cabin to 5000m
 - added Wright Aeronautical: Barnstorm the R&D Center
