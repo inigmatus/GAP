@@ -1,6 +1,8 @@
 CHANGELOG:
 
 TBD - GAP 0.3
+- added KSC Airlines: Charter Flight 10 - Crew Rotation: 2
+- added KSC Airlines logo, all assets for GAP 1.0 are complete.
 - added Space Transportation System: STS-1 Space Shuttle Intrepid (for testing)
 - added KSC Island Tours: Aerial Tour: Flight 2 - Tourists: 2-6
 - added SSI: Test Flight of Mk1 Crew Cabin to 5000m
