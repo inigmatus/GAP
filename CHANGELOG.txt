@@ -1,10 +1,14 @@
 CHANGELOG:
 
+TBD - GAP 0.4
+- added KSC Airlines: Charter Flight 5 - Seats: (2-4) (does not require crew cabin)
+- realigned KSC Airlines: Charter Flight 10 - Seats: (2-4) to require crew cabin
+
 12/15/15 - GAP 0.3
-- added KSC Airlines: Charter Flight 10 - Crew Rotation: 2
+- added KSC Airlines: Charter Flight 10 - Seats: (2-4)
 - added KSC Airlines logo, all assets for GAP 1.0 are complete.
 - added Space Transportation System: STS-1 Space Shuttle Intrepid (for testing)
-- added KSC Island Tours: Aerial Tour: Flight 2 - Tourists: 2-6
+- added KSC Island Tours: Aerial Tour: Flight 2 - Seats: (2-6)
 - added SSI: Test Flight of Mk1 Crew Cabin to 5000m
 - added Wright Aeronautical: Barnstorm the R&D Center
 - added disableOnStateChange status check in multiple contracts to prevent cheating

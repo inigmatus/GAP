@@ -36,7 +36,8 @@ CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
 *CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 navigation buoys by airplane.
 *CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) stranded mountain climber(s)!
 
-Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4
+*Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
+Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
 *Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
 *Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 *Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 16-84
@@ -81,27 +82,6 @@ Space Transportation System: STS-108 (Rescue Mission for STS-107)
 3.0
 
 
-
-PLANNED AIR FLIGHTS to KSC ISLAND:
-KSC Island Tours Flights 1-2
-Tourists: 4-8
-
-KSC Airlines Flights 10-30
-Crew Rotation: 2-8 Kerbals
-
-KSC Island Tours Flight 38
-Seaplane Tourists: 4-8
-
-KSC Airlines Flights 101-103
-Tourists: 16-84
-
-PLANNED AIR FLIGHTS to KSC 2:
-KSC Flights 201-203
-Tourists: 12-82 Staff: 4
-
-PLANNED FLIGHTS TO NORTH POLE BASE:
-KSC Flight 301 
-Tourists: 8 Staff: 4
 
 ===================
 Standard Contract Verbiage:
