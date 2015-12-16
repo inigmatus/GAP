@@ -36,52 +36,51 @@ CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
 *CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 navigation buoys by airplane.
 *CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) stranded mountain climber(s)!
 
-*Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
+Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
 *Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
 *Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 *Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 16-84
 
 ===============
-Post 1.x
+2.0
 
 Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
-Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center (change file name from Wright-Barnstorm)
+
 CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
 CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
 
 Sky Diving!
 Hang Glider!
 Wing Suit?
+
+KAB Merge
 Mach 1
 Mach 2
 Mach 5
-KAB Merge
-===============
 
+===============
+3.0
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: Kerbal Space Center 2 Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
 Kerbal Space Center: KSC Flight 201 (land 12 tourists, and exchange 4 staff at KSC 2)
 Kerbal Space Center: KSC Flight 202 (land 40 tourists, and exchange 4 staff at KSC 2)
 Kerbal Space Center: KSC Flight 203 (land 82 tourists, and exchange 4 staff at KSC 2)
-2.0
 
 Kerbal Space Program: North Pole Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: North Pole Base Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
 Kerbal Space Center: KSC Flight 301 (land 8 tourists, and exchange 4 staff at North Pole Base)
 KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
-2.5
 
+===============
+4.0
 SSI Aerospace: STS Space Shuttle First Flight
 Space Transportation System: STS-1 (Cargo Bay Test)
 KSC Coast Guard: STS SRB Booster Recovery (KAS mod preferred)
 Space Transportation System: STS-30 (Satellite Launch)
 Space Transportation System: STS-108 (Rescue Mission for STS-107)
-3.0
-
-
 
 ===================
 Standard Contract Verbiage:
