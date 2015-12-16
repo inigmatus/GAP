@@ -16,7 +16,7 @@ SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
 SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad!
 
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
-Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Passengers: (1-2)
+Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
@@ -24,11 +24,11 @@ KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
 *KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 
-IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Tourists: (2-6)
-IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Tourists: (2-4)
-*IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Tourists: (2-6)
-IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Tourists: (4-8) (Outbound:NUM | Inbound:NUM)
-*IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: 4-8
+IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Seats: (2-6)
+IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Seats: (2-4)
+IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Seats: (2-6)
+IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Seats: (4-8)
+*IslandTours-Submarine - KSC Island Tours: Submarine Tour - Seats: 4-8
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
@@ -36,10 +36,10 @@ CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
 *CoastGuard-DropBuoys - KSC Coast Guard: Drop 3 navigation buoys by airplane.
 *CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) stranded mountain climber(s)!
 
-Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Crew Rotation: (2-4) (Outbound:NUM | Inbound:NUM)
-*Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Crew Rotation: (4-8) (Outbound:NUM | Inbound:NUM)
-*Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Crew Rotation: (2-8) (Outbound:NUM | Inbound:NUM) (for science)
-*Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Crew Rotation: (16-84) (Outbound:NUM | Inbound:NUM)
+Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4
+*Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
+*Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
+*Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 16-84
 
 ===============
 Post 1.x

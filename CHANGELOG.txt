@@ -1,6 +1,6 @@
 CHANGELOG:
 
-TBD - GAP 0.3
+12/15/15 - GAP 0.3
 - added KSC Airlines: Charter Flight 10 - Crew Rotation: 2
 - added KSC Airlines logo, all assets for GAP 1.0 are complete.
 - added Space Transportation System: STS-1 Space Shuttle Intrepid (for testing)
@@ -18,8 +18,6 @@ TBD - GAP 0.3
 - removed solid rocket motor requirement from all contracts except FirstFlight
 - removed RecoverVessel requirement in all contracts due to unfixable bug where KSC view recovery will not recognize recovered vessels and complete contracts. Recovery of kerbals for passenger contracts will remain the primary method of completing contracts. Solo missions will complete once you land at the correct destination in sequence, and safely (without destroying your craft or killing anyone).
 - requires Contract Configurator 1.9.1
-
-- fixed KSC Coast Guard: SOS Distress Call compatibility with CC 1.9.0
 
 12/06/15 - GAP 0.2
 - Total Contracts: 14
