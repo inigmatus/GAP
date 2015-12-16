@@ -1,4 +1,4 @@
-ship = fishingvessel
+ship = Speedboat
 version = 1.0.5
 description = WAVERUNNER PC-1 Jet Powered Speedboat¨by pandoras kitten (youtube.com/baconspaceprogram)¨¨The WaveRunner is a simple high performance powerboat catered towards junior marine enthusiasts desiring low cost, high speed and easy operation - just drive the disposable trailer into the water, jettison and go! ¨¨The WaveRunner's unique hull design keeps the bow out of the water simulating a planing hull. Top speed depends on payload and balance but is in the range of 35 to 60 knots with just 2 concealed Juno engines for propulsion.
 type = SPH
@@ -48,7 +48,7 @@ PART
 	pos = 0.186364,10.18393,1.349987
 	attPos = -0.5422441,0.01877308,-0.6138085
 	attPos0 = 0.5529377,-0.01666832,-0.9577161
-	rot = 9.490519E-16,0.7485473,0.6630815,1.269226E-14
+	rot = 9.490517E-16,0.7485473,0.6630815,1.269226E-14
 	attRot = -0.9981723,-2.437734E-15,5.593394E-15,0.06043369
 	attRot0 = 0,-0.7071069,0.7071067,0
 	mir = 1,1,1
@@ -221,7 +221,7 @@ PART
 {
 	part = wingConnector4_4294436716
 	partName = Part
-	pos = 0.6863664,9.936018,1.805667
+	pos = 0.6863666,9.936018,1.805667
 	attPos = -0.01234069,0.1551354,-0.3010805
 	attPos0 = -0.4876604,0.2673066,1.593271E-07
 	rot = 0.5857393,-0.617084,-0.3529596,0.389277
@@ -1119,10 +1119,10 @@ PART
 {
 	part = spotLight1_4294262570
 	partName = Part
-	pos = 0.1863638,11.13602,2.705667
+	pos = 0.1863635,11.13602,2.705667
 	attPos = 0.01286328,0.1811688,0.002613833
 	attPos0 = -1.144476,0.9229494,0.01685317
-	rot = -0.006233074,0.8343589,-0.5511866,9.790469E-05
+	rot = -0.00623303,0.8343589,-0.5511866,9.794467E-05
 	attRot = 0.6274117,-0.1685707,-0.6941302,-0.3100359
 	attRot0 = 0.6739386,0.09148291,0.6933911,0.2380055
 	mir = 1,1,1
@@ -1150,10 +1150,10 @@ PART
 	{
 		name = ModuleLight
 		isEnabled = True
-		isOn = False
-		lightR = 1
-		lightG = 1
-		lightB = 1
+		isOn = True
+		lightR = 0.15
+		lightG = 0.15
+		lightB = 0.15
 		stagingEnabled = True
 		lightR_UIFlight
 		{
@@ -1180,7 +1180,7 @@ PART
 		{
 			LightsOff
 			{
-				active = False
+				active = True
 				guiActive = True
 				guiActiveEditor = True
 				guiActiveUncommand = False
@@ -1193,7 +1193,7 @@ PART
 			}
 			LightsOn
 			{
-				active = True
+				active = False
 				guiActive = True
 				guiActiveEditor = True
 				guiActiveUncommand = False
@@ -1342,7 +1342,7 @@ PART
 {
 	part = solarPanels5_4294254482
 	partName = Part
-	pos = -0.05972879,10.98706,1.456974
+	pos = -0.05972861,10.98706,1.456974
 	attPos = -0.007613892,0.1803941,0.1831938
 	attPos0 = -0.009046393,0.3204952,0.03376302
 	rot = -0.284503,0.1821572,0.6567556,0.6742026
@@ -1550,7 +1550,7 @@ PART
 {
 	part = solarPanels5_4294252926
 	partName = Part
-	pos = 0.7624164,10.9594,1.174223
+	pos = 0.7624166,10.9594,1.174223
 	attPos = 0.05642826,0.01505587,-0.1920629
 	attPos0 = 0.113813,0.07449385,-0.02000051
 	rot = 0.2205869,0.5113897,0.6473119,0.5203936
@@ -1654,7 +1654,7 @@ PART
 {
 	part = seatExternalCmd_4294244026
 	partName = Part
-	pos = -0.1957246,10.95108,0.8774281
+	pos = -0.1957244,10.95108,0.8774281
 	attPos = 0.04988819,-0.03607417,0.00131771
 	attPos0 = -0.2052147,-0.04304987,0.2200008
 	rot = 0.6830257,0.001403285,0.006365286,0.7303654
@@ -1720,6 +1720,55 @@ PART
 	}
 	MODULE
 	{
+		name = TakeCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		stagingEnabled = True
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -1744,6 +1793,42 @@ PART
 		Log
 		{
 			flight = 0
+		}
+	}
+	MODULE
+	{
+		name = TransferDialogSpawner
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			SpawnDialog
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = True
+				guiIcon = Transfer Crew
+				guiName = Transfer Crew
+				category = Transfer Crew
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
 		}
 	}
 }
@@ -1817,6 +1902,55 @@ PART
 	}
 	MODULE
 	{
+		name = TakeCommand
+		isEnabled = True
+		controlSrcStatusText = 
+		stagingEnabled = True
+		EVENTS
+		{
+			MakeReference
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Control From Here
+				guiName = Control From Here
+				category = Control From Here
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RenameVessel
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = True
+				guiIcon = Rename Vessel
+				guiName = Rename Vessel
+				category = Rename Vessel
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTripLogger
 		isEnabled = True
 		stagingEnabled = True
@@ -1841,6 +1975,42 @@ PART
 		Log
 		{
 			flight = 0
+		}
+	}
+	MODULE
+	{
+		name = TransferDialogSpawner
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			SpawnDialog
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = True
+				guiIcon = Transfer Crew
+				guiName = Transfer Crew
+				category = Transfer Crew
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
 		}
 	}
 }
@@ -1962,7 +2132,7 @@ PART
 {
 	part = structuralWing4_4294233960
 	partName = Part
-	pos = -0.8174398,9.868555,-1.809126
+	pos = -0.81744,9.868555,-1.809126
 	attPos = -0.03457305,0.2096529,0.02676159
 	attPos0 = -0.3197356,-0.01666864,0.9663475
 	rot = -0.5087731,0.4910703,-0.5087731,0.4910702
@@ -2223,7 +2393,7 @@ PART
 {
 	part = probeCoreOcto2_4294125982
 	partName = Part
-	pos = 0.1786631,10.56909,1.806798
+	pos = 0.1786627,10.56909,1.806798
 	attPos = -0.07814002,0.3010727,0.2259601
 	attPos0 = 2.459797E-07,0.5897419,-3.22457E-07
 	rot = 0.6838545,-0.003879472,-0.007059569,0.7295743
@@ -2417,10 +2587,10 @@ PART
 {
 	part = sasModule_4293932480
 	partName = Part
-	pos = 0.1794228,10.57892,1.958651
+	pos = 0.1794225,10.57892,1.958651
 	attPos = 0,0,0
 	attPos0 = -1.626754E-07,0.1521731,-8.358069E-07
-	rot = -0.6838875,-0.001372961,0.002136255,-0.7295832
+	rot = -0.6838875,-0.001372989,0.002136285,-0.7295832
 	attRot = 0,0,0,1
 	attRot0 = -1.948802E-07,-0.007199216,5.053636E-10,-0.9999741
 	mir = 1,1,1
@@ -2546,7 +2716,7 @@ PART
 {
 	part = miniFuselage_4293788052
 	partName = Part
-	pos = -0.243906,9.878443,0.5738183
+	pos = -0.2439058,9.878443,0.5738183
 	attPos = 0,0,0
 	attPos0 = 3.911555E-07,0.9375001,5.587936E-08
 	rot = 0.4989326,0.5010651,0.5010654,0.4989325
@@ -2592,10 +2762,10 @@ PART
 {
 	part = miniIntake_4294351536
 	partName = Part
-	pos = -0.2439059,9.878443,1.042568
+	pos = -0.2439057,9.878443,1.042568
 	attPos = 0,0,0
 	attPos0 = 1.394002E-07,0.4687501,1.120562E-07
-	rot = 0.7071069,2.980227E-08,2.980238E-08,0.7071069
+	rot = 0.7071069,2.980225E-08,2.980239E-08,0.7071069
 	attRot = 0,0,0,1
 	attRot0 = -4.214685E-08,-0.7086133,-1.685874E-07,0.7055972
 	mir = 1,1,1
@@ -2689,10 +2859,10 @@ PART
 {
 	part = miniIntake_4293787444
 	partName = Part
-	pos = 0.5952479,9.878443,1.042569
+	pos = 0.5952481,9.878443,1.042569
 	attPos = 0,0,0
 	attPos0 = -1.398769E-07,0.4687501,-5.558112E-08
-	rot = 0.7071069,2.4881E-14,-2.486899E-14,0.7071068
+	rot = 0.7071069,3.198642E-14,-3.197442E-14,0.7071068
 	attRot = 0,0,0,1
 	attRot0 = 6.696315E-08,-0.7086133,-2.456207E-08,-0.7055972
 	mir = 1,1,1
