@@ -50,6 +50,7 @@ Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hang
 
 CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
 CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
+CoastGuard-BlackBoxRecovery - KSC Coast Guard: Recover black box for Flight 11
 
 Sky Diving!
 Hang Glider!
