@@ -1,6 +1,7 @@
 CHANGELOG:
 
 TBD - GAP 0.4
+- added KSC Coast Guard: Drop 2 navigation buoys by aircraft.
 - added Spaceplane Hangar Air Terminal as an optional landing zone for all passenger and crew return contracts
 - added KSC Airlines: Charter Flight 5 - Seats: (2-4) (does not require crew cabin)
 - added requirement to load Lt. Dan Kerman for S.O.S. Distress call
