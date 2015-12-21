@@ -75,7 +75,7 @@ Kerbal Space Program: North Pole Base Cargo Delivery (cargo plane, drop off base
 Kerbal Space Center: KSC Flight 301 (land 8 tourists, and exchange 4 staff at North Pole Base)
 KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
 
-Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp)
+Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp, perhaps make it USi aware)
 
 ===============
 4.0
