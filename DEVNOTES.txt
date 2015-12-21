@@ -98,6 +98,7 @@ load passenger(s):
 	at waypoint
 go to waypoint
 do a thing
+	several things as part of a thing
 drop off passenger(s):
 	Joe Kerman
 and pick up/rescue/retrieve passengers(s)/crewmen/craft/part:
@@ -114,3 +115,4 @@ safely
 and recover
 	Tourist: Joe Kerman
 	Crewman: Lodorf Kerman
+and do anything remaining to complete contract
