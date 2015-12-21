@@ -5,6 +5,7 @@ TBD - GAP 0.4
 - added Spaceplane Hangar Air Terminal as an optional landing zone for all passenger and crew return contracts
 - added KSC Airlines: Charter Flight 5 - Seats: (2-4) (does not require crew cabin)
 - added requirement to load Lt. Dan Kerman for S.O.S. Distress call
+- added 1st star pilot experience for First Flight only
 - converted all waypoints to PQS, now GAP is fully certified for larger Kerbins
 - randomized S.O.S. Distress Call - rescue locations, names, and scenarios.
 - realigned KSC Airlines: Charter Flight 10 - Seats: (2-4) to require crew cabin
