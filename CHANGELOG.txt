@@ -8,6 +8,7 @@ TBD - GAP 0.4
 - converted all waypoints to PQS, now GAP is fully certified for larger Kerbins
 - randomized S.O.S. Distress Call - rescue locations, names, and scenarios.
 - realigned KSC Airlines: Charter Flight 10 - Seats: (2-4) to require crew cabin
+- removed in-character references to third party mods within the game to keep character.
 - corrected KSC Airlines flights to only require certified pilot, and removed engineer option
 - fixed Barstorm the R&D Center barnstorming the tunnel will now complete
 - various bug and content fixes
