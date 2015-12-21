@@ -4,7 +4,7 @@ filename - Agency: Title
 *not yet created
 
 ===============
-1.0 Milestone:
+1.0 Giving Aircraft a Purpose - GAP
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
 SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
@@ -43,7 +43,7 @@ Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 C
 *Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 16-84
 
 ===============
-2.0
+2.0 Giving Aircraft a Purpose - GAP Extended
 
 Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
@@ -62,7 +62,7 @@ Mach 2
 Mach 5
 
 ===============
-3.0
+3.0 Giving Aircraft a Purpose - GAP Expeditions
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: Kerbal Space Center 2 Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
@@ -78,7 +78,7 @@ KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
 Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp, perhaps make it USi aware)
 
 ===============
-4.0
+4.0 Giving Aircraft a Purpose - GAP Space Shuttle Missions
 SSI Aerospace: STS Space Shuttle First Flight
 Space Transportation System: STS-1 (Cargo Bay Test)
 KSC Coast Guard: STS SRB Booster Recovery (KAS mod preferred)
