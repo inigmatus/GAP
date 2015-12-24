@@ -6,6 +6,7 @@ GAP 0.6
 - added SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 - added SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 - added SSI Aerospace: Build and fly a seaplane!
+- removed vestigial plural code in Airlines contracts
 
 GAP 0.5
 - added Kerbal Space Program: Aircraft Carrier Landing
