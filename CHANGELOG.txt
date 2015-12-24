@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 0.6
+- added Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 - added KSC Airlines: Charter Flight 20 - Seats: 4-8
 - added SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 - added SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
