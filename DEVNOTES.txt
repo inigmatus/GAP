@@ -31,10 +31,10 @@ IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Seats: (4-8
 *IslandTours-Submarine - KSC Island Tours: Submarine Tour - Seats: 4-8
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
-CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress Call - (shipName)
-CoastGuard-RecoverPilot - KSC Coast Guard: Mayday Response - Rescue Pilot
+CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. - Rescue the crew of the (shipName)
+CoastGuard-RecoverPilot - KSC Coast Guard: Mayday Response - Rescue pilot.
 CoastGuard-DropBuoys - KSC Coast Guard: Drop 2 navigation buoys by aircraft.
-*CoastGuard-RescueClimbers - KSC Coast Guard: Rescue (1-3) stranded mountain climber(s)!
+CoastGuard-RescueClimbers - KSC Coast Guard: Emergency Call - Rescue (1-3) mountain climber(s)!
 
 Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
