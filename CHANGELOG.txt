@@ -1,9 +1,14 @@
 CHANGELOG:
 
-GAP 0.5
-- added KSC Coast Guard: Mayday Response - Rescue Pilot
+GAP 0.6
+- added SSI Aerospace: Build and fly a seaplane!
 
-rolled into GAP 0.5 - GAP 0.4
+GAP 0.5
+- added Kerbal Space Program: Aircraft Carrier Landing
+- added KSC Coast Guard: Medevac: Rescue climbers on K2
+- added KSC Coast Guard: Mayday: Rescue (PilotName)
+
+GAP 0.4
 - added KSC Coast Guard: Drop 2 navigation buoys by aircraft.
 - added Spaceplane Hangar Air Terminal as an optional landing zone for all passenger and crew return contracts
 - added KSC Airlines: Charter Flight 5 - Seats: (2-4) (does not require crew cabin)
