@@ -22,7 +22,7 @@ Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
-*KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
+KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 
 IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Seats: (2-6)
 IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Seats: (2-4)
