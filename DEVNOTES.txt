@@ -33,7 +33,9 @@ IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Seats: (4-8
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Reported: (shipName)
 CoastGuard-RescuePilot - KSC Coast Guard: Mayday: Rescue (PilotName)
+CoastGuard-RescuePilot-Carrier - KSC Coast Guard: Mayday: Rescue (PilotName)
 CoastGuard-DropBuoys - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
+CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 CoastGuard-RescueClimbers - KSC Coast Guard: Medevac: Rescue climbers on K2
 
 Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4

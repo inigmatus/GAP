@@ -1,11 +1,11 @@
-//CoastGuard-RescuePilot - KSC Coast Guard: Mayday: Rescue (PilotName)
+//CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Reported: @/distressShipName
 
 CONTRACT_TYPE
 {
 
 
 //REQUIREMENTS FOR CONTRACT TO APPEAR
-	
+
 	REQUIREMENT
 	{
 		name = CompleteContract
@@ -15,7 +15,7 @@ CONTRACT_TYPE
 		minCount = 1
 		
 	}
-	
+
 	
 //DATA NODES TO PROCESS FOR CONTRACT USE
 
@@ -24,38 +24,106 @@ CONTRACT_TYPE
 	{
 		type = List<Kerbal>
 		
-		kerbalsCoastGuard = [ NewKerbal( Male , "Lt. Dan Kerman" , "Pilot") ] 
+		kerbalsCoastGuard = [ NewKerbal( Male , "Lt. Dan Kerman" , "Pilot") ]
 		
 	}
 
-	//Rank List
-	DATA
-	{
-		type = List<string>
-		
-		rankList = [ "Col. " , "Capt. " , "Lt. "]
-		
-	}
-	
-	//Selected Rank
-	DATA
-	{
-		type = string
-		
-		rank = @/rankList.Random()
-		rankedKerbal = @rank + RandomKerbalName(Random())
-		
-	}
-	
 	//List of Kerbals in Distress
 	DATA
 	{
 		type = List<Kerbal>
 		
-		kerbalsInDistress = [ NewKerbal( Male , @/rankedKerbal , "Pilot" ) ]
+		kerbalsInDistress = [ NewKerbal(), NewKerbal() ]
+	
+	}	
+
+	//Random Distress Ship Name (Based on Kerbal name generator, cool idea huh?)
+	DATA
+	{
+		type = string
+	
+		distressShipName = "S.S. " + RandomKerbalName(Random()).FirstWord()
 	
 	}
+	
+	//Distress Ship Craft List
+	DATA
+	{
+		type = List<string>
+		
+		distressShipCraftList = [ "ContractPacks/GAP/Assets/Sea/Attack Boat.craft" , "ContractPacks/GAP/Assets/Sea/Bayou Fishing Boat.craft" , "ContractPacks/GAP/Assets/Sea/Castaway Raft.craft" , "ContractPacks/GAP/Assets/Sea/Day Sailer.craft" , "ContractPacks/GAP/Assets/Sea/Dipper.craft" , "ContractPacks/GAP/Assets/Sea/Elcano.craft" ,	"ContractPacks/GAP/Assets/Sea/Pontoon.craft" , "ContractPacks/GAP/Assets/Sea/Powerboat.craft" , "ContractPacks/GAP/Assets/Sea/Show Boat.craft" , "ContractPacks/GAP/Assets/Sea/Speedboat.craft" , "ContractPacks/GAP/Assets/Sea/Tour Boat.craft" ]
+	}
+	
+	//Select a Random Distress Ship Craft to Use
+	DATA
+	{
+		type = string
+		
+		distressShipCraft = @/distressShipCraftList.Random()
+	
+	}
+	
+	
+	//List of Possible Distress Reports
+	DATA
+	{
+		type = List<string>
+		
+		distressReportData = [ "their engine has taken on water" , "they had an engine fire" , "their rudder is disabled", "their ship was hit by a rogue wave in the recent storm", "there was a fight over the last remaining snacks and in the scuffle the keys to the engine were lost overboard", "caught such a large fish that that their boat flipped over twice (the dispatcher doesn't quite believe this fish story)", "that they were attacked by what they thought was a sea kracken (but dispatch believes they forgot to top off their fuel tanks before leaving port)", "that they thought they spotted Scott Manley off the port bow, but it turned out to be nothing more than a piece of floating debris from KSC, which they attempted to haul on board, and in the process of doing so, they sliced through their engine control cables" ]
 
+	}
+	
+	//Pick One Random Distress Report to Use for Contract
+	DATA
+	{
+		type = string
+		
+		distressReport = @/distressReportData.Random()
+		
+	}
+	
+	//SpawnVessel Roll List Values for Capsize Determination
+	DATA
+	{
+		type = List<int>
+		
+		capsizeValueList = [ 0 , 180 ]
+		
+	}
+	
+	//Random Capsize Decision
+	DATA
+	{
+		type = int
+		
+		capsizeValue = @capsizeValueList.Random()
+	}
+	
+	//sets capsize indicator, if true use element 0 in the string
+	DATA
+	{
+		type = int
+		
+		capsizeLogic = @capsizeValue == 180 ? 1 : 0
+	}
+	
+	DATA
+	{
+		type = List<string>
+		
+		capsizeStringList = [ "have capsized" , "are adrift" ]
+	
+	}
+	
+	//Sets the capsizeString for use in the Contract Description
+	DATA
+	{
+		type = string
+		
+		capsizeString = @capsizeStringList.ElementAt(@capsizeLogic)
+		
+	}
+	
 	//Pick 1 Zone for Distress Location and 1 Zone for Aircraft Carrier for Use by Waypoint Generator Behavior
 	DATA
 	{
@@ -79,20 +147,21 @@ CONTRACT_TYPE
 	}
 
 	
+	
 //CONTRACT DESCRIPTION
 
-	name = CoastGuard-RescuePilot
-	title = Mayday: Rescue @/kerbalsInDistress.First()
+	name = CoastGuard-RescueFishermen-Carrier
+	title = S.O.S. Reported: @/distressShipName
 	group = KSC Coast Guard
 	agent = KSC Coast Guard
 
-	description = The KSC Coast Guard received a mayday from @/kerbalsInDistress.First() who reported trouble with his plane and had to eject. Send out a Search and Rescue team to save the pilot and return him to an authorized Coast Guard landing area for a safe recovery.
+	description = An S.O.S. was reported by the fishing vessel @/distressShipName somewhere in the waters east of KSC.\n\nThe captain reports @/distressReport, and they @/capsizeString. Send out a Search and Rescue team to save the crew and return them to an authorized Coast Guard landing area for a safe recovery. Lt. Dan Kerman from the KSC Coast Guard will be your diving officer should the need arise. You may use an airplane, helicopter, or VTOL aircraft.
 
 	synopsis = KSC Coast Guard: Our motto is Always Ready - Kemper Keratus!
 
-	notes = Rescue @/kerbalsInDistress.First() and bring them to any KSC Coast Guard rescue station.
-
-	completedMessage = KSC Coast Guard rescue mission accomplished!\n\n@/kerbalsInDistress.First() was retrieved from the area with minimal injury. Your successful operation hasn't gone unnoticed by the Kerbal Space Program. Check in with Mission Control for your next mission.
+	notes = Rescue all crew members of the @/distressShipName and bring them to any KSC Coast Guard rescue station.
+	
+	completedMessage = KSC Coast Guard rescue mission accomplished! The crew of the @/distressShipName thank you for rescuing them from the waters off KSC. Your heroics have not gone unnoticed and your reputation has now grown a little bit more!
 
 //Contract Limits
 	maxCompletions = 0
@@ -120,7 +189,7 @@ CONTRACT_TYPE
 //Contract Penalties
   	failureFunds = 10000.0
 	failureReputation = 50.0
-
+	
 
 //BEHAVIOURS TO DO WHEN CREATING CONTRACT
 	BEHAVIOUR
@@ -140,19 +209,60 @@ CONTRACT_TYPE
 
 		KERBAL
 		{
-			kerbal = @/kerbalsInDistress.First()
+			kerbal = @/kerbalsInDistress.ElementAt(0)
 			kerbalType = Unowned
 			owned = false
 			addToRoster = false
+			
+			lat = @/distressLat - 0.00004
+			lon = @/distressLon - 0.00003
+			alt = 0
+			heading = 350
+			
+		}
 
-			lat = @/distressLat
-			lon = @/distressLon
-			heading = 300
-
+		KERBAL
+		{
+			kerbal = @/kerbalsInDistress.ElementAt(1)
+			kerbalType = Unowned
+			owned = false
+			addToRoster = false
+			
+			lat = @/distressLat + 0.00004
+			lon = @/distressLon + 0.00003
+			alt = 0
+			heading = 270
+			
 		}
 		
 	}
- 
+	
+//Spawn Vessel in Distress
+	BEHAVIOUR
+	{
+		name = SpawnVessel
+		type = SpawnVessel
+		deferVesselCreation = false
+
+		VESSEL
+		{
+			name = @/distressShipName
+			craftURL = @/distressShipCraft
+			vesselType = Ship
+			owned = false
+			targetBody = Kerbin
+			
+			lat = @/distressLat
+			lon = @/distressLon
+			alt = -5
+			heading = 133.5
+			pitch = 90
+			roll = @/capsizeValue
+			
+		}
+		
+	}
+
 //Spawn Aircraft Carrier
 	BEHAVIOUR
 	{
@@ -258,16 +368,16 @@ CONTRACT_TYPE
 			
 		}
 		
-		//Mayday Random Waypoint Within Random Sea Zone
+		//Distress Ship Random Waypoint Within Random Sea Zone
 	    RANDOM_WAYPOINT_NEAR
 		{
 		
-			name = Mayday Search Area
+			name = S.O.S Search Area
 			icon = marker
 			
 			targetBody = Kerbin
 			nearIndex = @/zoneList.ElementAt(0)
-			maxDistance = 40000.0
+			maxDistance = 7500.0
 			altitude = 0.0
 		
 		}
@@ -308,7 +418,6 @@ CONTRACT_TYPE
 		}
 
 	}
-
 
 	
 //PARAMETERS FOR CONTRACT COMPLETION
@@ -351,7 +460,7 @@ CONTRACT_TYPE
 		disableOnStateChange = false
 
 	}
-	
+
 //Passenger Manifest - Load Passengers
 	PARAMETER
 	{
@@ -384,7 +493,7 @@ CONTRACT_TYPE
 	{
 		name = VisitWaypoint
 		type = VisitWaypoint
-		title = fly to the search area
+		title = navigate to S.O.S Waypoint
 		
 		index = 5
 		distance = 500
@@ -399,7 +508,7 @@ CONTRACT_TYPE
 	{
 		name = HasCrew
 		type = HasCrew
-		title =  rescue test pilot
+		title =  rescue the crew of the @/distressShipName
 		
 		kerbal = @/kerbalsInDistress
 
@@ -532,7 +641,7 @@ CONTRACT_TYPE
 				
 				vessel = craft
 
-				PARAMETER
+			PARAMETER
 				{
 					name = ReachState
 					type = ReachState
@@ -560,7 +669,7 @@ CONTRACT_TYPE
 				
 				vessel = craft
 
-				PARAMETER
+			PARAMETER
 				{
 					name = ReachState
 					type = ReachState
@@ -588,7 +697,7 @@ CONTRACT_TYPE
 				
 				vessel = craft
 
-				PARAMETER
+			PARAMETER
 				{
 					name = ReachState
 					type = ReachState
@@ -653,6 +762,9 @@ CONTRACT_TYPE
 		type = All
 		title = safely
 		
+		completeInSequence = true
+		disableOnStateChange = true
+		
 		PARAMETER
 		{
 			name = VesselNotDestroyed
@@ -672,9 +784,6 @@ CONTRACT_TYPE
 			countMax = 1
 
 		}
-		
-		completeInSequence = true
-		disableOnStateChange = true
 		
 	}
 	

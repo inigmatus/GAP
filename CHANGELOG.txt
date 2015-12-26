@@ -1,6 +1,8 @@
 CHANGELOG:
 
 GAP 0.6
+- added CoastGuard-RescuePilot-Carrier - KSC Coast Guard: Mayday: Rescue (PilotName)
+- added CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 - added KSC Airlines: Flight 101-103 - Seats: 16-84
 - added KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 - added KSC Airlines: Charter Flight 20 - Seats: 4-8
@@ -8,6 +10,7 @@ GAP 0.6
 - added SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 - added SSI Aerospace: Build and fly a seaplane!
 - removed vestigial plural code in Airlines contracts
+- cleaned up code in Coast Guard contracts to be nearly universally consistent for easier support
 
 GAP 0.5
 - added Kerbal Space Program: Aircraft Carrier Landing
