@@ -10,6 +10,8 @@ GAP 0.6
 - added SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 - added SSI Aerospace: Build and fly a seaplane!
 - removed vestigial plural code in Airlines contracts
+- fixed bug preventing parameter for landing on Island Airfield from completing. (thanks Black-Talon)
+- fixed bug preventing a player from completing any GAP contract when another GAP contract was active.
 - cleaned up code in Coast Guard contracts to be nearly universally consistent for easier support
 
 GAP 0.5
