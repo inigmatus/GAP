@@ -9,6 +9,7 @@ GAP 0.6
 - added SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 - added SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 - added SSI Aerospace: Build and fly a seaplane!
+- renamed STS-1 to STS-30 for long term planning. It's only a test contract anyways but will remain in GAP 1.0.
 - removed vestigial plural code in Airlines contracts
 - fixed bug preventing parameter for landing on Island Airfield from completing. (thanks Black-Talon)
 - fixed bug preventing a player from completing any GAP contract when another GAP contract was active.

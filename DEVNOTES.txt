@@ -12,7 +12,7 @@ SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
 SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
-*SSI-Submarine - SSI Aerospace: Build and test a submarine!
+SSI-Submarine - SSI Aerospace: Build and test a submarine!
 SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad!
 
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
@@ -44,15 +44,16 @@ Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
 Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 16-84
 
+STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 ===============
 2.0 Giving Aircraft a Purpose - GAP Extended
 
-Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
-Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
+*Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
+*Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
 
-CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
-CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
-CoastGuard-BlackBoxRecovery - KSC Coast Guard: Recover black box for Flight 11
+*CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
+*CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
+*CoastGuard-BlackBoxRecovery - KSC Coast Guard: Recover black box for Flight 11
 
 Sky Diving!
 Hang Glider!
