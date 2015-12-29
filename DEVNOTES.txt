@@ -42,7 +42,7 @@ Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
 Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
 Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
-Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 16-84
+Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 ===============
