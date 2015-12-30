@@ -125,6 +125,7 @@ Space Transportation System: STS-108 (Rescue Mission for STS-107)
 5.0 Giving Aircraft a Purpose - Offworld Adventures
 Eve Drone Flying
 Laythe Drone Flying
+Eve Skydiving (and return)
 
 Standard Contract Verbiage:
 
