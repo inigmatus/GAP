@@ -50,19 +50,54 @@ STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch
 
 *Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
+*Wright-Mountains - Wright Aeronautical: Take tourists on a tour of the K2 Mountains (fly a series of waypoints)
 
+*KSP-ValsHeli - Kerbal Space Program: Build a Coast Guard Search and Rescue station on Valentina's Island
+
+Maritime Missions Merge Project
 *CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
 *CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
 *CoastGuard-BlackBoxRecovery - KSC Coast Guard: Recover black box for Flight 11
 
-Sky Diving!
-Hang Glider!
-Wing Suit?
+Glider!
+*Wright-Glider-Mountains - Wright Aeronautical: Glide over Western Mountains
+*IslandTours-Glider - KSC Island Tours: Launch a boat powered glider
 
-KAB Merge
-Mach 1
-Mach 2
-Mach 5
+Sky Diving!
+*SSI-ParachuteTest - SSI Aerospace: Test an EVA parachute!
+*Wright-Skydiving5k - Wright Aeronautical: Skydive 2-5 Kerbals from 5000m.
+*Wright-Skydiving9k - Wright Aeronautical: Skydive 2-15 Kerbals from 9000m.
+
+BASE Jumping, Hang Gliders and Wing Suits!
+*Wright-BASE-VAB - Wright Aeronautical: BASE jump off of the VAB (wingsuit or hang glider ok to use)
+*Wright-BASE-Island - Wright Aeronautical: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
+*Wright-BASE-K2 - Wright Aeronautical: BASE jump off of K2 (wingsuit or hang glider ok to use)
+
+KAB Merge Project
+*Wright-Altitude2500 - Wright Aeronautical: Fly an aircraft to 2500m!
+*Wright-Altitude5000 - Wright Aeronautical: Fly an aircraft to 5000m!
+*KAB-Altitude10000 - Kerbal Aircraft Builders: Fly an aircraft to 1000m!
+*KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
+*SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 30000m!
+*SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
+*SSI-Speed - SSI Aerospace: Break the sound barrier! 220,330,1000m/s
+*SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
+*SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk 2 Cargo Bay
+*SSI-Cargo-5t SSI Aerospace: Fly 5 tons to KSC Island.
+*SSI-Cargo-7t SSI Aerospace: Fly 7 tons to KSC Island.
+*SSI-Cargo-14t SSI Aerospace: Fly 14 tons to KSC Island.
+*SSI-Cargo-20t SSI Aerospace: Fly 20 tons to KSC Island.
+
+from maculator's goals for KAB
+
+- More simple flights (fly in altitude x over location y)
+- Exotic locations (get your plane to the poles, desert etc.)
+- Maybe some "duration flights" (a weight limited vessel needs to stay airborne for a specific timeperiode)
+
+- Rescue a Kerbal from kerbin and bring him safly back to the runway
+- Freight missions (to the island with a vessel of mass x / or x - kerbals abord)
+- All completable more than once
+- Specific part tests
 
 ===============
 3.0 Giving Aircraft a Purpose - GAP Expeditions
