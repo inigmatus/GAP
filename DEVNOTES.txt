@@ -88,15 +88,9 @@ KAB Merge Project
 *SSI-Cargo-14t SSI Aerospace: Fly 14 tons to KSC Island.
 *SSI-Cargo-20t SSI Aerospace: Fly 20 tons to KSC Island.
 
-from maculator's goals for KAB
-
+additional maculator's goals for KAB
 - More simple flights (fly in altitude x over location y)
 - Exotic locations (get your plane to the poles, desert etc.)
-- Maybe some "duration flights" (a weight limited vessel needs to stay airborne for a specific timeperiode)
-
-- Rescue a Kerbal from kerbin and bring him safly back to the runway
-- Freight missions (to the island with a vessel of mass x / or x - kerbals abord)
-- All completable more than once
 - Specific part tests
 
 ===============
