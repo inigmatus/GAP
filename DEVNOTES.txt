@@ -52,7 +52,7 @@ STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
 *Wright-Mountains - Wright Aeronautical: Take tourists on a tour of the K2 Mountains (fly a series of waypoints)
 
-*KSP-ValsHeli - Kerbal Space Program: Build a Coast Guard Search and Rescue station on Valentina's Island
+*KSP-ValsHeli - Kerbal Space Program: Build a Coast Guard Search and Rescue station at the summit of Valentina's Island
 
 Maritime Missions Merge Project
 *CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
