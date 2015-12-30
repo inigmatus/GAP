@@ -67,6 +67,10 @@ Sky Diving!
 *SSI-ParachuteTest - SSI Aerospace: Test an EVA parachute!
 *Wright-Skydiving5k - Wright Aeronautical: Skydive 2-5 Kerbals from 5000m.
 *Wright-Skydiving9k - Wright Aeronautical: Skydive 2-15 Kerbals from 9000m.
+*KSP-Skydiving60k - Kerbal Space Program: Skydive from 30km!
+*KSP-Skydiving60k - Kerbal Space Program: Skydive from 60km!
+*KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space!
+*KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
 
 BASE Jumping, Hang Gliders and Wing Suits!
 *Wright-BASE-VAB - Wright Aeronautical: BASE jump off of the VAB (wingsuit or hang glider ok to use)
@@ -76,9 +80,9 @@ BASE Jumping, Hang Gliders and Wing Suits!
 KAB Merge Project
 *Wright-Altitude2500 - Wright Aeronautical: Fly an aircraft to 2500m!
 *Wright-Altitude5000 - Wright Aeronautical: Fly an aircraft to 5000m!
-*KAB-Altitude10000 - Kerbal Aircraft Builders: Fly an aircraft to 1000m!
+*KAB-Altitude10000 - Kerbal Aircraft Builders: Fly an aircraft to 10000m!
 *KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
-*SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 30000m!
+*SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 35000m!
 *SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
 *SSI-Speed - SSI Aerospace: Break the sound barrier! 220,330,1000m/s
 *SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
@@ -118,6 +122,10 @@ Space Transportation System: STS-30 (Satellite Launch)
 Space Transportation System: STS-108 (Rescue Mission for STS-107)
 
 ===================
+5.0 Giving Aircraft a Purpose - Offworld Adventures
+Eve Drone Flying
+Laythe Drone Flying
+
 Standard Contract Verbiage:
 
 Your aircraft/spacecraft/machine must:
