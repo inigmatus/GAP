@@ -1,5 +1,8 @@
 CHANGELOG:
 
+GAP 0.7
+
+
 GAP 0.6
 - added CoastGuard-RescuePilot-Carrier - KSC Coast Guard: Mayday: Rescue (PilotName)
 - added CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
@@ -9,6 +12,7 @@ GAP 0.6
 - added SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 - added SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 - added SSI Aerospace: Build and fly a seaplane!
+- added langage to SSI-KAX-Helicopter contract description that is KAX-aware.
 - renamed STS-1 to STS-30 for long term planning. It's only a test contract anyways but will remain in GAP 1.0.
 - removed vestigial plural code in Airlines contracts
 - fixed bug preventing parameter for landing on Island Airfield from completing. (thanks Black-Talon)
