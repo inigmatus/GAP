@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 0.7
+- added SSI Aerospace: Build and test a submarine!
 
 
 GAP 0.6
