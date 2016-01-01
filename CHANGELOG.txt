@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 0.7
+- added IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 - added SSI Aerospace: Build and test a submarine!
 
 

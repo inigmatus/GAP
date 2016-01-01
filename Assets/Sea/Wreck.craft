@@ -1,0 +1,3170 @@
+ship = Wreck
+version = 1.0.5
+description = 
+type = SPH
+size = 7.074067,6.030663,23.60234
+PART
+{
+	part = trussPiece3x_4288686162
+	partName = Part
+	pos = 3.884379,10.02964,24.66392
+	attPos = 0,0,0
+	attPos0 = 3.884379,10.02964,24.66392
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,-0.9999999
+	attRot0 = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288682666
+	attN = bottom,trussPiece3x_4288682666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288682666
+	partName = Part
+	pos = 3.884379,10.02964,21.71344
+	attPos = 0,0,0
+	attPos0 = 0,-2.950476,3.517241E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288681862
+	link = trussPiece3x_4288676944
+	link = trussPiece3x_4288676844
+	link = strutConnector_4288141910
+	link = strutConnector_4288141836
+	attN = bottom,trussPiece3x_4288681862
+	attN = top,trussPiece3x_4288686162
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288681862
+	partName = Part
+	pos = 3.884379,10.02964,18.76296
+	attPos = 0,0,0
+	attPos0 = 0,-2.950477,3.517242E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288676212
+	link = structuralPanel2_4288652488
+	link = structuralPanel2_4288652084
+	link = strutConnector_4287968950
+	link = strutConnector_4287966218
+	attN = bottom,trussPiece3x_4288676212
+	attN = top,trussPiece3x_4288682666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676944
+	partName = Part
+	pos = 5.491064,10.95726,20.95752
+	attPos = 0,0,0
+	attPos0 = 1.606685,-0.7559223,-0.9276199
+	rot = -0.5000001,-0.8660255,0,0
+	attRot = 0,0,0,1
+	attRot0 = 0.3535534,0.6123725,-0.6123725,0.3535534
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288676742
+	sym = trussPiece3x_4288676844
+	srfN = srfAttach,trussPiece3x_4288682666
+	attN = top,trussPiece3x_4288676742
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676844
+	partName = Part
+	pos = 2.277694,10.95726,20.95752
+	attPos = 0,0,0
+	attPos0 = -1.606685,-0.7559223,-0.9276199
+	rot = 0.4999999,-0.8660256,0,-2.107343E-08
+	attRot = 0,0,0,1
+	attRot0 = -0.3535534,0.6123725,-0.6123725,-0.3535533
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece1x_4288323052
+	sym = trussPiece3x_4288676944
+	srfN = srfAttach,trussPiece3x_4288682666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676212
+	partName = Part
+	pos = 3.884379,10.02964,15.81249
+	attPos = 0,0,0
+	attPos0 = 0,-2.950477,3.517243E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288676186
+	link = trussPiece3x_4288676160
+	link = trussPiece3x_4288676108
+	attN = bottom,trussPiece3x_4288676186
+	attN = top,trussPiece3x_4288681862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676186
+	partName = Part
+	pos = 3.884379,10.02964,12.86201
+	attPos = 0,0,0
+	attPos0 = 0,-2.950477,3.517242E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288675542
+	link = strutConnector_4288259078
+	link = strutConnector_4288258782
+	attN = bottom,trussPiece3x_4288675542
+	attN = top,trussPiece3x_4288676212
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676160
+	partName = Part
+	pos = 5.491064,10.95726,15.05656
+	attPos = 0,0,0
+	attPos0 = 1.606685,-0.7559223,-0.9276199
+	rot = -0.5000001,-0.8660255,0,0
+	attRot = 0,0,0,1
+	attRot0 = 0.3535534,0.6123725,-0.6123725,0.3535534
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288676134
+	link = strutConnector_4288259274
+	sym = trussPiece3x_4288676108
+	srfN = srfAttach,trussPiece3x_4288676212
+	attN = top,trussPiece3x_4288676134
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676134
+	partName = Part
+	pos = 6.768656,13.17012,15.05656
+	attPos = 0,0,0
+	attPos0 = 8.141245E-07,2.950476,1.520659E-07
+	rot = -4.214685E-08,-0.7071069,1.053671E-07,-0.7071069
+	attRot = 5.576586E-08,-1,3.536196E-08,6.217249E-15
+	attRot0 = -6.443709E-08,0.7071068,-2.771911E-08,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = trussPiece3x_4288676082
+	srfN = srfAttach,trussPiece3x_4288676212
+	attN = bottom,trussPiece3x_4288676160
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676108
+	partName = Part
+	pos = 2.277694,10.95726,15.05656
+	attPos = 0,0,0
+	attPos0 = -1.606685,-0.7559223,-0.9276199
+	rot = 0.4999999,-0.8660256,0,-2.107343E-08
+	attRot = 0,0,0,1
+	attRot0 = -0.3535534,0.6123725,-0.6123725,-0.3535533
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288676082
+	link = strutConnector_4288259418
+	sym = trussPiece3x_4288676160
+	srfN = srfAttach,trussPiece3x_4288676212
+	attN = top,trussPiece3x_4288676082
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676082
+	partName = Part
+	pos = 1.000102,13.17012,15.05656
+	attPos = 0,0,0
+	attPos0 = 1.053858E-06,2.950476,3.601129E-07
+	rot = 4.214685E-08,0.7071069,-4.214685E-08,-0.7071069
+	attRot = 5.576586E-08,-1,3.536196E-08,6.217249E-15
+	attRot0 = -1.593725E-07,-0.7071068,1.484641E-07,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralIBeam2_4288669382
+	link = trussAdapter_4288655188
+	sym = trussPiece3x_4288676134
+	srfN = srfAttach,trussPiece3x_4288676212
+	attN = bottom,trussPiece3x_4288676108
+	attN = top,trussAdapter_4288655188
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675542
+	partName = Part
+	pos = 3.884379,10.02963,9.911476
+	attPos = 0,0,0
+	attPos0 = 0,-2.950478,3.517244E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288675516
+	link = trussPiece3x_4288675490
+	link = trussPiece3x_4288675438
+	attN = bottom,trussPiece3x_4288675516
+	attN = top,trussPiece3x_4288676186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675516
+	partName = Part
+	pos = 3.884379,10.02963,6.960999
+	attPos = 0,0,0
+	attPos0 = 0,-2.950477,3.517242E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288675154
+	attN = bottom,trussPiece3x_4288675154
+	attN = top,trussPiece3x_4288675542
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675490
+	partName = Part
+	pos = 5.491064,10.95725,9.155552
+	attPos = 0,0,0
+	attPos0 = 1.606685,-0.7559223,-0.9276199
+	rot = -0.5000001,-0.8660255,0,0
+	attRot = 0,0,0,1
+	attRot0 = 0.3535534,0.6123725,-0.6123725,0.3535534
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece1x_4288324338
+	sym = trussPiece3x_4288675438
+	srfN = srfAttach,trussPiece3x_4288675542
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675438
+	partName = Part
+	pos = 2.277694,10.95725,9.155552
+	attPos = 0,0,0
+	attPos0 = -1.606685,-0.7559223,-0.9276199
+	rot = 0.4999999,-0.8660256,0,-2.107343E-08
+	attRot = 0,0,0,1
+	attRot0 = -0.3535534,0.6123725,-0.6123725,-0.3535533
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralPanel2_4287871710
+	sym = trussPiece3x_4288675490
+	srfN = srfAttach,trussPiece3x_4288675542
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675154
+	partName = Part
+	pos = 3.884379,10.02963,4.010519
+	attPos = 0,0,0
+	attPos0 = 0,-2.950481,3.517246E-07
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288675102
+	link = trussPiece3x_4288675050
+	link = Size3to2Adapter_4288660968
+	link = strutConnector_4288033354
+	link = strutConnector_4288032984
+	attN = bottom,Size3to2Adapter_4288660968
+	attN = top,trussPiece3x_4288675516
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675102
+	partName = Part
+	pos = 5.491064,10.95725,3.254595
+	attPos = 0,0,0
+	attPos0 = 1.606685,-0.7559223,-0.9276199
+	rot = -0.5000001,-0.8660255,0,0
+	attRot = 0,0,0,1
+	attRot0 = 0.3535534,0.6123725,-0.6123725,0.3535534
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288675076
+	sym = trussPiece3x_4288675050
+	srfN = srfAttach,trussPiece3x_4288675154
+	attN = top,trussPiece3x_4288675076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675076
+	partName = Part
+	pos = 6.768656,13.17012,3.254541
+	attPos = 0,0,0
+	attPos0 = 8.141245E-07,2.950476,1.520659E-07
+	rot = -4.214685E-08,-0.7071069,1.053671E-07,-0.7071069
+	attRot = 5.576586E-08,-1,3.536196E-08,6.217249E-15
+	attRot0 = -6.443709E-08,0.7071068,-2.771911E-08,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralPanel2_4288651680
+	link = LargeTank_4288038530
+	link = strutConnector_4287969142
+	sym = trussPiece3x_4288675024
+	srfN = srfAttach,trussPiece3x_4288675154
+	attN = bottom,trussPiece3x_4288675102
+	attN = top,LargeTank_4288038530
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675050
+	partName = Part
+	pos = 2.277694,10.95725,3.254595
+	attPos = 0,0,0
+	attPos0 = -1.606685,-0.7559223,-0.9276199
+	rot = 0.4999999,-0.8660256,0,-2.107343E-08
+	attRot = 0,0,0,1
+	attRot0 = -0.3535534,0.6123725,-0.6123725,-0.3535533
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece3x_4288675024
+	sym = trussPiece3x_4288675102
+	srfN = srfAttach,trussPiece3x_4288675154
+	attN = top,trussPiece3x_4288675024
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288675024
+	partName = Part
+	pos = 1.000102,13.17012,3.254566
+	attPos = 0,0,0
+	attPos0 = 1.053858E-06,2.950476,3.601129E-07
+	rot = 4.214685E-08,0.7071069,-4.214685E-08,-0.7071069
+	attRot = 5.576586E-08,-1,3.536196E-08,6.217249E-15
+	attRot0 = -1.593725E-07,-0.7071068,1.484641E-07,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralIBeam2_4288668054
+	link = structuralPanel2_4288651152
+	link = LargeTank_4288204384
+	link = strutConnector_4288142270
+	sym = trussPiece3x_4288675076
+	srfN = srfAttach,trussPiece3x_4288675154
+	attN = bottom,trussPiece3x_4288675050
+	attN = top,LargeTank_4288204384
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece3x_4288676742
+	partName = Part
+	pos = 6.768657,13.17012,20.95752
+	attPos = 0,0,0
+	attPos0 = -2.502003E-07,2.950476,1.520659E-07
+	rot = -4.214685E-08,-0.7071069,-4.214685E-08,-0.7071069
+	attRot = -9.99437E-08,-1,3.536195E-08,8.42937E-08
+	attRot0 = -3.862752E-08,0.7071068,-5.352868E-08,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralIBeam2_4288668718
+	link = structuralIBeam2_4288668396
+	srfN = srfAttach,trussPiece3x_4288682666
+	attN = bottom,trussPiece3x_4288676944
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288669382
+	partName = Part
+	pos = 2.703063,14.16953,16.03976
+	attPos = 0,0,0
+	attPos0 = 0.9832011,0.9994172,-1.702959
+	rot = -0.6123729,-0.353553,0.3535535,-0.6123723
+	attRot = 0,0,0,1
+	attRot0 = 0.183013,0.6830124,-0.6830131,0.1830128
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288676082
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288668718
+	partName = Part
+	pos = 4.896451,12.84154,20.45586
+	attPos = 0,0,0
+	attPos0 = 0.5016561,-0.3285734,-1.872202
+	rot = -0.4304599,0.5609854,-0.5609856,-0.4304593
+	attRot = 0,0,0,1
+	attRot0 = -0.09229589,-0.7010571,0.7010578,-0.0922958
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288676742
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288668396
+	partName = Part
+	pos = 4.904859,14.25651,21.45692
+	attPos = 0,0,0
+	attPos0 = -0.4993985,1.086396,-1.863784
+	rot = -0.560986,0.4304591,-0.4304595,-0.5609854
+	attRot = 0,0,0,1
+	attRot0 = 0.09229606,-0.7010571,0.7010578,0.09229595
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288676742
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288668054
+	partName = Part
+	pos = 2.400105,14.17012,3.254555
+	attPos = -5.646525E-06,0.02378738,0.5232875
+	attPos0 = -5.80164E-06,0.976218,-1.923289
+	rot = -0.5000007,-0.4999996,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	attRot0 = 2.670334E-07,0.7071064,-0.7071072,2.881069E-07
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralIBeam2_4288667288
+	srfN = srfAttach,trussPiece3x_4288675024
+	attN = top,structuralIBeam2_4288667288
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288667288
+	partName = Part
+	pos = 5.596673,14.17012,3.254549
+	attPos = 0,0,0
+	attPos0 = 8.950152E-06,3.19655,-4.645048E-06
+	rot = -0.5000001,-0.5000002,0.5000001,-0.5000002
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = -5.960463E-07,0,-5.364417E-07,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,structuralIBeam2_4288668054
+	attN = bottom,structuralIBeam2_4288668054
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = Size3to2Adapter_4288660968
+	partName = Part
+	pos = 3.884379,11.57692,7.301901
+	attPos = -2.384186E-07,5.866625,-1.547284
+	attPos0 = 2.384186E-07,-2.575241,3.069927E-07
+	rot = -1.47514E-07,0.7071069,-4.214685E-08,0.7071068
+	attRot = -5.960467E-08,2.107342E-07,2.980235E-08,-1
+	attRot0 = -1.47514E-07,0.7071068,4.214685E-08,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = Size3to2Adapter_4288657502
+	attN = top,trussPiece3x_4288675154
+	attN = bottom,Size3to2Adapter_4288657502
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = Size3to2Adapter_4288657502
+	partName = Part
+	pos = 3.884379,11.57692,11.10195
+	attPos = -3.799998,2.199999,1.400708E-06
+	attPos0 = 4.273653E-06,-2.2,-1.549732E-07
+	rot = 4.214685E-08,-1.783753E-07,-2.980247E-08,1
+	attRot = 0.7071068,1.700851E-07,-1.279382E-07,-0.7071069
+	attRot0 = 1.773163E-07,-0.7071068,2.980226E-08,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralIBeam2_4288637756
+	attN = top,Size3to2Adapter_4288660968
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussAdapter_4288655188
+	partName = Part
+	pos = 1.000103,15.05619,15.05655
+	attPos = 0,0,0
+	attPos0 = -3.687488E-06,1.886071,-5.182814E-08
+	rot = -8.42937E-08,2.823295E-09,-2.160924E-08,-1
+	attRot = -0.7071068,0,0,0.7071068
+	attRot0 = 4.214685E-08,0.7071069,-4.214685E-08,0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = bottom,trussPiece3x_4288676082
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel2_4288652488
+	partName = Part
+	pos = 3.884379,10.35525,16.63131
+	attPos = 0,0,0
+	attPos0 = 0,-2.131646,-0.325609
+	rot = 0,-0.7071068,0,-0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = -0.5,0.5,-0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = adapterEngines_4288647720
+	srfN = srfAttach,trussPiece3x_4288681862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel2_4288652084
+	partName = Part
+	pos = 3.884379,10.3545,18.62143
+	attPos = 0,0,0
+	attPos0 = 0,-0.1415315,-0.3248625
+	rot = 0,-0.7071068,0,-0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = -0.5,0.5,-0.5,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288681862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel2_4288651680
+	partName = Part
+	pos = 7.168656,13.57012,4.054529
+	attPos = -0.7999936,0.706315,0.07537144
+	attPos0 = 5.770533E-06,-0.3063155,0.3246288
+	rot = 2.95028E-07,-1.685874E-07,0.7071065,-0.7071072
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0.4999997,-0.5000001,-0.5,0.5000004
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralPanel2_4287884126
+	srfN = srfAttach,trussPiece3x_4288675076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel2_4288651152
+	partName = Part
+	pos = 0.6001012,13.57012,4.054556
+	attPos = 0.7999955,0.1932954,0.07390097
+	attPos0 = -5.691447E-06,0.2067061,0.3260994
+	rot = -0.7071065,0.7071072,-3.371748E-07,2.95028E-07
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 0.4999999,-0.5000005,-0.4999995,0.5000001
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288675024
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = adapterEngines_4288647720
+	partName = Part
+	pos = 3.884379,11.55524,17.03131
+	attPos = 0.08769226,-0.6966684,0.4876928
+	attPos0 = -0.4876881,1.896668,-0.4876928
+	rot = 0,-0.7071065,0.7071072,-2.107343E-07
+	attRot = 0,0,0,1
+	attRot0 = 0.5000002,0.4999997,-0.5000002,0.5
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = LargeTank_4288640810
+	link = LargeTank_4288206272
+	srfN = srfAttach,structuralPanel2_4288652488
+	attN = bottom01,LargeTank_4288206272
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = LargeTank_4288640810
+	partName = Part
+	pos = 3.884379,11.55524,15.56239
+	attPos = 5.406501E-07,1.000006,0.01283112
+	attPos0 = -1.028784E-07,0.4689121,-0.01283189
+	rot = -0.7071534,0,-2.107343E-07,-0.7070603
+	attRot = 0.9999999,0,0,0
+	attRot0 = 1.110059E-12,6.608626E-05,1,3.547312E-14
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = LargeTank_4288639772
+	srfN = srfAttach,adapterEngines_4288647720
+	attN = bottom,LargeTank_4288639772
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelJettison
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			FuelJettison
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Jettison Tank Contents
+				guiName = Jettison Tank Contents
+				category = Jettison Tank Contents
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			FuelJettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 1500
+		maxAmount = 1500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = LargeTank_4288639772
+	partName = Part
+	pos = 3.884379,11.55536,13.76239
+	attPos = 5.406501E-07,1.000006,0.01283112
+	attPos0 = -2.979851E-07,-1.800002,0.0001185406
+	rot = -0.7071068,0,0,0.7071068
+	attRot = 0.9999999,0,0,0
+	attRot0 = 1,-1.490116E-07,1.490116E-07,6.574908E-05
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,adapterEngines_4288647720
+	attN = bottom,LargeTank_4288640810
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelJettison
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			FuelJettison
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Jettison Tank Contents
+				guiName = Jettison Tank Contents
+				category = Jettison Tank Contents
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			FuelJettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 1500
+		maxAmount = 1500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288637756
+	partName = Part
+	pos = 2.457262,12.16422,9.503623
+	attPos = -5.646525E-06,0.02378738,0.5232875
+	attPos0 = -1.427118,0.5872995,-1.598272
+	rot = 0.5594621,0.432438,-0.4324377,-0.5594619
+	attRot = 0.4999999,-0.4999999,-0.4999999,-0.4999999
+	attRot0 = 0.5594619,0.4324379,-0.4324378,-0.5594618
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralIBeam2_4288637730
+	srfN = srfAttach,Size3to2Adapter_4288657502
+	attN = top,structuralIBeam2_4288637730
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralIBeam2_4288637730
+	partName = Part
+	pos = 2.457271,12.16423,6.307051
+	attPos = 0,0,0
+	attPos0 = 8.950152E-06,3.19655,-4.645048E-06
+	rot = 0.5594621,0.4324386,-0.4324372,-0.5594618
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = -5.960463E-07,0,-5.364417E-07,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,structuralIBeam2_4288637756
+	attN = bottom,structuralIBeam2_4288637756
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4288324338
+	partName = Part
+	pos = 6.921914,12.00787,8.867881
+	attPos = 0,0,0
+	attPos0 = -0.06515864,0.824224,-0.05363753
+	rot = 0.1479633,0.9510739,-0.2558029,0.09017013
+	attRot = 0.9135471,-0.09028576,0.151767,-0.3663976
+	attRot0 = -0.2578343,-0.08418611,0.9622502,-0.0225575
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralPanel1_4287872962
+	srfN = srfAttach,trussPiece3x_4288675490
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4288323052
+	partName = Part
+	pos = 1.594555,11.72404,20.79836
+	attPos = 0,0,0
+	attPos0 = -0.322484,0.9750075,0.15916
+	rot = 0.5669388,0.4485764,0.3281764,-0.6079968
+	attRot = 0.9135471,-0.09028576,0.151767,-0.3663976
+	attRot0 = 0.5882074,-0.3624524,-0.7152715,-0.1050092
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = trussPiece1x_4288322478
+	srfN = srfAttach,trussPiece3x_4288676844
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4288322478
+	partName = Part
+	pos = 1.711205,12.61056,20.29107
+	attPos = 0,0,0
+	attPos0 = -0.01745727,0.8261585,-0.02988111
+	rot = -0.01343026,-0.6314662,0.1882332,0.7520896
+	attRot = -0.3629873,0.5983131,-0.05183366,-0.7124431
+	attRot0 = 0.3624582,0.06892116,0.1421277,-0.9185171
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece1x_4288323052
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4288259418
+	partName = CompoundPart
+	pos = 2.083677,11.4459,15.05656
+	attPos = 0,0,0
+	attPos0 = -0.326169,0.412346,1.923411E-06
+	rot = -0.4999997,0.8660257,-4.214685E-08,-8.42937E-08
+	attRot = 0,0,0,1
+	attRot0 = 1.618329E-08,-1.12324E-07,-2.064766E-07,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288259274
+	srfN = srfAttach,trussPiece3x_4288676108
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288640810
+		pos = -0.461532,-0.3977217,-0.02335844
+		rot = 3.992857E-09,2.131093E-05,0.6087623,0.7933536
+		dir = -0.7569762,-0.6523184,-0.03831106
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4288259274
+	partName = CompoundPart
+	pos = 5.685081,11.4459,15.05656
+	attPos = 0,0,0
+	attPos0 = 0.3261692,0.4123459,1.980163E-06
+	rot = 4.214685E-08,4.214685E-08,0.4999996,-0.8660258
+	attRot = 0,0,0,1
+	attRot0 = -5.539791E-07,-1,5.646632E-09,-5.036252E-08
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288259418
+	srfN = srfAttach,trussPiece3x_4288676160
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288640810
+		pos = -0.4615336,-0.3977221,0.02335836
+		rot = -1.606351E-08,-2.171889E-05,0.6087629,0.7933534
+		dir = -0.7569769,-0.6523175,0.03831084
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4288259078
+	partName = CompoundPart
+	pos = 3.559434,10.11671,14.0528
+	attPos = 0,0,0
+	attPos0 = -0.3249452,1.190794,-0.08706871
+	rot = -0.7010575,0.09229606,0.09229606,-0.7010574
+	attRot = 0,0,0,1
+	attRot0 = 8.42937E-08,-0.1305263,0,0.9914449
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288258782
+	srfN = srfAttach,trussPiece3x_4288676186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288639772
+		pos = -0.4363161,-0.1279126,-0.2976842
+		rot = 7.657871E-16,-0.8660259,4.697308E-07,0.5000006
+		dir = -0.8028479,-0.2353669,-0.5477569
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4288258782
+	partName = CompoundPart
+	pos = 4.209324,10.11671,14.0528
+	attPos = 0,0,0
+	attPos0 = 0.324945,1.190794,-0.08706871
+	rot = -0.09229609,0.7010573,0.7010576,-0.09229608
+	attRot = 0,0,0,1
+	attRot0 = 5.268356E-09,-0.9914449,-1.685874E-07,0.1305264
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288259078
+	srfN = srfAttach,trussPiece3x_4288676186
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288639772
+		pos = -0.436314,-0.1279127,0.2976828
+		rot = 6.806312E-17,0.8660258,6.119762E-07,0.5000003
+		dir = -0.8028477,-0.2353681,0.5477567
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = LargeTank_4288206272
+	partName = Part
+	pos = 3.884379,11.55524,18.40005
+	attPos = 5.406501E-07,1.000006,0.01283112
+	attPos0 = -1.695004E-07,-1.368748,2.324561E-07
+	rot = 0.7071068,0,0,-0.7071068
+	attRot = 0.9999999,0,0,0
+	attRot0 = -1.490116E-07,-1,5.057622E-07,1.490116E-07
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = LargeTank_4288205646
+	srfN = srfAttach,adapterEngines_4288647720
+	attN = top,adapterEngines_4288647720
+	attN = bottom,LargeTank_4288205646
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelJettison
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			FuelJettison
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Jettison Tank Contents
+				guiName = Jettison Tank Contents
+				category = Jettison Tank Contents
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			FuelJettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 1500
+		maxAmount = 1500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = LargeTank_4288205646
+	partName = Part
+	pos = 3.884379,11.55524,20.20005
+	attPos = 5.406501E-07,1.000006,0.01283112
+	attPos0 = 2.033304E-13,-1.799998,3.425485E-07
+	rot = 0.7071068,0,0,-0.7071068
+	attRot = 0.9999999,0,0,0
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,adapterEngines_4288647720
+	attN = top,LargeTank_4288206272
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelJettison
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			FuelJettison
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Jettison Tank Contents
+				guiName = Jettison Tank Contents
+				category = Jettison Tank Contents
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			FuelJettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 1500
+		maxAmount = 1500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = strutConnector_4288141910
+	partName = CompoundPart
+	pos = 3.557427,10.21841,21.87211
+	attPos = 0,0,0
+	attPos0 = -0.3269515,0.1586666,-0.1887656
+	rot = -0.6830128,0.1830128,0.1830128,-0.6830127
+	attRot = 0,0,0,1
+	attRot0 = 4.214685E-08,-0.2588191,1.053671E-08,0.9659259
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288141836
+	srfN = srfAttach,trussPiece3x_4288682666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288205008
+		pos = -0.2177832,0.01926015,-0.1160859
+		rot = 2.56986E-15,-0.6087627,3.344235E-07,0.7933529
+		dir = -0.8797874,0.07780598,-0.4689568
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4288141836
+	partName = CompoundPart
+	pos = 4.21133,10.21841,21.87211
+	attPos = 0,0,0
+	attPos0 = 0.3269515,0.1586666,-0.1887656
+	rot = -0.1830127,0.6830127,0.6830128,-0.1830127
+	attRot = 0,0,0,1
+	attRot0 = 1.053671E-08,-0.9659258,-8.42937E-08,0.2588191
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288141910
+	srfN = srfAttach,trussPiece3x_4288682666
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288205008
+		pos = -0.2177832,0.01925825,0.116086
+		rot = 3.136593E-15,0.6087627,3.298879E-07,0.7933528
+		dir = -0.8797877,0.07779831,0.4689575
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = LargeTank_4288204384
+	partName = Part
+	pos = 2.600102,11.57012,4.854567
+	attPos = 1.600006,-3.975239,-1.6
+	attPos0 = -5.205706E-06,2.375239,-1.397982E-07
+	rot = 0,-2.823296E-09,-4.20033E-09,1
+	attRot = -0.7071067,0,0,0.7071067
+	attRot0 = -4.214685E-08,-0.7071068,4.214685E-08,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = LargeTank_4288038530
+	srfN = srfAttach,adapterEngines_4288647720
+	attN = bottom,trussPiece3x_4288675024
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelJettison
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			FuelJettison
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Jettison Tank Contents
+				guiName = Jettison Tank Contents
+				category = Jettison Tank Contents
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			FuelJettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 1500
+		maxAmount = 1500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = LargeTank_4288038530
+	partName = Part
+	pos = 5.168653,11.57012,4.854563
+	attPos = -1.600008,-3.975237,-1.6
+	attPos0 = 7.7852E-06,2.375239,-5.263275E-07
+	rot = 0,2.107343E-08,-2.024307E-08,1
+	attRot = -0.7071067,0,0,0.7071067
+	attRot0 = 4.214685E-08,0.7071068,-1.053671E-07,-0.7071068
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = nacelleBody_4287889668
+	sym = LargeTank_4288204384
+	srfN = srfAttach,adapterEngines_4288647720
+	attN = top,nacelleBody_4287889668
+	attN = bottom,trussPiece3x_4288675076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleFuelJettison
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			FuelJettison
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Jettison Tank Contents
+				guiName = Jettison Tank Contents
+				category = Jettison Tank Contents
+				guiActiveUnfocused = True
+				unfocusedRange = 5
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			FuelJettisonAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	RESOURCE
+	{
+		name = Ore
+		amount = 1500
+		maxAmount = 1500
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = strutConnector_4288033354
+	partName = CompoundPart
+	pos = 3.547075,10.12001,4.998613
+	attPos = 0,0,0
+	attPos0 = -0.3373039,0.9880943,-0.09038079
+	rot = -0.7010575,0.09229606,0.09229606,-0.7010574
+	attRot = 0,0,0,1
+	attRot0 = 8.42937E-08,-0.1305263,0,0.9914449
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288032984
+	srfN = srfAttach,trussPiece3x_4288675154
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288204384
+		pos = -0.7904315,-0.1059628,-0.357723
+		rot = 2.410744E-09,-0.6087617,1.831876E-07,0.7933539
+		dir = -0.9043248,-0.121231,-0.4092673
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4288032984
+	partName = CompoundPart
+	pos = 4.221683,10.12001,4.998613
+	attPos = 0,0,0
+	attPos0 = 0.3373036,0.9880943,-0.09038079
+	rot = -0.09229609,0.7010573,0.7010576,-0.09229608
+	attRot = 0,0,0,1
+	attRot0 = 5.268356E-09,-0.9914449,-1.685874E-07,0.1305264
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4288033354
+	srfN = srfAttach,trussPiece3x_4288675154
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288038530
+		pos = -0.7904314,-0.105963,0.357722
+		rot = 2.108223E-08,0.6087617,3.27506E-07,0.793354
+		dir = -0.9043252,-0.1212312,0.4092663
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4288142270
+	partName = CompoundPart
+	pos = 1.318464,12.86941,3.339865
+	attPos = 0,0,0
+	attPos0 = 0.08529851,-0.3007135,-0.3183623
+	rot = 5.584458E-07,0.991445,0,0.1305264
+	attRot = 0,0,0,1
+	attRot0 = -4.255878E-07,-0.7933534,3.265649E-07,0.6087613
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288675024
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288204384
+		pos = -0.5970334,-0.7135089,-0.5056939
+		rot = 1.921233E-15,-0.2588192,-4.339636E-07,0.9659266
+		dir = -0.5638239,-0.6738206,-0.4775651
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4287969142
+	partName = CompoundPart
+	pos = 6.444754,12.53703,3.167751
+	attPos = 0,0,0
+	attPos0 = 0.0867958,-0.633091,-0.3239014
+	rot = -8.42937E-08,-0.1305259,2.423444E-07,0.991445
+	attRot = 0,0,0,1
+	attRot0 = 2.719032E-07,0.7933531,-2.086388E-07,-0.6087617
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288675076
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288038530
+		pos = -0.7916812,-0.5767822,0.7521936
+		rot = 8.438968E-16,0.7071062,6.6044E-08,0.7071085
+		dir = -0.6410359,-0.467029,0.6090623
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4287968950
+	partName = CompoundPart
+	pos = 3.567293,10.1146,19.81634
+	attPos = 0,0,0
+	attPos0 = -0.3170855,1.053377,-0.08496298
+	rot = -0.7010575,0.09229606,0.09229606,-0.7010574
+	attRot = 0,0,0,1
+	attRot0 = 8.42937E-08,-0.1305263,0,0.9914449
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4287966218
+	srfN = srfAttach,trussPiece3x_4288681862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288205646
+		pos = -0.6178957,0.01544181,-0.397723
+		rot = 1.375612E-15,-0.8660256,4.697307E-07,0.5000004
+		dir = -0.8406805,0.02100942,-0.5411236
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4287966218
+	partName = CompoundPart
+	pos = 4.201465,10.1146,19.81634
+	attPos = 0,0,0
+	attPos0 = 0.3170857,1.053377,-0.08496298
+	rot = -0.09229609,0.7010573,0.7010576,-0.09229608
+	attRot = 0,0,0,1
+	attRot0 = 5.268356E-09,-0.9914449,-1.685874E-07,0.1305264
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	sym = strutConnector_4287968950
+	srfN = srfAttach,trussPiece3x_4288681862
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+		tgt = 4288205646
+		pos = -0.617901,0.01543787,0.3977254
+		rot = -1.77839E-16,0.8660256,6.119761E-07,0.5000002
+		dir = -0.8406813,0.02100389,0.5411228
+	}
+	MODULE
+	{
+		name = CModuleLinkedMesh
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	MODULE
+	{
+		name = CModuleStrut
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = nacelleBody_4287889668
+	partName = Part
+	pos = 4.76865,12.97012,4.854551
+	attPos = -0.4000014,-0.437501,-3.847108E-06
+	attPos0 = -5.255263E-07,1.837501,-3.978983E-06
+	rot = 0.1830126,-0.683013,-0.1830127,-0.6830128
+	attRot = -0.2588189,1.264405E-07,9.483041E-08,0.9659261
+	attRot0 = 1.431401E-08,-0.7071068,-1.431401E-08,-0.7071068
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	attN = bottom,LargeTank_4288038530
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			Deactivate
+			{
+				active = True
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Close Intake
+				guiName = Close Intake
+				category = Close Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			Activate
+			{
+				active = False
+				guiActive = True
+				guiActiveUncommand = False
+				guiIcon = Open Intake
+				guiName = Open Intake
+				category = Open Intake
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateHeat
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+			ToggleStaging
+			{
+				active = True
+				guiActive = False
+				guiActiveUncommand = False
+				guiIcon = Disable Staging
+				guiName = Disable Staging
+				category = Disable Staging
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = IntakeAir
+		amount = 5
+		maxAmount = 5
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 150
+		maxAmount = 150
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = structuralPanel2_4287884126
+	partName = Part
+	pos = 7.168655,13.57012,6.054518
+	attPos = -0.7330225,-0.01666934,1.003622
+	attPos0 = 0.7330229,0.01666719,0.9963666
+	rot = -8.218636E-07,3.582482E-07,-0.7071066,0.7071071
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 5.151115E-07,2.235171E-07,2.107343E-07,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	link = structuralPanel1_4287876938
+	link = structuralPanel1_4287874092
+	srfN = srfAttach,structuralPanel2_4288651680
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4287876938
+	partName = Part
+	pos = 7.168655,12.17012,6.654507
+	attPos = -0.0346446,-0.01666991,1.13961
+	attPos0 = 1.434645,0.01666799,-0.5396216
+	rot = -0.707107,0.7071067,5.689825E-07,-9.90451E-07
+	attRot = -0.7071067,0.7071067,0,0
+	attRot0 = -1,4.214668E-08,4.470379E-08,-2.61353E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,structuralPanel2_4287884126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4287874092
+	partName = Part
+	pos = 7.168655,13.97012,7.454506
+	attPos = -0.3142249,-0.01667078,0.3854028
+	attPos0 = -0.08577395,0.01666859,1.014586
+	rot = -0.707107,0.7071067,5.689825E-07,-9.90451E-07
+	attRot = -0.7071067,0.7071067,0,0
+	attRot0 = -1,4.214668E-08,4.470379E-08,-2.61353E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,structuralPanel2_4287884126
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4287872962
+	partName = Part
+	pos = 7.121914,13.20787,8.867872
+	attPos = 0.2488948,0.5659286,-0.3537757
+	attPos0 = -0.1545039,0.4900029,-0.2429642
+	rot = 0.4666996,-0.3201138,0.3837177,0.7297122
+	attRot = -0.03346709,0.5879055,0.7961361,-0.1393372
+	attRot0 = 0.4398364,2.4332E-07,-0.8980779,-3.133729E-07
+	mir = 1,1,1
+	symMethod = Mirror
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece1x_4288324338
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel2_4287871710
+	partName = Part
+	pos = 2.077694,11.75725,7.555544
+	attPos = -1.400195,-0.8017954,1.881115
+	attPos0 = 0.8073743,1.375001,-0.281107
+	rot = 0.4829627,-0.8365164,0.1294098,0.2241439
+	attRot = 0,0,-0.7071068,0.7071068
+	attRot0 = 2.421789E-07,0.2588192,4.352703E-08,0.9659258
+	mir = 1,1,1
+	symMethod = Radial
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = (0.0, 0.0, 0.0)
+	srfN = srfAttach,trussPiece3x_4288675438
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
