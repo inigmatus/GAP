@@ -84,7 +84,7 @@ KAB Merge Project
 *KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
 *SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 35000m!
 *SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
-*SSI-Speed - SSI Aerospace: Break the sound barrier! 220,330,1000m/s
+*SSI-Speed - SSI Aerospace: Break the sound barrier! 340m/s
 *SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
 *SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk 2 Cargo Bay
 *SSI-Cargo-5t SSI Aerospace: Fly 5 tons to KSC Island.
