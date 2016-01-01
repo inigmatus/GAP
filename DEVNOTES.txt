@@ -23,6 +23,7 @@ KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
 KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
+KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Opertional Landing and Takeoff
 
 IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Seats: (2-6)
 IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Seats: (2-4)
@@ -84,7 +85,7 @@ KAB Merge Project
 *KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
 *SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 35000m!
 *SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
-*SSI-Speed - SSI Aerospace: Break the sound barrier! 340m/s
+*SSI-Speed - SSI Aerospace: Break the sound barrier! 343m/s
 *SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
 *SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk 2 Cargo Bay
 *SSI-Cargo-5t SSI Aerospace: Fly 5 tons to KSC Island.
