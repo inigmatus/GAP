@@ -12,7 +12,6 @@ GAP 0.7
 - fixed grammar issues in most contracts
 - fixed story continuity in all contracts to offer up a consistent story line
 
-
 GAP 0.6
 - added CoastGuard-RescuePilot-Carrier - KSC Coast Guard: Mayday: Rescue (PilotName)
 - added CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
