@@ -5,6 +5,12 @@ GAP 0.7
 - added IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 - added SSI Aerospace: Build and test a submarine!
 - added 5m mission timer to SSI-Start
+- added Island Airfield and Carrier Landing options to appropriate Coast Guard contracts
+- fixed IslandTours-Shoreline waypoint end (thanks skykooler)
+- fixed bugs with some contracts unable to complete except on EVA
+- fixed bugs were some contracts were unable to be offered due to impossible requirements
+- fixed grammar issues in most contracts
+- fixed story continuity in all contracts to offer up a consistent story line
 
 
 GAP 0.6
