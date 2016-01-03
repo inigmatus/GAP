@@ -1,8 +1,8 @@
-ship = Attack Boat
+ship = Attack Boat disabled
 version = 1.0.5
 description = Attack Boat by DrMarlboro
 type = SPH
-size = 4.673878,3.399786,14.03502
+size = 4.673878,3.075781,14.03502
 PART
 {
 	part = structuralPanel2_4294370632
@@ -1461,7 +1461,7 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 180
+		amount = 0
 		maxAmount = 180
 		flowState = True
 		isTweakable = True
@@ -1601,7 +1601,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
+		thrustPercentage = 0
 		manuallyOverridden = False
 		stagingEnabled = True
 		thrustPercentage_UIFlight
@@ -2153,7 +2153,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
+		thrustPercentage = 0
 		manuallyOverridden = False
 		stagingEnabled = True
 		thrustPercentage_UIFlight
@@ -2710,7 +2710,7 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 200
+		amount = 0
 		maxAmount = 200
 		flowState = True
 		isTweakable = True
@@ -2844,7 +2844,7 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 200
+		amount = 0
 		maxAmount = 200
 		flowState = True
 		isTweakable = True
@@ -3006,10 +3006,10 @@ PART
 		BrakeTorque = 12
 		brakesEngaged = False
 		brakesEnabled = True
-		storedGearState = UNDEFINED
+		storedGearState = RETRACTED
 		storedAnimationSpeed = 0
 		storedAnimationTime = 0
-		StartDeployed = True
+		StartDeployed = False
 		stagingEnabled = True
 		BrakeTorque_UIFlight
 		{
@@ -3331,10 +3331,10 @@ PART
 		BrakeTorque = 12
 		brakesEngaged = False
 		brakesEnabled = True
-		storedGearState = UNDEFINED
+		storedGearState = RETRACTED
 		storedAnimationSpeed = 0
 		storedAnimationTime = 0
-		StartDeployed = True
+		StartDeployed = False
 		stagingEnabled = True
 		BrakeTorque_UIFlight
 		{
@@ -3656,10 +3656,10 @@ PART
 		BrakeTorque = 12
 		brakesEngaged = False
 		brakesEnabled = True
-		storedGearState = UNDEFINED
+		storedGearState = RETRACTED
 		storedAnimationSpeed = 0
 		storedAnimationTime = 0
-		StartDeployed = True
+		StartDeployed = False
 		stagingEnabled = True
 		BrakeTorque_UIFlight
 		{
@@ -3981,10 +3981,10 @@ PART
 		BrakeTorque = 12
 		brakesEngaged = False
 		brakesEnabled = True
-		storedGearState = UNDEFINED
+		storedGearState = RETRACTED
 		storedAnimationSpeed = 0
 		storedAnimationTime = 0
-		StartDeployed = True
+		StartDeployed = False
 		stagingEnabled = True
 		BrakeTorque_UIFlight
 		{

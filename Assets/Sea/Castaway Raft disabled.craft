@@ -1,8 +1,8 @@
-ship = Castaway Raft
+ship = Castaway Raft disabled
 version = 1.0.5
 description = Castaway Raft by pTrevTrevs
 type = SPH
-size = 4.491207,7.905273,4.487755
+size = 4.491207,6.089565,4.487755
 PART
 {
 	part = structuralIBeam3_4294725586
@@ -202,7 +202,7 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 50
+		amount = 0
 		maxAmount = 50
 		flowState = True
 		isTweakable = True
@@ -215,7 +215,7 @@ PART
 {
 	part = miniJetEngine_4294708862
 	partName = Part
-	pos = 0.01765354,9.541702,-1.393757
+	pos = 0.01765351,9.541702,-1.393757
 	attPos = 0,0,0
 	attPos0 = -1.676381E-07,-0.4687501,5.587935E-08
 	rot = 0.7071068,7.105426E-15,-7.117426E-15,0.7071068
@@ -251,7 +251,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 48.5
+		thrustPercentage = 0
 		manuallyOverridden = False
 		stagingEnabled = True
 		thrustPercentage_UIFlight
@@ -416,7 +416,7 @@ PART
 {
 	part = miniIntake_4294704064
 	partName = Part
-	pos = 0.01765395,9.541702,-0.4562563
+	pos = 0.01765398,9.541702,-0.4562563
 	attPos = 0,0,0
 	attPos0 = 1.676381E-07,0.4687501,-5.587935E-08
 	rot = 0.7071068,7.105426E-15,-7.117426E-15,0.7071068
@@ -942,9 +942,9 @@ PART
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		currentRotation = (0, 0, -0.7071068, 0.7071068)
-		stateString = EXTENDED
+		stateString = RETRACTED
 		storedAnimationTime = 0
-		storedAnimationSpeed = 0
+		storedAnimationSpeed = -53.33334
 		efficiencyMult = 1
 		launchUT = -1
 		stagingEnabled = True
@@ -952,7 +952,7 @@ PART
 		{
 			Extend
 			{
-				active = False
+				active = True
 				guiActive = True
 				guiActiveEditor = True
 				guiActiveUncommand = False
@@ -965,7 +965,7 @@ PART
 			}
 			Retract
 			{
-				active = True
+				active = False
 				guiActive = True
 				guiActiveEditor = True
 				guiActiveUncommand = False
@@ -1077,9 +1077,9 @@ PART
 		name = ModuleDeployableSolarPanel
 		isEnabled = True
 		currentRotation = (0, 0, -0.7071068, 0.7071068)
-		stateString = EXTENDED
+		stateString = RETRACTED
 		storedAnimationTime = 0
-		storedAnimationSpeed = 0
+		storedAnimationSpeed = -53.33334
 		efficiencyMult = 1
 		launchUT = -1
 		stagingEnabled = True
@@ -1087,7 +1087,7 @@ PART
 		{
 			Extend
 			{
-				active = False
+				active = True
 				guiActive = True
 				guiActiveEditor = True
 				guiActiveUncommand = False
@@ -1100,7 +1100,7 @@ PART
 			}
 			Retract
 			{
-				active = True
+				active = False
 				guiActive = True
 				guiActiveEditor = True
 				guiActiveUncommand = False
@@ -1435,7 +1435,7 @@ PART
 {
 	part = ksp.r.largeBatteryPack_4294566176
 	partName = Part
-	pos = 0.6263255,9.739658,-1.11159
+	pos = 0.6263257,9.739658,-1.11159
 	attPos = -2.384186E-07,-2.384186E-07,-0.04061604
 	attPos0 = -0.6039658,-1.141083,0.09375206
 	rot = -0.7071068,-1.066761E-07,-1.066761E-07,-0.7071068
@@ -1932,7 +1932,7 @@ PART
 {
 	part = smallCtrlSrf_4294544732
 	partName = Part
-	pos = 0.01765336,9.322864,-1.621346
+	pos = 0.01765331,9.322864,-1.621346
 	attPos = 0.5238571,-0.4113028,4.530581E-08
 	attPos0 = -0.3050186,-0.2850365,5.260545E-08
 	rot = -0.4999999,0.5000002,0.4999998,-0.5000001
@@ -2313,10 +2313,10 @@ PART
 {
 	part = smallHardpoint_4294517338
 	partName = Part
-	pos = 1.891367,9.686522,-0.00753656
+	pos = 1.891368,9.686522,-0.007536568
 	attPos = 0,0,0
 	attPos0 = -1.869004,-0.03703048,4.414376E-09
-	rot = 5.338507E-08,0.7071066,0.7071071,9.55319E-08
+	rot = 5.338507E-08,0.7071066,0.7071071,9.553189E-08
 	attRot = 0,0,0,1
 	attRot0 = -2.528811E-07,-1.053002E-07,-2.980232E-08,1
 	mir = 1,1,1
@@ -2482,7 +2482,7 @@ PART
 {
 	part = sasModule_4294422974
 	partName = Part
-	pos = 0.01765406,9.791619,-0.06802474
+	pos = 0.01765412,9.791619,-0.06802474
 	attPos = 2.244535E-07,0.297121,-0.2499171
 	attPos0 = -1.342678E-07,0.09111056,-1.132428E-14
 	rot = 2.4869E-14,0,0,-1

@@ -1,4 +1,4 @@
-ship = Speedboat
+ship = Speedboat disabled
 version = 1.0.5
 description = WAVERUNNER PC-1 Jet Powered Speedboat¨by pandoras kitten (youtube.com/baconspaceprogram)¨¨The WaveRunner is a simple high performance powerboat catered towards junior marine enthusiasts desiring low cost, high speed and easy operation - just drive the disposable trailer into the water, jettison and go! ¨¨The WaveRunner's unique hull design keeps the bow out of the water simulating a planing hull. Top speed depends on payload and balance but is in the range of 35 to 60 knots with just 2 concealed Juno engines for propulsion.
 type = SPH
@@ -350,7 +350,7 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 50
+		amount = 0
 		maxAmount = 50
 		flowState = True
 		isTweakable = True
@@ -398,7 +398,7 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 50
+		amount = 0
 		maxAmount = 50
 		flowState = True
 		isTweakable = True
@@ -448,7 +448,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
+		thrustPercentage = 0
 		manuallyOverridden = False
 		stagingEnabled = True
 		thrustPercentage_UIFlight
@@ -650,7 +650,7 @@ PART
 		EngineIgnited = False
 		engineShutdown = False
 		currentThrottle = 0
-		thrustPercentage = 100
+		thrustPercentage = 0
 		manuallyOverridden = False
 		stagingEnabled = True
 		thrustPercentage_UIFlight
@@ -2760,9 +2760,9 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 50
+		amount = 0
 		maxAmount = 50
-		flowState = True
+		flowState = False
 		isTweakable = True
 		hideFlow = False
 		isVisible = True
@@ -2806,9 +2806,9 @@ PART
 	RESOURCE
 	{
 		name = LiquidFuel
-		amount = 50
+		amount = 0
 		maxAmount = 50
-		flowState = True
+		flowState = False
 		isTweakable = True
 		hideFlow = False
 		isVisible = True
