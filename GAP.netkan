@@ -1,7 +1,7 @@
 {
     "spec_version" : "v1.0",
     "identifier"   : "GAP", 
-    "$kref"        : "#/ckan/github/inigmatus/GAP",
+    "$kref"        : "#/ckan/kerbalstuff/1385",
     "abstract"     : "An Aerospace Exploration (Development and Testing), Coast Guard Rescue (and Retrieval), and general Operations (airplane and helicopter charters, regular flights, and cargo drops) contract pack compatible with all stock and modded careers.",
     "name"         : "Contract Pack: Giving Aircraft a Purpose",
     "license"      : "MIT",
