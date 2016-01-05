@@ -1,6 +1,7 @@
 CHANGELOG:
 
 1.0
+- added switch to prevent agencies from getting random KSP contracts (thanks nightingale)
 - fixed typos in contracts (thanks skykooler)
 
 
