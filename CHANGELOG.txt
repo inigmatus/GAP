@@ -1,5 +1,9 @@
 CHANGELOG:
 
+1.0
+- fixed typos in contracts (thanks skykooler)
+
+
 1/3/16 GAP 1.0 Beta
 - GAP released on CKAN
 - added requirement for Contract Configurator 1.9.2.1
