@@ -4,7 +4,7 @@ filename - Agency: Title
 *not yet created
 
 ===============
-1.0 Giving Aircraft a Purpose - GAP
+1.0 Giving Aircraft a Purpose - GAP: Aerospace Exploration and Rescue Operations
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
 SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
@@ -47,7 +47,7 @@ Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 ===============
-2.0 Giving Aircraft a Purpose - GAP Extended
+2.0 Giving Aircraft a Purpose - GAP: Extended
 
 *Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
@@ -74,9 +74,9 @@ Sky Diving!
 *KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
 
 BASE Jumping, Hang Gliders and Wing Suits!
-*Wright-BASE-VAB - Wright Aeronautical: BASE jump off of the VAB (wingsuit or hang glider ok to use)
-*Wright-BASE-Island - Wright Aeronautical: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
-*Wright-BASE-K2 - Wright Aeronautical: BASE jump off of K2 (wingsuit or hang glider ok to use)
+*Corliss-BASE-VAB - Corliss Adventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
+*Corliss-BASE-Island - Corliss Adventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
+*Corliss-BASE-K2 - Corliss Adventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
 
 KAB Merge Project
 *Wright-Altitude2500 - Wright Aeronautical: Fly an aircraft to 2500m!
@@ -86,20 +86,24 @@ KAB Merge Project
 *SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 35000m!
 *SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
 *SSI-Speed - SSI Aerospace: Break the sound barrier! 343m/s
+*SSI-Speed - SSI Aerospace: Mach 2 Project 686m/s
+*SSI-Speed - SSI Aerospace: Mach 5 Project 1715m/s
 *SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
 *SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk 2 Cargo Bay
-*SSI-Cargo-5t SSI Aerospace: Fly 5 tons to KSC Island.
-*SSI-Cargo-7t SSI Aerospace: Fly 7 tons to KSC Island.
-*SSI-Cargo-14t SSI Aerospace: Fly 14 tons to KSC Island.
-*SSI-Cargo-20t SSI Aerospace: Fly 20 tons to KSC Island.
+*KSP-Cargo-5t Kerbal Space Program: Fly 5 tons to KSC Island.
+*KSP-Cargo-7t Kerbal Space Program: Fly 7 tons to KSC Island.
+*KSP-Cargo-14t Kerbal Space Program: Fly 14 tons to KSC Island.
+*KSP-Cargo-20t Kerbal Space Program: Fly 20 tons to KSC Island.
+*KSP-Cargo-DropTest Kerbal Space Program: Cargo Drop Test
 
 additional maculator's goals for KAB
-- More simple flights (fly in altitude x over location y)
+- More simple flights (fly in altitude x over location y) (canyon fly throughs)
 - Exotic locations (get your plane to the poles, desert etc.)
 - Specific part tests
 
 ===============
-3.0 Giving Aircraft a Purpose - GAP Expeditions
+3.0 Giving Aircraft a Purpose - GAP: Expeditions
+
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
 Kerbal Space Program: Kerbal Space Center 2 Cargo Delivery (cargo plane, drop off base/housing big enough to house 12 base staff (spawn the base units at the runway ready for loading))
@@ -115,7 +119,10 @@ KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
 Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp, perhaps make it USi aware)
 
 ===============
-4.0 Giving Aircraft a Purpose - GAP Space Shuttle Missions
+4.0 Giving Aircraft a Purpose - GAP: Spaceplanes!
+
+Sub Orbital Spaceplanes
+
 SSI Aerospace: STS Space Shuttle First Flight
 Space Transportation System: STS-1 (Cargo Bay Test)
 KSC Coast Guard: STS SRB Booster Recovery (KAS mod preferred)
@@ -123,7 +130,7 @@ Space Transportation System: STS-30 (Satellite Launch)
 Space Transportation System: STS-108 (Rescue Mission for STS-107)
 
 ===================
-5.0 Giving Aircraft a Purpose - Offworld Adventures
+5.0 Giving Aircraft a Purpose - GAP: Offworld
 Eve Drone Flying
 Laythe Drone Flying
 Eve Skydiving (and return)
