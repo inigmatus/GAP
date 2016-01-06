@@ -1,6 +1,7 @@
 CHANGELOG:
 
-1.0
+1/5/16 1.0
+- fixed Join SSI Aerospace not allowing completion if craft does not have cubic struts (thanks Evanitis)
 - added switch to prevent agencies from getting random KSP contracts (thanks nightingale)
 - fixed typos in contracts (thanks skykooler)
 
