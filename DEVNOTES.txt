@@ -47,6 +47,7 @@ KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Opertional Landing a
 *KSP-Cargo-5t - Kerbal Space Program: Fly 5 tons to KSC Island. (ore tank)
 *KSP-Cargo-Tonnage - Kerbal Space Program: Fly 10-50 tons to KSC Island. (various packages, load them up from runway?)
 *KSP-Supply -Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp, perhaps make it USi aware)
+*KSP-RecoverProbe - Kerbal Space Program: Recover a probe for science!
 *KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space! (60k altitude)
 *KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
 
@@ -73,6 +74,7 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress: (shipName)
 CoastGuard-RescuePilot - KSC Coast Guard: Mayday: Rescue (PilotName)
+CoastGuard-RescuePilot - KSC Coast Guard: Retreival: Test plane wreckage (for science!)
 CoastGuard-RescuePilot-Carrier - KSC Coast Guard: Mayday: Rescue (PilotName)
 *CoastGuard-SupplyDropTest - KSC Coast Guard: Cargo Drop Test (perhaps make CoastGuard-BuoyDrop dependent on this)
 CoastGuard-DropBuoys - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
