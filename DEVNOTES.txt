@@ -3,33 +3,70 @@ DEVNOTES must match https://bubbl.us/?h=934b/5fc8d0/37aoS1/A8mNuU&r=1187690956
 filename - Agency: Title
 *not yet created
 
+1.0 Giving Aircraft a Purpose: Aerospace Exploration and Rescue Operations - RELEASED!
 ===============
-1.0 Giving Aircraft a Purpose - GAP: Aerospace Exploration and Rescue Operations
+2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
+*SSI-GlideK2 - SSI Aerospace: Glide over the K2 Mountains for science!
 SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
 SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
+*SSI-EVAParachute - SSI Aerospace: Bail from a plane!
 SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 SSI-Submarine - SSI Aerospace: Build and test a submarine!
 SSI-KAX-Helicopter - SSI Aerospace: Land on a Helipad!
+*SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
+*SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk 2 Cargo Bay
+*SSI-Speed - SSI Aerospace: Break the sound barrier! 343m/s
+*SSI-Speed - SSI Aerospace: Mach 2 Project 686m/s (above 2500m)
+*SSI-Speed - SSI Aerospace: Mach 3 Project 1029m/s (above 2500m)
+*SSI-Speed - SSI Aerospace: Mach 4 Project 1372m/s (above 2500m)
+*SSI-Speed - SSI Aerospace: Mach 5 Project 1715m/s (above 2500m)
+*SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
 
+*Wright-Glider - Wright Aeronautical: Build and fly a glider!
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
+*Wright-Altitude2500 - Wright Aeronautical: Fly an aircraft to 2500m!
+*Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
+*Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
+*Wright-Altitude5000 - Wright Aeronautical: Fly an aircraft to 5000m!
+*Wright-Skydiving5k - Wright Aeronautical: Skydive from 5000m! - Crew: (1-5)
+*Wright-Skydiving9k - Wright Aeronautical: Skydive from 10000m! - Crew: (2-15)
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
 KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Opertional Landing and Takeoff
+*KSP-SARValsIsland - Kerbal Space Program: Valentina's Island Search and Rescue Station
+*KSP-Skydiving60k - Kerbal Space Program: Skydive from 30km!
+*KSP-Skydiving60k - Kerbal Space Program: Skydive from 60km!
+*KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space!
+*KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
+*KSP-Cargo-5t Kerbal Space Program: Fly 5 tons to KSC Island.
+*KSP-Cargo-DropTest Kerbal Space Program: Cargo Drop Test (perhaps make CoastGuard-BuoyDrop dependent on this)
+*KSP-Cargo-10t Kerbal Space Program: Fly 10 tons to KSC Island.
+*KSP-Cargo-20t Kerbal Space Program: Fly 20 tons to KSC Island.
+*KSP-Cargo-50t Kerbal Space Program: Fly 50 tons to KSC Island.
 
 IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Seats: (2-6)
 IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Seats: (2-4)
 IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Seats: (2-6)
 IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Seats: (4-8)
 IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
+*IslandTours-Glider - KSC Island Tours: Speedboat Parasailing
+
+*Global-Offroad - Global Adventures: Offroad Adventure: K2 Mountain Trail - Crew: (4) (drive a series of K2 mountain waypoints)
+*Global-AerialTourK2 - Global Adventures: Aerial Tour: Flight 3 - Seats: (2-4) (fly a series of K2 mountain waypoints)
+*Global-AerialTourRiver - Global Adventures: Aerial Tour: Flight 4 - Seats: (2-4) (fly a series of canyon/river waypoints)
+
+*Corliss-VAB - Corliss Paraventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
+*Corliss-Island - Corliss Paraventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
+*Corliss-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress: (shipName)
@@ -39,6 +76,10 @@ CoastGuard-DropBuoys - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 CoastGuard-RescueClimbers - KSC Coast Guard: Medevac: Rescue climbers on K2
 
+*KAB-Altitude10000 - Kerbal Aircraft Builders: Fly an aircraft to 10000m!
+*KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
+*KAB-Altitude35000 - Kerbal Aircraft Builders: Fly an aircraft to 35000m!
+
 Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
 Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
@@ -47,62 +88,12 @@ Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 ===============
-2.0 Giving Aircraft a Purpose - GAP: Extended
-
-*Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
-*Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars
-*Wright-Mountains - Wright Aeronautical: Take tourists on a tour of the K2 Mountains (fly a series of waypoints)
-
-*KSP-ValsHeli - Kerbal Space Program: Build a Coast Guard Search and Rescue station at the summit of Valentina's Island
+3.0 Giving Aircraft a Purpose - GAP: Expeditions
 
 Maritime Missions Merge Project
 *CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
 *CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
 *CoastGuard-BlackBoxRecovery - KSC Coast Guard: Recover black box for Flight 11
-
-Glider!
-*Wright-Glider-Mountains - Wright Aeronautical: Glide over Western Mountains
-*IslandTours-Glider - KSC Island Tours: Launch a boat powered glider
-
-Sky Diving!
-*SSI-ParachuteTest - SSI Aerospace: Test an EVA parachute!
-*Wright-Skydiving5k - Wright Aeronautical: Skydive 2-5 Kerbals from 5000m.
-*Wright-Skydiving9k - Wright Aeronautical: Skydive 2-15 Kerbals from 9000m.
-*KSP-Skydiving60k - Kerbal Space Program: Skydive from 30km!
-*KSP-Skydiving60k - Kerbal Space Program: Skydive from 60km!
-*KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space!
-*KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
-
-BASE Jumping, Hang Gliders and Wing Suits!
-*Corliss-BASE-VAB - Corliss Adventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
-*Corliss-BASE-Island - Corliss Adventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
-*Corliss-BASE-K2 - Corliss Adventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
-
-KAB Merge Project
-*Wright-Altitude2500 - Wright Aeronautical: Fly an aircraft to 2500m!
-*Wright-Altitude5000 - Wright Aeronautical: Fly an aircraft to 5000m!
-*KAB-Altitude10000 - Kerbal Aircraft Builders: Fly an aircraft to 10000m!
-*KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
-*SSI-Altitude35000 - SSI Aerospace: Fly an aircraft to 35000m!
-*SSI-Altitude60000 - SSI Aerospace: Fly an aircraft to the edge of space!
-*SSI-Speed - SSI Aerospace: Break the sound barrier! 343m/s
-*SSI-Speed - SSI Aerospace: Mach 2 Project 686m/s
-*SSI-Speed - SSI Aerospace: Mach 5 Project 1715m/s
-*SSI-Cargo-Mk1 - SSI Aerospace: Test the Mk 1 Cargo Bay
-*SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk 2 Cargo Bay
-*KSP-Cargo-5t Kerbal Space Program: Fly 5 tons to KSC Island.
-*KSP-Cargo-7t Kerbal Space Program: Fly 7 tons to KSC Island.
-*KSP-Cargo-14t Kerbal Space Program: Fly 14 tons to KSC Island.
-*KSP-Cargo-20t Kerbal Space Program: Fly 20 tons to KSC Island.
-*KSP-Cargo-DropTest Kerbal Space Program: Cargo Drop Test
-
-additional maculator's goals for KAB
-- More simple flights (fly in altitude x over location y) (canyon fly throughs)
-- Exotic locations (get your plane to the poles, desert etc.)
-- Specific part tests
-
-===============
-3.0 Giving Aircraft a Purpose - GAP: Expeditions
 
 SSI Aerospace: Test Mk3 Cargo Bay (deliver a 4 Kerbal golf cart to KSC Island (spawn the golf cart near runway ready for loading))
 Kerbal Space Program: Kerbal Space Center 2 Expedition (plant flag, drop off 6 out of 8 expedition members, return to KSC)
