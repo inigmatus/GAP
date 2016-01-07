@@ -8,7 +8,7 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-*SSI-2500m - SSI Aerospace: Fly an airplane to 2500m. (rename and replace with this KAB centered challenge)
+SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
 SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
 *SSI-Bail - SSI Aerospace: Jump from an airplane! (requires SSI-2000m)
 SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
