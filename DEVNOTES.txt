@@ -34,22 +34,21 @@ Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 
+*KAB-5000m - Kerbal Aircraft Builders: Fly an airplane to 5000m!
+*KAB-10000m - Kerbal Aircraft Builders: Fly an airplane to 10000m!
+*KAB-20000m - Kerbal Aircraft Builders: Fly an airplane to 20000m!
+*KAB-35000m - Kerbal Aircraft Builders: Fly an airplane to 35000m!
+
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
 KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Opertional Landing and Takeoff
-*KSP-SARValsIsland - Kerbal Space Program: Establish Island Search and Rescue Station
-*KSP-Skydiving60k - Kerbal Space Program: Skydive from 30km!
-*KSP-Skydiving60k - Kerbal Space Program: Skydive from 60km!
-*KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space!
-*KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
-*KSP-Cargo-5t - Kerbal Space Program: Fly 5 tons to KSC Island.
-*KSP-Cargo-DropTest - Kerbal Space Program: Cargo Drop Test (perhaps make CoastGuard-BuoyDrop dependent on this)
-*KSP-Cargo-10t - Kerbal Space Program: Fly 10 tons to KSC Island.
-*KSP-Cargo-20t - Kerbal Space Program: Fly 20 tons to KSC Island.
-*KSP-Cargo-50t - Kerbal Space Program: Fly 50 tons to KSC Island.
+*KSP-Cargo-5t - Kerbal Space Program: Fly 5 tons to KSC Island. (ore tank)
+*KSP-Cargo-Tonnage - Kerbal Space Program: Fly 10-50 tons to KSC Island. (various packages, load them up from runway?)
 *KSP-Supply -Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp, perhaps make it USi aware)
+*KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space! (60k altitude)
+*KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
 
 IslandTours-Shoreline - KSC Island Tours: KSC Shorline Tour - Seats: (2-6)
 IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Seats: (2-4)
@@ -63,7 +62,10 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 *Global-AerialTourRiver - Global Adventures: Aerial Tour: Flight 4 - Seats: (2-4) (fly a series of canyon/river waypoints)
 
 *Corliss-Skydiving5k - Corliss Paraventures: Skydive from 5000m! - Crew: (1-5)
-*Corliss-Skydiving9k - Corliss Paraventures: Skydive from 10000m! - Crew: (2-10)
+*Corliss-Skydiving10k - Corliss Paraventures: Skydive from 10,000m! - Crew: (2-10)
+*Corliss-Skydiving20k - Corliss Paraventures: Skydive from 20,000m! - Crew: (2-10)
+*Corliss-Skydiving30k - Corliss Paraventures: Skydive from 30km!
+*Corliss-Skydiving40k - Corliss Paraventures: Skydive from 40km!
 *Corliss-VAB - Corliss Paraventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
 *Corliss-Island - Corliss Paraventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
 *Corliss-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
@@ -72,14 +74,11 @@ CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress: (shipName)
 CoastGuard-RescuePilot - KSC Coast Guard: Mayday: Rescue (PilotName)
 CoastGuard-RescuePilot-Carrier - KSC Coast Guard: Mayday: Rescue (PilotName)
+*CoastGuard-SupplyDropTest - KSC Coast Guard: Cargo Drop Test (perhaps make CoastGuard-BuoyDrop dependent on this)
 CoastGuard-DropBuoys - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 CoastGuard-RescueClimbers - KSC Coast Guard: Medevac: Rescue climbers on K2
-
-*KAB-Altitude5000 - Kerbal Aircraft Builders: Fly an aircraft to 5000m!
-*KAB-Altitude10000 - Kerbal Aircraft Builders: Fly an aircraft to 10000m!
-*KAB-Altitude20000 - Kerbal Aircraft Builders: Fly an aircraft to 20000m!
-*KAB-Altitude35000 - Kerbal Aircraft Builders: Fly an aircraft to 35000m!
+*CoastGuard-IslandSAR - Coast Guard: Establish a SAR Base on Valentina's Island
 
 Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
