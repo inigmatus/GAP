@@ -55,11 +55,11 @@ IslandTours-Flight-1 - KSC Island Tours: Aerial Tour: Flight 1 - Seats: (2-4)
 IslandTours-Flight-2 - KSC Island Tours: Aerial Tour: Flight 2 - Seats: (2-6)
 IslandTours-Flight-38 - KSC Island Tours: Seaplane Tour: Flight 38 - Seats: (4-8)
 IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
-*IslandTours-Glider - KSC Island Tours: Speedboat Parasailing
+*IslandTours-Parasailing - KSC Island Tours: Speedboat Parasailing
 
-*Global-Offroad - Global Adventures: Offroad Adventure: K2 Mountain Trail - Crew: (4) (drive a series of K2 mountain waypoints)
-*Global-AerialTourK2 - Global Adventures: Aerial Tour: Flight 3 - Seats: (2-4) (fly a series of K2 mountain waypoints)
-*Global-AerialTourRiver - Global Adventures: Aerial Tour: Flight 4 - Seats: (2-4) (fly a series of canyon/river waypoints)
+*Global-Offroad - Global Escapes: Offroad Adventure: K2 Mountain Trail - Crew: (4) (drive a series of K2 mountain waypoints)
+*Global-AerialTourK2 - Global Escapes: Aerial Tour: Flight 3 - Seats: (2-4) (fly a series of K2 mountain waypoints)
+*Global-AerialTourRiver - Global Escapes: Aerial Tour: Flight 4 - Seats: (2-4) (fly a series of canyon/river waypoints)
 
 *Corliss-Skydiving5k - Corliss Paraventures: Skydive from 5000m! - Crew: (1-5)
 *Corliss-Skydiving10k - Corliss Paraventures: Skydive from 10,000m! - Crew: (2-10)
