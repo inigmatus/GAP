@@ -89,6 +89,8 @@ Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
+
+
 ===============
 3.0 Giving Aircraft a Purpose - GAP: Expeditions
 
@@ -110,7 +112,6 @@ Kerbal Space Center: KSC Flight 301 (land 8 tourists, and exchange 4 staff at No
 KSC Coast Guard: Manned Space Vessel Crew Recovery (pickup Kerbals in ocean)
 
 
-
 ===============
 4.0 Giving Aircraft a Purpose - GAP: Spaceplanes!
 
@@ -122,11 +123,15 @@ KSC Coast Guard: STS SRB Booster Recovery (KAS mod preferred)
 Space Transportation System: STS-30 (Satellite Launch)
 Space Transportation System: STS-108 (Rescue Mission for STS-107)
 
+
 ===================
 5.0 Giving Aircraft a Purpose - GAP: Offworld
 Eve Drone Flying
 Laythe Drone Flying
 Eve Skydiving (and return)
+
+===================
+
 
 Standard Contract Verbiage:
 
