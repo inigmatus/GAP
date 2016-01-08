@@ -44,8 +44,7 @@ KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
 KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Opertional Landing and Takeoff
-*KSP-Cargo-5t - Kerbal Space Program: Fly 5 tons to KSC Island. (ore tank)
-*KSP-Cargo-Tonnage - Kerbal Space Program: Fly 10-50 tons to KSC Island. (various packages, load them up from runway?)
+*KSP-IslandCargoPrep - Kerbal Space Program: Prepare KSC Island Airfield to Receive Cargo (deliver 5 tons worth of supplies)
 *KSP-Supply -Kerbal Space Program: Supply Drop (drop supplies over target area, spawn a small base camp, perhaps make it USi aware)
 *KSP-RecoverProbe - Kerbal Space Program: Recover a probe for science!
 *KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space! (60k altitude)
@@ -67,9 +66,9 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 *Corliss-Skydiving20k - Corliss Paraventures: Skydive from 20,000m! - Crew: (2-10)
 *Corliss-Skydiving30k - Corliss Paraventures: Skydive from 30km!
 *Corliss-Skydiving40k - Corliss Paraventures: Skydive from 40km!
-*Corliss-VAB - Corliss Paraventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
-*Corliss-Island - Corliss Paraventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
-*Corliss-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
+*Corliss-BASE-VAB - Corliss Paraventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
+*Corliss-BASE-Island - Corliss Paraventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
+*Corliss-BASE-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress: (shipName)
@@ -87,6 +86,8 @@ Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 C
 Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
 Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
 Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
+*Airlines-Cargo - Kerbal Space Program: Fly 5-50 tons to KSC Island. (various packages, load them up from runway?) (Flights 170-5)
+
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 
