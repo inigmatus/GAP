@@ -90,7 +90,6 @@ Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 
-
 ===============
 3.0 Giving Aircraft a Purpose - GAP: Expeditions
 
