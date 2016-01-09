@@ -2,6 +2,7 @@ CHANGELOG:
 
 1.0.2 Beta
 - STS now requires a player to have previously reached space, peform a space walk, and return from orbit, in addition to completing Flight 101.
+- fixed Buoy Drop contracts to req both barometer and transmitter to count as a buoy, not either or.
 
 1/5/16 1.0.1 Beta
 - fixed Join SSI Aerospace not allowing completion if craft does not have cubic struts (thanks Evanitis)
