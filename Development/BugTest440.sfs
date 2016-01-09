@@ -10,7 +10,7 @@ GAME
 	scene = 7
 	editor = None
 	flag = ContractPacks/GAP/Assets/SSI
-	launchID = 5
+	launchID = 6
 	PARAMETERS
 	{
 		preset = Normal
@@ -88,27 +88,27 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 2678484.72103748
+		update = 2678534.18103752
 		version = 1.0.5
 		CONTRACTS
 		{
 			CONTRACT
 			{
-				guid = 29de06ca-3d1d-424e-bd79-008f73518d02
+				guid = d16a792f-02fe-476c-b06d-a8d7c1d77b59
 				type = ConfiguredContract
 				prestige = 0
-				seed = -1175466005
+				seed = -1414261038
 				state = Active
-				agent = Periapsis Rocket Supplies Co
+				agent = O.M.B. Demolition Enterprises
 				deadlineType = None
 				expiryType = Floating
-				values = 132420,0,10000000,0,10000000,100000,10000,0,2810495.55063213,2678473.30103747,0,0
+				values = 22140,0,10000000,0,10499999.5231628,100000,9523.811,0,2700670.52103751,2678531.38103751,0,0
 				subtype = BugTest4XX
 				title = BugTest #4XX
 				description = Description of bug.
 				synopsis = Test the bug.
 				completedMessage = You have tested the bug.
-				hash = -1809339189
+				hash = 1966653627
 				PARAM
 				{
 					name = PartValidation
@@ -120,6 +120,7 @@ GAME
 					title = drop 1st barometer
 					notes = 
 					completedMessage = 
+					completeInSequence = True
 					allowStateReset = False
 					minCount = 1
 					maxCount = 1
@@ -163,6 +164,7 @@ GAME
 					title = drop 2nd barometer
 					notes = 
 					completedMessage = 
+					completeInSequence = True
 					allowStateReset = False
 					minCount = 0
 					maxCount = 0
@@ -234,371 +236,6 @@ GAME
 						title = Speed: Greater than 5 m/s
 						notes = 
 						completedMessage = 
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 745991de-ba0e-46ba-9525-ce79dd9d9a61
-				type = ConfiguredContract
-				prestige = 0
-				seed = -1684289851
-				state = Offered
-				agent = SSI Aerospace
-				deadlineType = None
-				expiryType = Floating
-				values = 151200,0,5000,25000,35000,5,10,5,2829262.13063212,0,0,0
-				subtype = SSI-Submarine
-				title = Build and test a submarine!
-				description = You've proven you can design and use a surface vessel, but Cornelius Kerman of Turtle Exploration Technologies, another new member of SSI, wonders about the possibilities of desinging an underwater craft. Inigma Kerman says SSI will provide funds for the effort, and invites your organization to partner with Turtle Exploration Technologies to develop the first ever practical underwater craft, or submarine.
-				synopsis = Build and test a submarine and dive to 50m underwater, and come back up.
-				completedMessage = Congratulations on successfully testing the world's first practical submarine! Your engineer has earned some significant experience! KSC Island Tours is certianly interested in your project's success, and already has plans to commercialize your success, if you're interested. Check in with Mission Control for more details.
-				notes = Your craft can be of any design, but must be able to submerge to 50m and come back to the surface.
-				hash = 996232379
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.AwardExperience
-					parameter = VesselParameterGroup
-					experience = 5
-					awardImmediately = False
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselParameterGroup
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = SSI-Submarine
-					title = Your submarine must
-					notes = 
-					completedMessage = 
-					define = GAPcraftSSISubmarine
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = True
-					PARAM
-					{
-						name = HasCrew
-						id = HasCrew
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = have a certified engineer
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						trait = Engineer
-						minCrew = 1
-						maxCrew = 2147483647
-						minExperience = 0
-						maxExperience = 5
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Trait: Engineer
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Trait: Engineer
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = CountParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Count: At least 1 
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselParameterGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = SSI-Submarine
-					title = get into the water
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					hideChildren = True
-					define = 
-					vessel = GAPcraftSSISubmarine
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = Vessel: GAPcraftSSISubmarine (TBD)
-						optional = True
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = Vessel: GAPcraftSSISubmarine (TBD)
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachState
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = 
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						hidden = True
-						hideChildren = True
-						allowStateReset = False
-						targetBody = Kerbin
-						situation = SPLASHED
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Destination: Kerbin
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Destination: Kerbin
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Situation: Splashed down
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Situation: Splashed down
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselParameterGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = SSI-Submarine
-					title = and dive to 50m below the surface
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					hideChildren = True
-					define = 
-					vessel = GAPcraftSSISubmarine
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = Vessel: GAPcraftSSISubmarine (TBD)
-						optional = True
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = Vessel: GAPcraftSSISubmarine (TBD)
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachState
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = 
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						hidden = True
-						hideChildren = True
-						allowStateReset = False
-						targetBody = Kerbin
-						situation = SPLASHED
-						maxAltitude = -50
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Destination: Kerbin
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Destination: Kerbin
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Situation: Splashed down
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Situation: Splashed down
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Altitude: Below -50 m
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Altitude: Below -50 m
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselParameterGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = SSI-Submarine
-					title = and then re-surface
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					hideChildren = True
-					define = 
-					vessel = GAPcraftSSISubmarine
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = Vessel: GAPcraftSSISubmarine (TBD)
-						optional = True
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = Vessel: GAPcraftSSISubmarine (TBD)
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachState
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = 
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						hidden = True
-						hideChildren = True
-						allowStateReset = True
-						targetBody = Kerbin
-						situation = SPLASHED
-						minAltitude = -1
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Destination: Kerbin
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Destination: Kerbin
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Situation: Splashed down
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Situation: Splashed down
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Altitude: Above -1 m
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = SSI-Submarine
-							title = Altitude: Above -1 m
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-				PARAM
-				{
-					name = All
-					id = All
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = SSI-Submarine
-					title = safely
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					PARAM
-					{
-						name = VesselNotDestroyed
-						id = VesselNotDestroyed
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = SSI-Submarine
-						title = without destroying your submarine
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						vessel = GAPcraftSSISubmarine
-					}
-					PARAM
-					{
-						name = KerbalDeathsCustom
-						id = KerbalDeaths
-						state = Complete
-						values = 0,0,0,0,0
-						count = 0
-						countMax = 1
-						title = or killing anyone
 					}
 				}
 			}
@@ -4214,6 +3851,658 @@ GAME
 							notes = 
 							completedMessage = 
 						}
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = a1e63436-d9f7-4237-bcaf-09050395000d
+				type = ConfiguredContract
+				prestige = 0
+				seed = -537100610
+				state = Offered
+				agent = SSI Aerospace
+				deadlineType = None
+				expiryType = Floating
+				values = 151200,0,5000,15000,25000,5,5,5,2829733.90103752,0,0,0
+				subtype = SSI-Seaplane
+				title = Build and fly a seaplane!
+				description = You've proven the airworthiness of your aircraft so far. But can you modify it or design an aircraft that can land on water? Inigma Kerman of SSI Aerospace is asking you to attempt another aviation first - landing an airplane on water, and taking back off again. He calls the idea a seaplane, and thinks it will really be useful to a number of organizations at KSC if the idea can be proven.
+				synopsis = Land a seaplane on the surface of the water at the waypoint, and take off again and land back at KSC.
+				completedMessage = Congratulations on another aviation first! You have propelled SSI to one of the most popular organizations on Kerbin. SSI has credited your account with a share of funds from various investors who are excited about SSI's future.
+				notes = Your craft must be an airplane that can land on water horizontally and take off again.
+				hash = 1777487951
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselParameterGroup
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = Your seaplane must
+					notes = 
+					completedMessage = 
+					define = GAPcraftSSISeaplane
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = True
+					PARAM
+					{
+						name = HasCrew
+						id = HasCrew
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = have a certified pilot
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						trait = Pilot
+						minCrew = 1
+						maxCrew = 2147483647
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Trait: Pilot
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Trait: Pilot
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = CountParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Count: At least 1 
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselParameterGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = land on water
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					hideChildren = True
+					define = 
+					vessel = GAPcraftSSISeaplane
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = Vessel: GAPcraftSSISeaplane (TBD)
+						optional = True
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = Vessel: GAPcraftSSISeaplane (TBD)
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachState
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = 
+						notes = 
+						completedMessage = 
+						completeInSequence = True
+						hidden = True
+						hideChildren = True
+						allowStateReset = False
+						targetBody = Kerbin
+						situation = SPLASHED
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Kerbin
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Destination: Kerbin
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Situation: Splashed down
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Situation: Splashed down
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselParameterGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = and slow to 3.0 m/s or less
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					hideChildren = True
+					define = 
+					vessel = GAPcraftSSISeaplane
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = Vessel: GAPcraftSSISeaplane (TBD)
+						optional = True
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = Vessel: GAPcraftSSISeaplane (TBD)
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachState
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = 
+						notes = 
+						completedMessage = 
+						completeInSequence = True
+						hidden = True
+						hideChildren = True
+						allowStateReset = False
+						targetBody = Kerbin
+						situation = SPLASHED
+						maxSpeed = 3
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Kerbin
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Destination: Kerbin
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Situation: Splashed down
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Situation: Splashed down
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Speed: Less than 3 m/s
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Speed: Less than 3 m/s
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselParameterGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = and then go at least 20.0 m/s on water
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					hideChildren = True
+					define = 
+					vessel = GAPcraftSSISeaplane
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = Vessel: GAPcraftSSISeaplane (TBD)
+						optional = True
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = Vessel: GAPcraftSSISeaplane (TBD)
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachState
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = 
+						notes = 
+						completedMessage = 
+						completeInSequence = True
+						hidden = True
+						hideChildren = True
+						allowStateReset = True
+						targetBody = Kerbin
+						situation = SPLASHED
+						minSpeed = 20
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Kerbin
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Destination: Kerbin
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Situation: Splashed down
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Situation: Splashed down
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Speed: Greater than 20 m/s
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Speed: Greater than 20 m/s
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = VesselParameterGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = and then get airborne
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					hideChildren = True
+					define = 
+					vessel = GAPcraftSSISeaplane
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = Vessel: GAPcraftSSISeaplane (TBD)
+						optional = True
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = Vessel: GAPcraftSSISeaplane (TBD)
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachState
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = 
+						notes = 
+						completedMessage = 
+						completeInSequence = True
+						hidden = True
+						hideChildren = True
+						allowStateReset = True
+						targetBody = Kerbin
+						situation = FLYING
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Destination: Kerbin
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Destination: Kerbin
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Situation: Flying
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = Situation: Flying
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+				PARAM
+				{
+					name = Any
+					id = Any
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = and then land and stop
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					PARAM
+					{
+						name = Any
+						id = Any
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = at one of the following recovery areas
+						notes = 
+						completedMessage = 
+						PARAM
+						{
+							name = VesselParameterGroup
+							id = VesselParameterGroup
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = the KSC Runway
+							notes = 
+							completedMessage = 
+							hideChildren = True
+							define = 
+							vessel = GAPcraftSSISeaplane
+							duration = 0
+							dissassociateVesselsOnContractFailure = True
+							dissassociateVesselsOnContractCompletion = False
+							PARAM
+							{
+								name = ParameterDelegate`1
+								id = Vessel: GAPcraftSSISeaplane (TBD)
+								optional = True
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = SSI-Seaplane
+								title = Vessel: GAPcraftSSISeaplane (TBD)
+								notes = 
+								completedMessage = 
+							}
+							PARAM
+							{
+								name = ReachState
+								id = ReachState
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = SSI-Seaplane
+								title = 
+								notes = 
+								completedMessage = 
+								hidden = True
+								hideChildren = True
+								allowStateReset = True
+								targetBody = Kerbin
+								biome = Runway
+								situation = LANDED
+								maxSpeed = 0
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Destination: Kerbin
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Destination: Kerbin
+									notes = 
+									completedMessage = 
+								}
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Biome: Runway
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Biome: Runway
+									notes = 
+									completedMessage = 
+								}
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Situation: Landed
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Situation: Landed
+									notes = 
+									completedMessage = 
+								}
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Speed: Less than 0 m/s
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Speed: Less than 0 m/s
+									notes = 
+									completedMessage = 
+								}
+							}
+						}
+						PARAM
+						{
+							name = VesselParameterGroup
+							id = VesselParameterGroup
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = SSI-Seaplane
+							title = or the Spaceplane Hangar Air Terminal
+							notes = 
+							completedMessage = 
+							hideChildren = True
+							define = 
+							vessel = GAPcraftSSISeaplane
+							duration = 0
+							dissassociateVesselsOnContractFailure = True
+							dissassociateVesselsOnContractCompletion = False
+							PARAM
+							{
+								name = ParameterDelegate`1
+								id = Vessel: GAPcraftSSISeaplane (TBD)
+								optional = True
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = SSI-Seaplane
+								title = Vessel: GAPcraftSSISeaplane (TBD)
+								notes = 
+								completedMessage = 
+							}
+							PARAM
+							{
+								name = ReachState
+								id = ReachState
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = SSI-Seaplane
+								title = 
+								notes = 
+								completedMessage = 
+								hidden = True
+								hideChildren = True
+								allowStateReset = True
+								targetBody = Kerbin
+								biome = SPH
+								situation = LANDED
+								maxSpeed = 0
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Destination: Kerbin
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Destination: Kerbin
+									notes = 
+									completedMessage = 
+								}
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Biome: SPH
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Biome: SPH
+									notes = 
+									completedMessage = 
+								}
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Situation: Landed
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Situation: Landed
+									notes = 
+									completedMessage = 
+								}
+								PARAM
+								{
+									name = ParameterDelegate`1
+									id = Speed: Less than 0 m/s
+									state = Incomplete
+									disableOnStateChange = False
+									values = 0,0,0,0,0
+									ContractIdentifier = SSI-Seaplane
+									title = Speed: Less than 0 m/s
+									notes = 
+									completedMessage = 
+								}
+							}
+						}
+					}
+				}
+				PARAM
+				{
+					name = All
+					id = All
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = SSI-Seaplane
+					title = safely
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					PARAM
+					{
+						name = VesselNotDestroyed
+						id = VesselNotDestroyed
+						state = Complete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = SSI-Seaplane
+						title = without destroying your aircraft
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						vessel = GAPcraftSSISeaplane
+					}
+					PARAM
+					{
+						name = KerbalDeathsCustom
+						id = KerbalDeaths
+						state = Complete
+						values = 0,0,0,0,0
+						count = 0
+						countMax = 1
+						title = or killing anyone
 					}
 				}
 			}
@@ -11120,8 +11409,6 @@ GAME
 			part = MK1Fuselage
 			part = GearFixed
 			part = GearFree
-			part = KAXradialprop
-			part = KAXsportprop
 		}
 		Tech
 		{
@@ -11131,7 +11418,6 @@ GAME
 			part = R8winglet
 			part = winglet3
 			part = sasModule
-			part = mumech.MJ2.AR202
 		}
 		Tech
 		{
@@ -11204,11 +11490,6 @@ GAME
 			part = Mark2Cockpit
 			part = JetEngine
 			part = nacelleBody
-			part = KAXelectricprop
-			part = KAXmedCockpit
-			part = KAXmedFuselage
-			part = KAXmedJetFuel
-			part = KAXmedTail
 		}
 		Tech
 		{
@@ -11220,7 +11501,6 @@ GAME
 			part = LaunchEscapeSystem
 			part = parachuteLarge
 			part = SmallGearBay
-			part = KAXheavyGear
 		}
 		Tech
 		{
@@ -11232,7 +11512,6 @@ GAME
 			part = radialRCSTank
 			part = linearRcs
 			part = RCSBlock
-			part = mumech.MJ2.AR202.features1
 		}
 		Tech
 		{
@@ -11348,9 +11627,6 @@ GAME
 			part = structuralWing4
 			part = sweptWing1
 			part = smallHardpoint
-			part = KAXkueyEngine
-			part = KAXkueyTailRotor
-			part = KAXturboprop
 		}
 		Tech
 		{
@@ -11473,7 +11749,6 @@ GAME
 			part = mk2CargoBayL
 			part = mk2CrewCabin
 			part = mk2DockingPort
-			part = KAXjumpJet
 		}
 		Tech
 		{
@@ -11519,7 +11794,6 @@ GAME
 			cost = 300
 			part = probeCoreCube
 			part = probeCoreOcto2
-			part = mumech.MJ2.AR202.features3
 		}
 		Tech
 		{
@@ -11551,7 +11825,6 @@ GAME
 			part = sensorAtmosphere
 			part = roverWheel1
 			part = roverWheel2
-			part = mumech.MJ2.AR202.features2
 		}
 		Tech
 		{
@@ -11662,7 +11935,6 @@ GAME
 			state = Available
 			cost = 550
 			part = probeStackSmall
-			part = mumech.MJ2.AR202.features4
 		}
 		Tech
 		{
@@ -11670,7 +11942,6 @@ GAME
 			state = Available
 			cost = 550
 			part = mk2DroneCore
-			part = mumech.MJ2.Pod
 		}
 		Tech
 		{
@@ -11732,7 +12003,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = -530.5485
+		rep = -534.2702
 	}
 	SCENARIO
 	{
@@ -13095,7 +13366,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.5
-		UT = 2678487.86103748
+		UT = 2678539.76103753
 		activeVessel = 7
 		mapViewFiltering = -1026
 		VESSEL
@@ -13688,7 +13959,7 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 993f99eadbbc4c918b9152237e3102ed
+			pid = 2eaed06389e04c30b6dda5f4505dd383
 			name = 4XX
 			type = Ship
 			sit = PRELAUNCH
@@ -13696,41 +13967,41 @@ GAME
 			landedAt = Runway
 			splashed = False
 			met = 0
-			lct = 2678487.86103748
-			lastUT = 2678487.86103748
+			lct = 2678539.76103753
+			lastUT = 2678539.76103753
 			root = 0
-			lat = -0.0486057657352223
-			lon = 285.275556843133
-			alt = 69.5397691461258
-			hgt = 0.4485077
-			nrm = 0.0003515813,-0.2963898,-0.9550673
-			rot = 0.1978027,-0.1994525,-0.7001411,0.6564262
-			CoM = -0.0001124037,0.005361347,0.0005629758
+			lat = -0.048602185700171
+			lon = 285.275556925328
+			alt = 69.5360218384303
+			hgt = 0.4483749
+			nrm = -0.0001408343,-0.2966414,-0.9549892
+			rot = 0.1978469,-0.1996573,-0.6943011,0.6625252
+			CoM = 6.320769E-05,0.005451201,0.0005339239
 			stg = 3
 			prst = False
-			ref = 203324957
+			ref = 3193757451
 			ctrl = True
-			cPch = 0.33
-			cHdg = -0.05599999
+			cPch = 0.226
+			cHdg = -0.372
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300817.109263205
-				ECC = 0.994798564146467
-				INC = 0.0486198109636971
-				LPE = 88.6239830377622
-				LAN = 212.886286780718
-				MNA = 3.14159182929543
-				EPH = 2678487.86103748
+				SMA = 300817.105565201
+				ECC = 0.994798576174376
+				INC = 0.0486029566539326
+				LPE = 89.6832660789372
+				LAN = 212.694032593416
+				MNA = 3.14159347788416
+				EPH = 2678539.76103753
 				REF = 1
 			}
 			PART
 			{
 				name = mk1pod
 				cid = 4294233398
-				uid = 203324957
-				mid = 605383546
-				launchID = 4
+				uid = 3193757451
+				mid = 1956984729
+				launchID = 5
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -13746,9 +14017,9 @@ GAME
 				attN = bottom, 3
 				attN = top, 1
 				mass = 0.8
-				temp = 314.174236238855
-				tempExt = 314.279855207395
-				tempExtUnexp = 314.279798711659
+				temp = 314.225907122355
+				tempExt = 314.188879126056
+				tempExtUnexp = 314.18916106051
 				expt = 0.5
 				state = 0
 				connected = True
@@ -14197,11 +14468,11 @@ GAME
 			{
 				name = stackDecouplerMini
 				cid = 4294215810
-				uid = 164278244
-				mid = 605383546
-				launchID = 4
+				uid = 3427461360
+				mid = 1956984729
+				launchID = 5
 				parent = 0
-				position = 0,0.718285977840424,-8.56263540072177E-08
+				position = 0,0.718285858631134,-8.5626339796363E-08
 				rotation = 0,0,1,0
 				mirror = 1,1,1
 				symMethod = Radial
@@ -14215,9 +14486,9 @@ GAME
 				attN = bottom, -1
 				attN = top, 0
 				mass = 0.015
-				temp = 314.167448158301
-				tempExt = 314.131217982148
-				tempExtUnexp = 314.131178384962
+				temp = 314.219538881452
+				tempExt = 314.121694533627
+				tempExtUnexp = 314.121813486211
 				expt = 0.5
 				state = 0
 				connected = True
@@ -14375,11 +14646,11 @@ GAME
 			{
 				name = sensorBarometer
 				cid = 4294215774
-				uid = 1856123062
-				mid = 605383546
-				launchID = 4
+				uid = 774231584
+				mid = 1956984729
+				launchID = 5
 				parent = 1
-				position = 0.237338855862617,0.763627707958221,0.0138463079929352
+				position = 0.23733876645565,0.763627469539642,0.0138463079929352
 				rotation = 0,0.7071069,-0.7071069,0
 				mirror = 1,1,1
 				symMethod = Radial
@@ -14391,9 +14662,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 1
 				mass = 0.005
-				temp = 314.155036829556
-				tempExt = 314.054922879974
-				tempExtUnexp = 314.054901249883
+				temp = 314.215586481918
+				tempExt = 314.085772787681
+				tempExtUnexp = 314.085849890911
 				expt = 0.5
 				state = 0
 				connected = True
@@ -14574,11 +14845,11 @@ GAME
 			{
 				name = stackDecouplerMini
 				cid = 4294164300
-				uid = 1207412069
-				mid = 605383546
-				launchID = 4
+				uid = 1275805542
+				mid = 1956984729
+				launchID = 5
 				parent = 0
-				position = 0,-0.480948269367218,5.73334943965165E-08
+				position = 0,-0.480948179960251,5.73334837383754E-08
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
@@ -14592,9 +14863,9 @@ GAME
 				attN = bottom, -1
 				attN = top, 0
 				mass = 0.015
-				temp = 314.167448158301
-				tempExt = 314.131217982148
-				tempExtUnexp = 314.131178384962
+				temp = 314.219538881452
+				tempExt = 314.121694533627
+				tempExtUnexp = 314.121813486211
 				expt = 0.5
 				state = 0
 				connected = True
@@ -14752,11 +15023,11 @@ GAME
 			{
 				name = sensorBarometer
 				cid = 4294164264
-				uid = 2880137363
-				mid = 605383546
-				launchID = 4
+				uid = 4283560466
+				mid = 1956984729
+				launchID = 5
 				parent = 3
-				position = -0.237338706851006,-0.526289880275726,0.01384646166116
+				position = -0.237338706851006,-0.526289761066437,0.01384646166116
 				rotation = 0.7071069,0,0,-0.7071069
 				mirror = 1,1,1
 				symMethod = Radial
@@ -14768,9 +15039,9 @@ GAME
 				attm = 1
 				srfN = srfAttach, 3
 				mass = 0.005
-				temp = 314.155036829556
-				tempExt = 314.054922879974
-				tempExtUnexp = 314.054901249883
+				temp = 314.215586481918
+				tempExt = 314.085772787681
+				tempExtUnexp = 314.085849890911
 				expt = 0.5
 				state = 0
 				connected = True
@@ -14986,7 +15257,7 @@ GAME
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
-				mainThrottle = 0
+				mainThrottle = 0.3100002
 			}
 		}
 	}
@@ -15007,7 +15278,7 @@ GAME
 			idx = 0
 			CAREER_LOG
 			{
-				flight = 3
+				flight = 4
 				0 = Recover
 				1 = Land,Kerbin
 				1 = Flight,Kerbin
@@ -15015,10 +15286,11 @@ GAME
 				2 = Flight,Kerbin
 				2 = Land,Kerbin
 				2 = Recover
+				3 = Recover
 			}
 			FLIGHT_LOG
 			{
-				flight = 3
+				flight = 4
 			}
 		}
 		KERBAL
