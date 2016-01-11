@@ -2,6 +2,7 @@ CHANGELOG:
 
 1.0.2 Beta
 - added SSI-Bail - SSI Aerospace: Jump from an airplane!
+- added contract failure for exceeding 4Gs for airline contracts, and Wright Airplane Ride. IslandTours contracts are exempt (cause some tourists want a fun ride).
 - removed Module Manager dependency (string text was causing issue) from helicopter contract.
 - STS now requires a player to have previously reached space, peform a space walk, and return from orbit, in addition to completing Flight 101.
 - fixed Buoy Drop contracts to req both barometer and transmitter to count as a buoy, not either or.
