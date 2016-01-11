@@ -8,7 +8,6 @@ CHANGELOG:
 - removed Module Manager dependency (string text was causing issue) from helicopter contract.
 - STS now requires a player to have previously reached space, peform a space walk, and return from orbit, in addition to completing Flight 101.
 - fixed Buoy Drop contracts to req both barometer and transmitter to count as a buoy, not either or.
-- simplified wheel checking for IslandTours-Shoreline.
 - requires Contract Configurator 1.9.3 to fix GAP issues #100 and #125.
 
 1/5/16 1.0.1 Beta
