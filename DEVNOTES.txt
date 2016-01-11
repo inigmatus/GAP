@@ -25,6 +25,7 @@ SSI-KAX-Helicopter - SSI Aerospace: Land on a helipad!
 *SSI-Mach3 - SSI Aerospace: Achieve Mach 3! (1029m/s above 2500m)
 *SSI-Mach4 - SSI Aerospace: Achieve Mach 4! (1372m/s above 2500m)
 *SSI-Mach5 - SSI Aerospace: Achieve Mach 5! (1715m/s above 2500m)
+*SSI-Mach6 - SSI Aerospace: Achieve Mach 6! (2058m/s above 2500m),
 *SSI-Alt60k - SSI Aerospace: Fly an aircraft to the edge of space!
 
 *Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a solid rocket booster that decouples)
@@ -59,6 +60,7 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 *Global-Offroad - Global Escapes: Offroad Adventure: K2 Mountain Trail - Crew: (4) (drive a series of K2 mountain waypoints)
 *Global-AerialTourK2 - Global Escapes: Aerial Tour: Flight 3 - Seats: (2-4) (fly a series of K2 mountain waypoints)
 *Global-AerialTourRiver - Global Escapes: Aerial Tour: Flight 4 - Seats: (2-4) (fly a series of canyon/river waypoints)
+*Global-Keverest - Global Escapes: Mount Keverest Expedition (2-4) (fly to Mt. Keverest, land and take a rover to the mountain base, then climb the mountain, plant flag)
 
 *Corliss-Skydiving5k - Corliss Paraventures: Skydive from 5000m! - Crew: (1-5)
 *Corliss-Skydiving10k - Corliss Paraventures: Skydive from 10,000m! - Crew: (2-10)
@@ -90,11 +92,14 @@ Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
 
+Drawing Board:
+Reward with Persistent Kerbals (add to roster)
+
 ===============
 3.0 Giving Aircraft a Purpose - GAP: Expeditions
 
 Maritime Missions Merge Project
-*CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)
+*CoastGuard-RecoverCapsule - KSC Coast Guard: Recover space capsule (check for parts required for basic orbital spacecraft)(for science)
 *CoastGuard-RecoverSpaceCrew - KSC Coast Guard: Recover space crew (check for parts required for basic orbital manned spacecraft)
 *CoastGuard-BlackBoxRecovery - KSC Coast Guard: Recover black box for Flight 11
 
