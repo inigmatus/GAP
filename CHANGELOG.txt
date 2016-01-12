@@ -1,6 +1,9 @@
 CHANGELOG:
 
-1.0.2
+1/11/16 1.0.3
+- fixed critical error where EVAing a kerbal would fail contracts checking for G force. (stock KSP bug has EVA kerbals exceeding 15 Gs on exit from craft!)
+
+1/11/16 1.0.2
 - added SSI-Bail - SSI Aerospace: Jump from an airplane!
 - added contract failure for exceeding 9Gs for airline contracts, and 4Gs for Wright Airplane Ride. IslandTours contracts are exempt (cause some tourists want a fun ride).
 - simplified wheel check for IslandTours-Shoreline to be any wheel, stock or modded.
