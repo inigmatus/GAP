@@ -1,7 +1,11 @@
 CHANGELOG:
 
 GAP 1.1
--
+- Added KAB-35000m
+- Added KAB-20000m
+- Added KAB-10000m
+- Added KAB-5000m
+- Added Kerbal Aircraft Builders agency and group
 
 1/11/16 GAP 1.0.2.1
 - fixed critical error where EVAing a kerbal would fail contracts checking for G force. (stock KSP bug has EVA kerbals exceeding 15 Gs on exit from craft!)
@@ -21,7 +25,6 @@ GAP 1.1
 - fixed Join SSI Aerospace not allowing completion if craft does not have cubic struts (thanks Evanitis)
 - added switch to prevent agencies from getting random KSP contracts (thanks nightingale)
 - fixed typos in contracts (thanks skykooler)
-
 
 1/3/16 GAP 1.0 Beta
 - GAP released on CKAN

@@ -35,10 +35,10 @@ Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 
-*KAB-5000m - Kerbal Aircraft Builders: Fly an airplane to 5000m!
-*KAB-10000m - Kerbal Aircraft Builders: Fly an airplane to 10000m!
-*KAB-20000m - Kerbal Aircraft Builders: Fly an airplane to 20000m!
-*KAB-35000m - Kerbal Aircraft Builders: Fly an airplane to 35000m!
+KAB-5000m - Kerbal Aircraft Builders: Fly an airplane to 5000m.
+KAB-10000m - Kerbal Aircraft Builders: Fly an airplane to 10000m.
+KAB-20000m - Kerbal Aircraft Builders: Fly an airplane to 20000m.
+KAB-35000m - Kerbal Aircraft Builders: Fly an airplane to 35000m.
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
