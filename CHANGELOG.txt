@@ -8,6 +8,7 @@ GAP 1.1
 - added KAB-5000m
 - added Kerbal Aircraft Builders agency, group, and assets.
 - renamed SSI-2000m to SSI-2500m and changed altitude target from 2000m to 2500m
+- fixed SSI-IslandLanding tower waypoint. It now shows up. (thanks GhostMonkeyNKHI)
 
 1/11/16 GAP 1.0.2.1
 - fixed critical error where EVAing a kerbal would fail contracts checking for G force. (stock KSP bug has EVA kerbals exceeding 15 Gs on exit from craft!)
