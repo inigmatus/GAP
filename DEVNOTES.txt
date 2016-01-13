@@ -34,6 +34,8 @@ Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 *Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
+*Wright-BuzzTower - Wright Aeronautical: Buzz the Air Tower!
+*Wright-BuzzTower2 - Wright Aeronautical: Negative Krackenrider, the pattern is full!
 
 KAB-5000m - Kerbal Aircraft Builders: Fly an airplane to 5000m.
 KAB-10000m - Kerbal Aircraft Builders: Fly an airplane to 10000m.
