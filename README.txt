@@ -29,7 +29,7 @@ The following contracts appear after completing the above contracts for their mi
 Giving Aircraft a Purpose - GAP
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
+SSI-2000m - SSI Aerospace: Fly an airplane to 2500m.
 SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
 SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.

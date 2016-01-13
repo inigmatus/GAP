@@ -8,9 +8,9 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-SSI-2000m - SSI Aerospace: Fly an airplane to 2000m.
+SSI-2500m - SSI Aerospace: Fly an airplane to 2500m.
 SSI-5000m - SSI Aerospace: Fly a Mk1 Crew Cabin to 5000m.
-SSI-Bail - SSI Aerospace: Jump from an airplane! (requires SSI-2000m)
+SSI-Bail - SSI Aerospace: Jump from an airplane!
 SSI-10000m - SSI Aerospace: Fly a Mk2 Crew Cabin to 10,000m.
 SSI-20000m - SSI Aerospace: Fly a Mk3 Crew Cabin to 20,000m.
 *SSI-GlideK2 - SSI Aerospace: Build and fly a high altitude glider! (glide over K2 mountains)
@@ -20,7 +20,7 @@ SSI-KAX-Helicopter - SSI Aerospace: Land on a helipad!
 *SSI-Cargo-Mk2 - SSI Aerospace: Test the Mk2 Cargo Bay.
 *SSI-Cargo-Mk3 - SSI Aerospace: Test the Mk3 Cargo Bay.
 *SSI-Cargo-Mk3Ramp - SSI Aerospace: Test the Mk3 Cargo Ramp.
-*SSI-Mach1 - SSI Aerospace: Break the sound barrier! (343m/s above 2500m)
+SSI-Mach1 - SSI Aerospace: Break the sound barrier! (343m/s above 2500m)
 *SSI-Mach2 - SSI Aerospace: Achieve Mach 2! (686m/s above 2500m)
 *SSI-Mach3 - SSI Aerospace: Achieve Mach 3! (1029m/s above 2500m)
 *SSI-Mach4 - SSI Aerospace: Achieve Mach 4! (1372m/s above 2500m)
