@@ -2,13 +2,14 @@ CHANGELOG:
 
 GAP 1.1
 - added SSI-Mach1
-- added KAB-35000m
-- added KAB-20000m
-- added KAB-10000m
-- added KAB-5000m
+- added SSI-35000m
+- added SSI-20000m
+- added SSI-10000m
+- added SSI-5000m
+- reassigned all SSI crew cabin test contracts to KAB.
 - added Kerbal Aircraft Builders agency, group, and assets.
-- renamed SSI-2000m to SSI-2500m and changed altitude target from 2000m to 2500m
-- updated experience reward triggers for Wright-FirstFlight, and SSI-Submarine
+- renamed SSI-2000m to SSI-2500m and changed altitude target from 2000m to 2500m.
+- updated experience reward triggers for Wright-FirstFlight, and SSI-Submarine.
 - fixed KSP-IslandLanding and KSP-IslandPrep waypoints from being hidden. It now shows up. (thanks GhostMonkeyNKHI)
 
 1/11/16 GAP 1.0.2.1
