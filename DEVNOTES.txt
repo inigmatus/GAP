@@ -29,8 +29,8 @@ SSI-Mach1 - SSI Aerospace: Break the sound barrier! (343m/s above 2500m)
 *Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a solid rocket booster that decouples)
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
-*Wright-Speed170 - SSI Aerospace: Achieve a maximum speed of 100 m/s
-*Wright-Speed220 - SSI Aerospace: Achieve a maximum speed of 220 m/s
+*Wright-Speed100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
+*Wright-Speed220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
 *Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
