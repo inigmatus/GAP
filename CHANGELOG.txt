@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.1
+- added SSI-Mach4
 - added SSI-Mach3
 - added SSI-Mach2
 - added SSI-Mach1
