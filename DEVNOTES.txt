@@ -8,27 +8,25 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-SSI-2500m - SSI Aerospace: Fly an airplane to 2500m.
-SSI-Bail - SSI Aerospace: Jump from an airplane!
 *SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
 *SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 *SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 *SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
+*SSI-60000m - SSI Aerospace: Fly an aircraft to the edge of space!
 *SSI-GlideK2 - SSI Aerospace: Build and fly a high altitude glider! (glide over K2 mountains)
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 SSI-Submarine - SSI Aerospace: Build and test a submarine!
 SSI-KAX-Helicopter - SSI Aerospace: Land on a helipad!
 SSI-Mach1 - SSI Aerospace: Break the sound barrier! (343m/s above 2500m)
-*SSI-Mach2 - SSI Aerospace: Achieve Mach 2! (686m/s above 2500m)
-*SSI-Mach3 - SSI Aerospace: Achieve Mach 3! (1029m/s above 2500m)
+SSI-Mach2 - SSI Aerospace: Achieve Mach 2! (686m/s above 2500m)
+SSI-Mach3 - SSI Aerospace: Achieve Mach 3! (1029m/s above 2500m)
 *SSI-Mach4 - SSI Aerospace: Achieve Mach 4! (1372m/s above 2500m)
-*SSI-Mach5 - SSI Aerospace: Achieve Mach 5! (1715m/s above 2500m)
-*SSI-Mach6 - SSI Aerospace: Achieve Mach 6! (2058m/s above 2500m),
-*SSI-Alt60k - SSI Aerospace: Fly an aircraft to the edge of space!
 
 *Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a solid rocket booster that decouples)
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
+Wright-2500m - Wright Aeronautical: Fly an airplane to 2500m.
+Wright-Bail - Wright Aeronautical: Jump from an airplane!
 *Wright-Speed100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
 *Wright-Speed220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
 *Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
