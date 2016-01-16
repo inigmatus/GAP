@@ -64,7 +64,7 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 *Corliss-Skydiving40k - Corliss Paraventures: Skydive from 40km!
 *Corliss-BASE-VAB - Corliss Paraventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
 *Corliss-BASE-Island - Corliss Paraventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
-*Corliss-BASE-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2)
+*Corliss-BASE-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2) (random locations starting with K2?)
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
 CoastGuard-RescueFishermen - KSC Coast Guard: S.O.S. Distress: (shipName)
