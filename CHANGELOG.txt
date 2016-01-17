@@ -1,15 +1,16 @@
 CHANGELOG:
 
 GAP 1.1
-- added SSI-Mach4
-- added SSI-Mach3
-- added SSI-Mach2
-- added SSI-Mach1
-- added SSI-35000m
-- added SSI-20000m
-- added SSI-10000m
-- added SSI-5000m
-- reassigned all SSI crew cabin test contracts to KAB.
+- added SSI Aerospace: Achieve Mach 4!
+- added SSI Aerospace: Achieve Mach 3!
+- added SSI Aerospace: Achieve Mach 2!
+- added SSI-Mach1 - SSI Aerospace: Break the sound barrier!
+- SSI-60000m - SSI Aerospace: Fly a spaceplane to the edge of space!
+- added SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
+- added SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
+- added SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
+- added SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
+- reassigned all SSI crew cabin test contracts to the KAB agency.
 - added Kerbal Aircraft Builders agency, group, and assets.
 - added StageRecovery compatibility with BuoyDrop contracts - added a dialog to inform player to stick around until buoy splashdown.
 - renamed SSI-2000m to Wright-2500m and changed altitude target from 2000m to 2500m.

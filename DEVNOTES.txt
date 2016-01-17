@@ -12,7 +12,7 @@ SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
 SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
-*SSI-60000m - SSI Aerospace: Fly an aircraft to the edge of space!
+SSI-60000m - SSI Aerospace: Fly a spaceplane to the edge of space!
 *SSI-GlideK2 - SSI Aerospace: Build and fly a high altitude glider! (glide over K2 mountains)
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 SSI-Submarine - SSI Aerospace: Build and test a submarine!
