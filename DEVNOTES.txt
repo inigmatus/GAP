@@ -8,10 +8,10 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-*SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
-*SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
-*SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
-*SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
+SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
+SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
+SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
+SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
 *SSI-60000m - SSI Aerospace: Fly an aircraft to the edge of space!
 *SSI-GlideK2 - SSI Aerospace: Build and fly a high altitude glider! (glide over K2 mountains)
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
@@ -27,8 +27,8 @@ Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 Wright-2500m - Wright Aeronautical: Fly an airplane to 2500m.
 Wright-Bail - Wright Aeronautical: Jump from an airplane!
-*Wright-Speed100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
-*Wright-Speed220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
+Wright-Speed100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
+Wright-Speed220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
 *Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
 *Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
@@ -77,9 +77,9 @@ CoastGuard-DropBuoys-Carrier - KSC Coast Guard: Buoy Drop: 2 Navigation Buoys
 CoastGuard-RescueClimbers - KSC Coast Guard: Medevac: Rescue climbers on K2
 *CoastGuard-IslandSAR - Coast Guard: Establish a SAR Base on Valentina's Island
 
-*KAB-5000m - Kerbal Aircraft Builders: Fly a Mk1 Crew Cabin to 5000m.
-*KAB-10000m - Kerbal Aircraft Builders: Fly a Mk2 Crew Cabin to 10,000m.
-*KAB-20000m - Kerbal Aircraft Builders: Fly a Mk3 Crew Cabin to 20,000m.
+KAB-5000m - Kerbal Aircraft Builders: Fly a Mk1 Crew Cabin to 5000m.
+KAB-10000m - Kerbal Aircraft Builders: Fly a Mk2 Crew Cabin to 10,000m.
+KAB-20000m - Kerbal Aircraft Builders: Fly a Mk3 Crew Cabin to 20,000m.
 *KAB-Cargo-Mk2 - Kerbal Aircraft Builders: Test the Mk2 Cargo Bay.
 *KAB-Cargo-Mk3 - Kerbal Aircraft Builders: Test the Mk3 Cargo Bay.
 *KAB-Cargo-Mk3Ramp - Kerbal Aircraft Builders: Test the Mk3 Cargo Ramp.
