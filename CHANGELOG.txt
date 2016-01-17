@@ -9,11 +9,12 @@ GAP 1.1
 - added SSI-20000m
 - added SSI-10000m
 - added SSI-5000m
-- updated SSI-Bail to require 2500m altitude rather than 2000m.
 - reassigned all SSI crew cabin test contracts to KAB.
 - added Kerbal Aircraft Builders agency, group, and assets.
 - added StageRecovery compatibility with BuoyDrop contracts - added a dialog to inform player to stick around until buoy splashdown.
 - renamed SSI-2000m to Wright-2500m and changed altitude target from 2000m to 2500m.
+- renamed SSI-Bail to Wright-Bail.
+- updated SSI-Bail to require 2500m altitude rather than 2000m.
 - updated STS-30 dependecies to require SSI-Mach4 and match GAP 2.0 contract map.
 - updated experience reward triggers for Wright-FirstFlight, and SSI-Submarine.
 - updated DropBuoys contracts to check for a max of 2 barometers on craft to avoid completion stall (thanks kcs123)
