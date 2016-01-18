@@ -22,7 +22,7 @@ SSI-Mach2 - SSI Aerospace: Achieve Mach 2! (686m/s above 2500m)
 SSI-Mach3 - SSI Aerospace: Achieve Mach 3! (1029m/s above 2500m)
 SSI-Mach4 - SSI Aerospace: Achieve Mach 4! (1372m/s above 2500m)
 
-*Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a solid rocket booster that decouples)
+Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a solid rocket booster that decouples)
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 Wright-2500m - Wright Aeronautical: Fly an airplane to 2500m.
