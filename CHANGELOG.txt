@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.1
+- added Wright-Glider and updated Wright-FirstFlight to be dependent on it.
 - added SSI Aerospace: Achieve Mach 4!
 - added SSI Aerospace: Achieve Mach 3!
 - added SSI Aerospace: Achieve Mach 2!
