@@ -12,6 +12,7 @@ GAP 1.1
 - added SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 - added SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
 - reassigned all SSI crew cabin test contracts to the KAB agency.
+- added requirement for air breathing engines only for relevant early aircraft contracts.
 - added Kerbal Aircraft Builders agency, group, and assets.
 - added StageRecovery compatibility with BuoyDrop contracts - added a dialog to inform player to stick around until buoy splashdown.
 - renamed SSI-2000m to Wright-2500m and changed altitude target from 2000m to 2500m.
