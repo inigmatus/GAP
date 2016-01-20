@@ -8,12 +8,10 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
 SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
 SSI-60000m - SSI Aerospace: Fly a spaceplane to the edge of space!
-*SSI-GlideK2 - SSI Aerospace: Build and fly a high altitude glider! (glide over K2 mountains)
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 SSI-Submarine - SSI Aerospace: Build and test a submarine!
 SSI-KAX-Helicopter - SSI Aerospace: Land on a helipad!
@@ -26,6 +24,7 @@ Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 Wright-2500m - Wright Aeronautical: Fly an airplane to 2500m.
+Wright-5000m - Wright Aeronautical: Fly an airplane to 5000m.
 Wright-Bail - Wright Aeronautical: Jump from an airplane!
 Wright-Speed100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
 Wright-Speed220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
@@ -53,6 +52,7 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 *IslandTours-Parasailing - KSC Island Tours: Speedboat Parasailing
 
 *Global-Offroad - Global Escapes: Offroad Adventure: K2 Mountain Trail - Crew: (4) (drive a series of K2 mountain waypoints)
+*Global-GlideK2 - Global Escapes: Build and fly a high altitude glider! (glide over K2 mountains)
 *Global-AerialTourK2 - Global Escapes: Aerial Tour: Flight 3 - Seats: (2-4) (fly a series of K2 mountain waypoints)
 *Global-AerialTourRiver - Global Escapes: Aerial Tour: Flight 4 - Seats: (2-4) (fly a series of canyon/river waypoints)
 *Global-Keverest - Global Escapes: Mount Keverest Expedition (2-4) (fly to Mt. Keverest, land and take a rover to the mountain base, then climb the mountain, plant flag)

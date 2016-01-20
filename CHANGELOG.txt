@@ -10,7 +10,9 @@ GAP 1.1
 - added SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
 - added SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 - added SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
-- added SSI-5000m - SSI Aerospace: Fly an airplane to 5000m.
+- added Wright-5000m - Wright Aeronautical: Fly an airplane to 5000m.
+- added Wright-220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
+- added Wright-100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
 - reassigned all SSI crew cabin test contracts to the KAB agency.
 - added requirement for air breathing engines only for relevant early aircraft contracts.
 - added Kerbal Aircraft Builders agency, group, and assets.
