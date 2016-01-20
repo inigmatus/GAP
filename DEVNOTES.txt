@@ -28,11 +28,11 @@ Wright-5000m - Wright Aeronautical: Fly an airplane to 5000m.
 Wright-Bail - Wright Aeronautical: Jump from an airplane!
 Wright-Speed100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
 Wright-Speed220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
-*Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed (custom shed spawned just for this purpose)
-*Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars (requires KSP-IslandLanding)
+Wright-Barnstorm - Wright Aeronautical: Barnstorm Jebediah's tool shed!
+Wright-BarnstormIsland - Wright Aeronautical: Barnstorm the Island Airfield hangars!
 Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 *Wright-BuzzTower - Wright Aeronautical: Buzz the Air Tower!
-*Wright-BuzzTower2 - Wright Aeronautical: Negative Krackenrider, the pattern is full!
+*Wright-BuzzTowerMach - Wright Aeronautical: Negative Krackenrider, the pattern is full!
 
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
