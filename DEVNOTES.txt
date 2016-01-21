@@ -15,12 +15,12 @@ SSI-60000m - SSI Aerospace: Fly a spaceplane to the edge of space!
 SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 SSI-Submarine - SSI Aerospace: Build and test a submarine!
 SSI-KAX-Helicopter - SSI Aerospace: Land on a helipad!
-SSI-Mach1 - SSI Aerospace: Break the sound barrier! (343m/s above 2500m)
-SSI-Mach2 - SSI Aerospace: Achieve Mach 2! (686m/s above 2500m)
-SSI-Mach3 - SSI Aerospace: Achieve Mach 3! (1029m/s above 2500m)
-SSI-Mach4 - SSI Aerospace: Achieve Mach 4! (1372m/s above 2500m)
+SSI-Mach1 - SSI Aerospace: Break the sound barrier!
+SSI-Mach2 - SSI Aerospace: Achieve Mach 2!
+SSI-Mach3 - SSI Aerospace: Achieve Mach 3!
+SSI-Mach4 - SSI Aerospace: Achieve Mach 4!
 
-Wright-Glider - Wright Aeronautical: Build and fly a glider! (feel free to use a solid rocket booster that decouples)
+Wright-Glider - Wright Aeronautical: Build and fly a glider!
 Wright-FirstFlight - Wright Aeronautical: Build and fly your first airplane!
 Wright-AirplaneRide - Wright Aeronautical: Give an airplane ride - Seats: (1-2)
 Wright-2500m - Wright Aeronautical: Fly an airplane to 2500m.
@@ -63,7 +63,7 @@ IslandTours-Submarine - KSC Island Tours: Submarine Tour - Tourists: (4-8)
 *Corliss-Skydiving30k - Corliss Paraventures: Skydive from 30km!
 *Corliss-Skydiving40k - Corliss Paraventures: Skydive from 40km!
 *Corliss-BASE-VAB - Corliss Paraventures: BASE jump off of the VAB (wingsuit or hang glider ok to use)
-*Corliss-BASE-Island - Corliss Paraventures: Hang glide or wingsuit off of Valentina's Island Search and Rescue station!
+*Corliss-BASE-Island - Corliss Paraventures: BASE jump Valentina's Island
 *Corliss-BASE-K2 - Corliss Paraventures: Grind the Crack (wingsuit or hang glider ok to use, jump off K2) (random locations starting with K2?)
 
 CoastGuard-Certification - KSC Coast Guard: Coast Guard Rescue Certification
@@ -88,8 +88,8 @@ Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Seats: 2-4
 Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Seats: 2-4 (require mk1 Crew Cabin)
 Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Seats: 4-8
 Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Seats: 2-8 (for science)
+*Airlines-Cargo - Kerbal Space Program: Flight 50 - Fly 5-50 tons to KSC Island. (various packages, load them up from runway?)
 Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Seats: 8-80
-*Airlines-Cargo - Kerbal Space Program: Fly 5-50 tons to KSC Island. (various packages, load them up from runway?) (Flights 170-5)
 
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
