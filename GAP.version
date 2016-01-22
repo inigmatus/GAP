@@ -1,0 +1,32 @@
+{
+     "NAME":"Contract Pack: Giving Aircraft a Purpose",
+	 "URL":"http://forum.kerbalspaceprogram.com/index.php?/topic/129208-contract-pack-giving-aircraft-a-purpose-gap-10-beta-air-flights-tours-coast-guard-sts-105jan-4-2016/",
+	 "DOWNLOAD":"https://kerbalstuff.com/mod/1385/Contract%20Pack:%20Giving%20Aircraft%20a%20Purpose%20%28GAP%29",
+     "CHANGE_LOG_URL":"https://github.com/inigmatus/GAP/blob/master/CHANGELOG.txt",
+     "GITHUB":{
+         "USERNAME":"inigmatus",
+         "REPOSITORY":"GAP",
+         "ALLOW_PRE_RELEASE":false
+     },
+     "VERSION":{
+         "MAJOR":1,
+         "MINOR":1,
+         "PATCH":0,
+         "BUILD":0
+     },
+     "KSP_VERSION":{
+         "MAJOR":1,
+         "MINOR":0,
+         "PATCH":5
+     },
+     "KSP_VERSION_MIN":{
+         "MAJOR":1,
+         "MINOR":0,
+         "PATCH":5
+     },
+     "KSP_VERSION_MAX":{
+         "MAJOR":1,
+         "MINOR":0,
+         "PATCH":5
+     }
+ } 

@@ -28,6 +28,7 @@ GAP 1.1
 - decoupled IslandTours-Flight-2 from requiring crew cabin test flight.
 - fixed KSP-IslandLanding and KSP-IslandPrep waypoints from being hidden. It now shows up. (thanks GhostMonkeyNKHI)
 - fixed sequence for BuoyDrop contracts requiring crew recovery before science
+- added KSP-AVC version checking
 
 1/11/16 GAP 1.0.2.1
 - fixed critical error where EVAing a kerbal would fail contracts checking for G force. (stock KSP bug has EVA kerbals exceeding 15 Gs on exit from craft!)

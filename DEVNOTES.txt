@@ -8,6 +8,7 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
+*SSI-TourBus - SSI Aerospace: Build and drive a tour bus!
 SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
