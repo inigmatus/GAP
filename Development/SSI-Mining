@@ -6,6 +6,13 @@ CONTRACT_TYPE
 
 //REQUIREMENTS FOR CONTRACT TO APPEAR
 
+	REQUIREMENT
+	{
+		name = PartModuleUnlocked
+		type = PartModuleUnlocked
+		
+		partModule = ModuleResourceHarvester
+	}
 
 
 //DATA NODES TO PROCESS FOR CONTRACT USE
