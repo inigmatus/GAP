@@ -8,7 +8,6 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
-*SSI-TourBus - SSI Aerospace: Build and drive a tour bus!
 SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.
@@ -35,6 +34,7 @@ Wright-BarnstormRD - Wright Aeronautical: Barnstorm the R&D Center!
 *Wright-BuzzTower - Wright Aeronautical: Buzz the Air Tower!
 *Wright-BuzzTowerMach - Wright Aeronautical: Negative Krackenrider, the pattern is full!
 
+KSP-TourBus - Kerbal Space Program: Drive a Tour Bus at KSC!
 KSP-IslandSurvey - Kerbal Space Program: KSC Island Aerial Survey
 KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation

@@ -1,8 +1,6 @@
 CHANGELOG:
 
 GAP 1.1
-- added Wright Aeronautical: Barnstorm Jebediah's tool shed!
-- added Wright Aeronautical: Barnstorm the Island Airfield hangars!
 - added Wright-Glider and updated Wright-FirstFlight to be dependent on it.
 - added SSI Aerospace: Achieve Mach 4!
 - added SSI Aerospace: Achieve Mach 3!
@@ -15,6 +13,9 @@ GAP 1.1
 - added Wright-5000m - Wright Aeronautical: Fly an airplane to 5000m.
 - added Wright-220 - Wright Aeronautical: Achieve a maximum speed of 220 m/s
 - added Wright-100 - Wright Aeronautical: Achieve a maximum speed of 100 m/s
+- added Wright Aeronautical: Barnstorm Jebediah's tool shed!
+- added Wright Aeronautical: Barnstorm the Island Airfield hangars!
+- added Kerbal Space Program: Drive a Tour Bus at KSC! (for very small funds, science, and rep in case you bankrupt yourself)
 - reassigned all SSI crew cabin test contracts to the KAB agency.
 - added requirement for air breathing engines only for relevant early aircraft contracts.
 - added Kerbal Aircraft Builders agency, group, and assets.
