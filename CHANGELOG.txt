@@ -26,6 +26,7 @@ GAP 1.1
 - updated STS-30 dependecies to require SSI-Mach4 and match GAP 2.0 contract map.
 - updated experience reward triggers for Wright-FirstFlight, and SSI-Submarine.
 - updated DropBuoys contracts to check for a max of 2 barometers on craft to avoid completion stall (thanks kcs123)
+- updated SSI-Submarine to require only 1 crew member
 - decoupled IslandTours-Flight-2 from requiring crew cabin test flight.
 - fixed KSP-IslandLanding and KSP-IslandPrep waypoints from being hidden. It now shows up. (thanks GhostMonkeyNKHI)
 - fixed sequence for BuoyDrop contracts requiring crew recovery before science
