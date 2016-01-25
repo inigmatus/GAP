@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.1
+- requires Contract Configurator 1.9.4
 - added Wright-Glider and updated Wright-FirstFlight to be dependent on it.
 - added SSI Aerospace: Achieve Mach 4!
 - added SSI Aerospace: Achieve Mach 3!
@@ -30,6 +31,7 @@ GAP 1.1
 - decoupled IslandTours-Flight-2 from requiring crew cabin test flight.
 - fixed KSP-IslandLanding and KSP-IslandPrep waypoints from being hidden. It now shows up. (thanks GhostMonkeyNKHI)
 - fixed sequence for BuoyDrop contracts requiring crew recovery before science
+- fixed unrelated multiple active passenger contracts failing when one passenger contracts fails (thanks nobodyhasthis2)
 - added KSP-AVC version checking
 
 1/11/16 GAP 1.0.2.1
