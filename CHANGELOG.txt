@@ -4,7 +4,7 @@ GAP 1.1
 - requires Contract Configurator 1.9.4.1
 - rebalanced all contract rewards and penalties, and added crew experience rewards for specific one-time contracts.
 - added Wright-Glider and updated Wright-FirstFlight to be dependent on it.
-- added KSC Airlines Flight 4 to give players an early flight where they have to pickup passengers from the SPH air terminal.
+- added KSC Airlines Flight 4 requiring players to pick up passengers at SPH Air Terminal.
 - added SSI Aerospace: Achieve Mach 4!
 - added SSI Aerospace: Achieve Mach 3!
 - added SSI Aerospace: Achieve Mach 2!
