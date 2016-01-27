@@ -1,6 +1,6 @@
 CHANGELOG:
 
-GAP 1.1
+1/27/16 GAP 1.1
 - requires Contract Configurator 1.9.4.1
 - rebalanced all contract rewards and penalties, and added crew experience rewards for specific one-time contracts.
 - added Wright-Glider and updated Wright-FirstFlight to be dependent on it.
