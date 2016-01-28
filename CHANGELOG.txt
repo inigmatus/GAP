@@ -1,6 +1,7 @@
 CHANGELOG:
 
 1/28/16 GAP 1.1.1
+- reclassified Jebediah's Tool Shed as a ship rather than base to prevent conflict with severedsolo's Bases contract pack.
 - added language to IslandTours-Flight 1 and 2 that a player should fly within 500m above the waypoints, and not under them.
 - made KSP-TourBus repeatable.
 - added workaround for existing CC bug to allow KSP-TourBus waypoints to complete with Command Seat only craft (thanks maculator)
