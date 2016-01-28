@@ -1,6 +1,7 @@
 CHANGELOG:
 
 1/28/16 GAP 1.1.1
+- made KSP-TourBus repeatable.
 - added workaround for existing CC bug to allow KSP-TourBus waypoints to complete with Command Seat only craft (thanks maculator)
 
 1/27/16 GAP 1.1
