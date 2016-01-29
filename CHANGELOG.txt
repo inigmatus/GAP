@@ -1,6 +1,7 @@
 CHANGELOG:
 
-GAP 1.2
+GAP 1.1.2
+- clarified the air breathing engine parameter check to include lack of specific fuel types on board in addition to lack of certain engine types (so even modded engines are properly checked)
 - fixed KSP-AVC. Now checks for version! (finally)
 
 1/28/16 GAP 1.1.1
