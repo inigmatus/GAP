@@ -1,6 +1,8 @@
 CHANGELOG:
 
 GAP 1.1.2
+- updated KSP-IslandLanding to require Administration building level 2 before appearing as an available contract (flag planting requires Administration level 2)
+- added language to KSP-IslandSurvey contract completion message informing the player to work on upgrading Administration to level 2
 - clarified the air breathing engine parameter check to include lack of specific fuel types on board in addition to lack of certain engine types (so even modded engines are properly checked)
 - fixed KSP-AVC. Now checks for version! (finally)
 
