@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.1.2
+- Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)
 - updated KSP-IslandLanding to require Astronaut Complex building level 2 before appearing as an available contract (flag planting requires Astronaut Complex level 2)
 - added language to KSP-IslandSurvey contract completion message informing the player to work on upgrading the Astronaut Complex to level 2
 - clarified the air breathing engine parameter check to include lack of specific fuel types on board in addition to lack of certain engine types (so even modded engines are properly checked)
