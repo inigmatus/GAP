@@ -53,8 +53,8 @@ CONTRACT_TYPE
 
 //CONTRACT DESCRIPTION
 
-	name = KSP-TourBus
-	title = Drive a Tour Bus at KSC!
+	name = KSP-TourBusBug
+	title = Drive a Tour Bus at KSC! BUG TEST
 	group = Kerbal Space Program
 	agent = Kerbal Space Program
 	
