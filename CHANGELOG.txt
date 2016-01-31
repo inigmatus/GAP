@@ -8,6 +8,7 @@ GAP 1.1.2
 - added requirement to IslandTours-Shoreline to require a boat only, not a seaplane, to prevent players from building seaplanes before Wright-FirstFlight, but encourage boats before.
 - removed IslandTours-Shoreline as a requirement for IslandTours-Flight-1, to separate out boat tourist contracts from plane tourist contracts.
 - removed antenna check from buoy drop contracts (to avoid an MM patch for compatibility with RemoteTech installs).
+- removed waypoint 6 from KSP-IslandSurvey at it now requires player to fly back under waypoint 1 instead (makes waypoint 1 easier to find)
 - clarified the air breathing engine parameter check in contracts to include lack of specific fuel types on board in addition to lack of certain engine types (so even modded engines are properly checked)
 - fixed KSP-AVC. Now checks for version! (finally)
 
