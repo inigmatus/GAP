@@ -67,7 +67,7 @@ CONTRACT_TYPE
 	completedMessage = The tour was a success! Gene says the visitors took great pictures, asked amazing questions, and everyone benefitted from the tour.
 	
 //Contract Limits
-   	maxCompletions = 1
+   	maxCompletions = 0
    	maxSimultaneous = 1
 	weight = 10.0
 
