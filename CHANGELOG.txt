@@ -6,6 +6,7 @@ GAP 1.1.2
 - added language to KSP-IslandSurvey contract completion message informing the player to work on upgrading the Astronaut Complex to level 2
 - added land and stop language to contracts since landing is defined as stopping your vehicle's motion while on the ground.
 - clarified the air breathing engine parameter check to include lack of specific fuel types on board in addition to lack of certain engine types (so even modded engines are properly checked)
+- removed antenna check from buoy drop contracts (to avoid an MM patch for compatibility with RemoteTech installs).
 - fixed KSP-AVC. Now checks for version! (finally)
 
 1/28/16 GAP 1.1.1
