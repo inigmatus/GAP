@@ -20,11 +20,12 @@ Career Contract Availability - 51 Contracts
 - SSI Aerospace: Join SSI Aerospace!
 This is your first contract. Offers you an Experimental Command Seat for keeps, as well as a few other basic parts for getting a boat into water, and ejecting a manned Command Pod if you are not using the Take Command mod.  You are NOT required to accept this contract.
 
-After you acquire air intake technology or any engine with an air intake, the first three starter contracts become available:
+There are four contract trees each with starting contracts:
 
-- Wright Aeronautical: Build and fly a glider!
-- KSC Coast Guard: Coast Guard Rescue Certification
-- KSC Island Tours: KSC Shorline Tour - Seats: (2-6)
+The Kerbal Space Program: Drive a Tour Bus at KSC! contract will appear when you've acquired a Command Seat and any wheels.
+The KSC Island Tours: KSC Shorline Tour contract will appear when you've acquired a Command Seat and any wheels (to wheel a boat to the ocean)
+The Wright Aeronautical: Build and fly your first glider! contract will appear when you've acquired a Command Seat.
+The KSC Coast Guard: Coast Guard Rescue Certification contract will appear when you've researched any air breathing engine.
 
 The following contracts appear after completing the above contracts for their mission track:
 
