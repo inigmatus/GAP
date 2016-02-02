@@ -40,7 +40,7 @@ KSP-IslandLanding - Kerbal Space Program: KSC Island Landing
 KSP-IslandPrep - Kerbal Space Program: KSC Island Airfield Preparation
 KSP-CarrierLanding - Kerbal Space Program: Aircraft Carrier Landing
 KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Landing and Takeoff
-*KSP-IslandCargoPrep - Kerbal Space Program: Prepare KSC Island Airfield to Receive Cargo (deliver 5 tons worth of supplies)
+KSP-IslandCargoPrep - Kerbal Space Program: Prepare KSC Island Airfield to Receive Cargo (deliver 5 tons worth of supplies)
 *KSP-RecoverProbe - Kerbal Space Program: Recover a probe for science!
 *KSP-SkydivingSpace - Kerbal Space Program: Skydive from the edge of space! (60k altitude)
 *KSP-OrbitalEscape - Kerbal Space Program: Skydive from orbit!
