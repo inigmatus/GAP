@@ -134,6 +134,7 @@ Space Transportation System: STS-108 (Rescue Mission for STS-107)
 
 ===================
 5.0 Giving Aircraft a Purpose - GAP: Offworld
+Duna Drone Flying
 Eve Drone Flying
 Laythe Drone Flying
 Eve Skydiving (and return)
@@ -171,3 +172,27 @@ and recover
 	Tourist: Joe Kerman
 	Crewman: Lodorf Kerman
 and do anything remaining to complete contract
+
+
+
+
+============
+GAP Diversified:
+
+GAP Core: Milestones
+SSI-KerbinDrone
+KSP-DunaDrone
+KSP-EveDrone
+KSP-LaytheDrone
+SSI-Spaceplane
+
+GAP Core: Charters and Airlines
+
+GAP Core: Stunts
+
+
+GAP Space Shuttle Missions:
+STS-1
+CoastGuard-RecoverSRBs
+STS-30 (fuel pod)
+STS-108 (rescue STS-107)
