@@ -2,14 +2,15 @@ CHANGELOG:
 
 GAP 1.1.3/16
 - Removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
-- Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues:
-GAP Core: Milestones
-GAP Core: Charters and Airlines (requires Milestones)
-GAP Core: Stunts (requires Milestones)
-GAP Core: Skydiving (requires Milestones) (requires EVA Parachutes)
-GAP: BDArmory Expansion
-GAP: Seacraft
-GAP: Coast Guard
+- Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
+- moved some contracts to GAP Core: Milestones
+- moved some contracts to GAP Core: Charters and Airlines (requires Milestones)
+- moved some contracts to GAP Core: Stunts (requires Milestones)
+- moved some contracts to GAP Core: Skydiving (requires Milestones) (requires EVA Parachutes)
+- moved some contracts to GAP: BDArmory Expansion
+- moved some contracts to GAP: Seacraft
+- moved some contracts to GAP: Coast Guard
+- moved contracts into folders as part of modularizing GAP for easy removal of certain parts as desired.
 
 1/31/16 GAP 1.1.2
 - Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)
