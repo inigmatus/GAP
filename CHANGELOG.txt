@@ -1,5 +1,16 @@
 CHANGELOG:
 
+GAP 1.1.3/16
+- Removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
+- Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues:
+GAP Core: Milestones
+GAP Core: Charters and Airlines (requires Milestones)
+GAP Core: Stunts (requires Milestones)
+GAP Core: Skydiving (requires Milestones) (requires EVA Parachutes)
+GAP: BDArmory Expansion
+GAP: Seacraft
+GAP: Coast Guard
+
 1/31/16 GAP 1.1.2
 - Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)
 - updated KSP-IslandLanding descrption to require Astronaut Complex building level 2 (flag planting requires Astronaut Complex level 2)
