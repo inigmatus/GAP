@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.1.3/16
+- Coast Guard buoys now save as subassemblies rather than showing up in the VAB craft list.
 - Removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
 - Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
 - moved some contracts to GAP Core: Milestones
