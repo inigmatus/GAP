@@ -85,13 +85,14 @@ KAB-20000m - Kerbal Aircraft Builders: Fly a Mk3 Crew Cabin to 20,000m.
 *KAB-Cargo-Mk3 - Kerbal Aircraft Builders: Test the Mk3 Cargo Bay.
 *KAB-Cargo-Mk3Ramp - Kerbal Aircraft Builders: Test the Mk3 Cargo Ramp.
 
-Airlines-Flight-4 - KSC Airlines: Charter Flight 4 - Max Seats: 4
-Airlines-Flight-5 - KSC Airlines: Charter Flight 5 - Max Seats: 2-4
-Airlines-Flight-10 - KSC Airlines: Charter Flight 10 - Max Seats: 2-4 (require mk1 Crew Cabin)
-Airlines-Flight-20 - KSC Airlines: Charter Flight 20 - Max Seats: 4-8
+Charter-Flight-4 - KSC Airlines: Charter Flight 4 - Max Seats: 4
+Charter-Flight-5 - KSC Airlines: Charter Flight 5 - Max Seats: 2-4 
 Airlines-Flight-40 - KSC Airlines: Charter Flight 40 - Max Seats: 2-8 (for science)
 *Airlines-Cargo - Kerbal Space Program: Flight 50 - Fly 5-50 tons to KSC Island. (various packages, load them up from runway?)
-Airlines-Flight-101 - KSC Airlines: Flight 101-103 - Max Seats: 8-80
+Airlines-Flight-101 - KSC Airlines: Flight 101 - Max Seats: 2-4 (cabins req)
+Airlines-Flight-102 - KSC Airlines: Flight 102 - Max Seats: 4-8 (cabins req)
+Airlines-Flight-103 - KSC Airlines: Flight 103 - Max Seats: 8-80 (cabins req)
+
 
 
 STS-30 - Space Transportation System: STS-30: Fly space shuttle to orbit, launch satellite, return.
