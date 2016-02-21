@@ -12,7 +12,8 @@ SSI-Start - SSI Aerospace: Join SSI Aerospace!
 SSI-Inigma - SSI Aerospace: Purchase Command Seat tech.
 SSI-Ford - SSI Aerospace: Purchase wheel and chassis tech.
 SSI-Tesla - SSI Aerospace: Purchase battery technology.
-
+SSI-Wright - SSI Aerospace: Purchase glider tech.
+SSI-Loan - SSI Aerospace: Venture Capital Funding Loan
 
 SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
