@@ -1,6 +1,9 @@
 CHANGELOG:
 
-GAP 1.1.3/16
+GAP 1.2 
+- Added static fund rewards to SSI-Glider and SSI-First Flight, and bumped reward for KSP-TourBus, to better balance reward with effort for early contracts, and provide a more balanced starting income stream.
+- Added GAP:Economy contracts offering simple prototype parts for funds, and an SSI Venture Capital Bank that loans the amount of your starting funds to players that are running short on funds.
+- Removed mission requiremnet from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available.
 - Coast Guard buoys now save as subassemblies rather than showing up in the VAB craft list.
 - Removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
 - Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
@@ -14,6 +17,7 @@ GAP 1.1.3/16
 - moved contracts into folders as part of modularizing GAP for easy removal of certain parts as desired.
 - added maxCount to Charter Flight 5 to retire flight once player completes Flight 101.
 - redrafted airline flights to allow for more manual loading, and left only manual loading for Charter Flight 4 (passengers) and Charter Flight 40 (science passengers).
+- requires Contract Configurator 1.9.6
 
 1/31/16 GAP 1.1.2
 - Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)

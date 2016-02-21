@@ -8,6 +8,12 @@ filename - Agency: Title
 2.0 Giving Aircraft a Purpose - GAP: Extended
 
 SSI-Start - SSI Aerospace: Join SSI Aerospace!
+
+SSI-Inigma - SSI Aerospace: Purchase Command Seat tech.
+SSI-Ford - SSI Aerospace: Purchase wheel and chassis tech.
+SSI-Tesla - SSI Aerospace: Purchase battery technology.
+
+
 SSI-10000m - SSI Aerospace: Fly an airplane to 10000m.
 SSI-20000m - SSI Aerospace: Fly an airplane to 20000m.
 SSI-35000m - SSI Aerospace: Fly an airplane to 35000m.

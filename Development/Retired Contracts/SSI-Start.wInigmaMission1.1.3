@@ -1,0 +1,586 @@
+//SSI-Start - SSI Aerospace: Join SSI Aerospace!
+
+CONTRACT_TYPE
+{
+
+
+//REQUIREMENTS FOR CONTRACT TO APPEAR
+
+	REQUIREMENT
+	{
+		name = PartUnlocked
+		type = PartUnlocked
+		
+		part = strutCube
+		part = seatExternalCmd
+		part = batteryPack
+		part = roverWheel2
+		part = stackDecouplerMini
+		part = ladder1
+		
+		invertRequirement = true
+
+	}
+	
+
+//DATA NODES TO PROCESS FOR CONTRACT USE
+
+//Contract Specific VesselParameterGroup Definition Key (to prevent conflict with other active contracts)
+	DATA
+	{
+		type = string
+		
+		craft = GAPcraftSSIStart
+		
+	}
+
+//SSI Staff	
+	DATA
+	{
+		type = List<Kerbal>
+		kerbalsSSI = [ NewKerbal( Male , "Inigma Kerman" , "Engineer") ]
+		
+	}
+
+
+//CONTRACT DESCRIPTION
+
+	name = SSI-Start
+	title = Join SSI Aerospace!
+	group = SSI Aerospace
+	agent = SSI Aerospace
+	
+	description = Welcome to SSI Aerospace! We are an engineering cooperative focused on developing aerospace assets for use by the Kerbal Space Program. Based out of the Research & Development Facility at KSC, our partner companies include the Ford Carriage Company, Tesla Electrics, the Wright Bicycle Company, and my own company, Inigma Industries. I'm Inigma Kerman, founder of SSI, and I would like to extend an invitation to your organization to join us!\n\nWe've developed a number of technologies that we need delivered, along with myself, to the R&D Center for the next SSI Aerospace technology conference on time. If you do this for us, you will get immediate access to our experimental parts for use in your own endeavors.
+
+	synopsis = Accept this contract to join SSI Aerospace as a partner, and gain immediate access to our experimental parts. To solidfy the deal (and keep the parts we give you upon acceptance of this contract), simply deliver Inigma Kerman to the R&D center along with a our experimental parts, on time.
+	
+	notes = Accepting this contract is optional and not required to play GAP contracts. With this deal, SSI will profit from your development ingenuity, and you get immediate access to our tech!
+	
+	completedMessage = The conference was a success! Check in with Mission Control for additional opportunities. Enjoy the new parts!
+	
+//Contract Limits
+   	maxCompletions = 1
+   	maxSimultaneous = 1
+	weight = 10.0
+
+	autoAccept = false
+	declinable = true
+	cancellable = true
+
+	minExpiry = 7.0
+	maxExpiry = 7.0
+	deadline = 0
+
+//Contract Reward Modifiers
+	prestige = Trivial
+   	targetBody = Kerbin
+
+//Contract Rewards
+//CC #149
+  	advanceFunds = 0.0
+	rewardFunds = 0.0
+	rewardReputation = 0.0
+ 	rewardScience = 0.0
+	
+//Contract Penalties
+  	failureFunds = 0.0
+ 	failureReputation = 0.0
+
+
+//BEHAVIOURS TO DO WHEN CREATING CONTRACT
+
+	BEHAVIOUR
+	{
+		name = ExperimentalPart
+		type = ExperimentalPart
+		
+		part = seatExternalCmd
+		part = stackDecouplerMini
+		
+		part = ladder1
+		part = strutCube
+		part = structuralIBeam3
+		
+		part = batteryPack
+		
+		part = roverWheel2
+
+		part = sepMotor1	
+		part = wingConnector5
+		part = smallCtrlSrf
+		
+		unlockCriteria = CONTRACT_ACCEPTANCE
+		lockCriteria = DO_NOT_LOCK
+
+	}
+	
+	BEHAVIOUR
+	{
+		name = SpawnKerbal
+		type = SpawnKerbal
+
+		KERBAL
+		{
+		
+			kerbal = @/kerbalsSSI.ElementAt(0)
+			kerbalType = Unowned
+			owned = false
+			addToRoster = false
+			
+			pqsCity = KSC
+			pqsOffset = -635.450871107884, 44.6770752507737, 25.391827671981
+			alt = 75
+			heading = 314
+
+		}
+		
+	}
+	
+	BEHAVIOUR
+	{
+		name = RemoveKerbal
+		type = RemoveKerbal
+		
+		kerbal = Inigma Kerman
+		
+	}
+	
+	BEHAVIOUR
+	{
+        name = WaypointGenerator
+        type = WaypointGenerator
+
+		PQS_CITY
+		{
+			name = Administration Building
+			icon = marker
+			
+			pqsCity = KSC
+			pqsOffset = -635.450871107884, 44.6770752507737, 25.391827671981
+			altitude = 5
+			
+		}
+		
+		PQS_CITY
+		{
+			name = R&D Conference Center 
+			icon = marker
+			
+			pqsCity = KSC
+			pqsOffset = -391.96278745921, -140.829308116962, 25.1025682588561
+			altitude = 5
+			
+		}
+	
+	}
+	
+	BEHAVIOUR
+	{
+		name = DialogBox
+		type = DialogBox
+		
+			DIALOG_BOX
+			{
+			condition = PARAMETER_COMPLETED
+			parameter = VisitWaypointAdminBuilding
+			
+			position = LEFT
+			
+			TEXT
+			{
+				text = Wow, nice piece of engineering you've got there. Looks great! Ok, let's head to the R&D Conference center and get these parts on display there.
+
+			}
+			
+			IMAGE
+			{
+				url = ContractConfigurator/ui/eva_kerbin_male
+				characterName = Inigma Kerman
+			}
+			
+		}
+		
+	}
+	
+	
+//PARAMETERS FOR CONTRACT COMPLETION
+
+//Craft definition
+	PARAMETER
+	{
+		name = VesselParameterGroupStart
+		type = VesselParameterGroup
+		title = Your contraption must
+		
+		define = @/craft
+		dissassociateVesselsOnContractCompletion = true
+		
+		PARAMETER
+		{
+			name = HasCrew
+			type = HasCrew
+			title = have a driver
+			
+			minCrew = 1
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+		
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have a Cubic Octagonal Strut
+			
+			part = strutCube
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have an EAS-1 External Command Seat
+			
+			part = seatExternalCmd
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+		
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have a RoveMax Model S2 rover wheel
+			
+			part = roverWheel2
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have a Z-100 Battery Pack
+			
+			part = batteryPack
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have a Pegasus Mobility Enhancer
+			
+			part = ladder1
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+		
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have a TR-2V Stack Decoupler
+			
+			part = stackDecouplerMini
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+
+		PARAMETER
+		{
+			name = VisitWaypointAdminBuilding
+			type = All
+			title = go to the Administration Building
+			
+			PARAMETER
+			{
+				name = VisitWaypoint
+				type = VisitWaypoint
+				index = 0
+				
+				distance = 10
+				hideOnCompletion = true
+				
+			}
+			
+			completeInSequence = true
+			disableOnStateChange = true
+			hideChildren = true
+		
+		}
+		
+		PARAMETER
+		{
+			name = All
+			type = All
+			title = and pick up Inigma Kerman
+
+			PARAMETER
+			{
+				name = HasCrew
+				type = HasCrew
+				title = @kerbal.First()
+		
+				ITERATOR
+				{
+					type = Kerbal
+					kerbal = @/kerbalsSSI
+					
+				}
+				
+				hideChildren = true
+				
+			}
+			
+			completeInSequence = true
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+		
+		disableOnStateChange = false
+
+	}
+
+//Contract Goals
+	
+	
+	PARAMETER
+	{	
+		name = All
+		type = All
+		title = and bring all parts
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			title = have a Cubic Octagonal Strut
+			
+			part = strutCube
+			
+			disableOnStateChange = false
+			hideChildren = true
+			
+		}
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			
+			part = seatExternalCmd
+			
+			disableOnStateChange = false
+			hideChildren = true
+			hidden = true
+			
+		}
+		
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			
+			part = roverWheel2
+			
+			disableOnStateChange = false
+			hideChildren = true
+			hidden = true
+			
+		}
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			
+			part = batteryPack
+			
+			disableOnStateChange = false
+			hideChildren = true
+			hidden = true
+			
+		}
+
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			
+			part = ladder1
+			
+			disableOnStateChange = false
+			hideChildren = true
+			hidden = true
+			
+		}
+		
+		PARAMETER
+		{
+			name = PartValidation
+			type = PartValidation
+			
+			part = stackDecouplerMini
+			
+			disableOnStateChange = false
+			hideChildren = true
+			hidden = true
+			
+		}
+		
+		disableOnStateChange = false
+		hideChildren = true
+
+	}
+	
+	PARAMETER
+	{
+		name = VesselParameterGroup
+		type = VesselParameterGroup
+		title = to the R&D Conference Center
+		
+		vessel = @/craft
+		
+		PARAMETER
+		{
+			name = VisitWaypointConferenceBuilding
+			type = VisitWaypoint
+			index = 1
+
+			distance = 30
+			hideOnCompletion = true
+
+		}
+		
+		completeInSequence = true
+		disableOnStateChange = true
+		hideChildren = true
+		
+	}
+	
+//Recovery Parameter - Craft & Kerbal Safety Check
+	PARAMETER
+	{
+		name = All
+		type = All
+		title = safely
+		
+		PARAMETER
+		{
+			name = VesselNotDestroyed
+			type = VesselNotDestroyed
+			title = without destroying your craft
+			
+			vessel = @/craft
+
+		}
+		
+		PARAMETER
+		{
+			name = KerbalDeaths
+			type = KerbalDeaths
+			title = or killing @kerbal.First()
+		
+			ITERATOR
+			{
+				type = Kerbal
+				kerbal = @/kerbalsSSI
+				
+			}
+			
+			hideChildren = true
+
+		}
+		
+		completeInSequence = true
+		disableOnStateChange = true
+		
+	}
+	
+//Recovery Parameter - Recover Kerbals
+	PARAMETER
+	{
+		name = All
+		type = All
+		title = and recover
+		
+		PARAMETER
+		{
+			name = RecoverKerbal
+			type = RecoverKerbal
+			title = @kerbal.First()
+	
+			ITERATOR
+			{
+				type = Kerbal
+				kerbal = @/kerbalsSSI
+				
+			}
+			
+			hideChildren = true
+			
+		}
+		
+		//Mission Timer
+		PARAMETER
+		{
+			name = All
+			type = All
+			title = within the
+			
+			PARAMETER
+			{
+				name = RecoverKerbal
+				type = RecoverKerbal
+				title = @kerbal.First()
+		
+				ITERATOR
+				{
+					type = Kerbal
+					kerbal = @/kerbalsSSI
+					
+				}
+				
+				hideChildren = true
+				hidden = true
+				
+			}
+			
+			PARAMETER
+			{
+				name = Timer
+				type = Timer
+				
+				duration = 5m
+				timerType = PARAMETER_COMPLETION
+				parameter = VesselParameterGroupStart
+				failContract = true	
+				
+			}
+			
+		}
+		
+	}
+	
+}
