@@ -6,6 +6,7 @@ GAP 1.2
 - Added GAP:Economy contracts offering simple prototype parts for funds, and an SSI Venture Capital Bank that loans the amount of your starting funds to players that are running short on funds.
 - Removed mission requiremnet from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available.
 - Coast Guard buoys now save as subassemblies rather than showing up in the VAB craft list.
+- KSP-TourBus contract now requires a command seat, and any wheels - not just stock or SXT.
 - Removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
 - Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
 - moved some contracts to GAP Core: Milestones
