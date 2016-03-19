@@ -17,7 +17,7 @@ GAP 1.2
 - moved contracts into folders as part of modularizing GAP for easy removal of certain parts as desired.
 - added maxCount to Charter Flight 5 to retire flight once player completes Flight 101.
 - redrafted airline flights to allow for more manual loading, and left only manual loading for Charter Flight 4 (passengers) and Charter Flight 40 (science passengers).
-- requires Contract Configurator 1.9.6
+- requires Contract Configurator 1.9.7
 
 1/31/16 GAP 1.1.2
 - Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)
