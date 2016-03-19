@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.2 
+- Redefined KerbalDeaths to only apply to crew and passengers of GAP vessel and no other vessel or Kerbal.
 - Added static fund rewards to SSI-Glider and SSI-First Flight, and bumped reward for KSP-TourBus, to better balance reward with effort for early contracts, and provide a more balanced starting income stream.
 - Added GAP:Economy contracts offering simple prototype parts for funds, and an SSI Venture Capital Bank that loans the amount of your starting funds to players that are running short on funds.
 - Removed mission requiremnet from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available.

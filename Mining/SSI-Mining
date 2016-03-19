@@ -299,7 +299,7 @@ CONTRACT_TYPE
 			type = KerbalDeaths
 			title = or killing anyone
 			
-			countMax = 1
+			vessel = @/craft
 
 		}
 
