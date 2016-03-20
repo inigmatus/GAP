@@ -1,14 +1,16 @@
 CHANGELOG:
 
 GAP 1.2 
-- Redefined KerbalDeaths to only apply to crew and passengers of GAP vessel and no other vessel or Kerbal.
-- Added static fund rewards to SSI-Glider and SSI-First Flight, and bumped reward for KSP-TourBus, to better balance reward with effort for early contracts, and provide a more balanced starting income stream.
-- Added GAP:Economy contracts offering simple prototype parts for funds, and an SSI Venture Capital Bank that loans the amount of your starting funds to players that are running short on funds.
-- Removed mission requiremnet from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available.
+- added one of three craft definition requirements to all contracts: preflight timer, passenger, or specific part or mission objective completed; to fix all repoted mission completion bugs where when multiple contracts were accepted, the wrong craft could inadvertenly used for one contract could still be required in order to complete remaining contracts, thus making remaining contracts not compleatable.
+- redefined KerbalDeaths to only apply to crew and passengers of GAP vessel and no other vessel or Kerbal.
+- added static fund rewards to SSI-Glider and SSI-First Flight, and bumped reward for KSP-TourBus, to better balance reward with effort for early contracts, and provide a more balanced starting income stream.
+- added GAP:Economy contracts offering simple prototype parts for funds, and an SSI Venture Capital Bank that loans the amount of your starting funds to players that are running short on funds.
+- removed mission requiremnet from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available.
 - Coast Guard buoys now save as subassemblies rather than showing up in the VAB craft list.
 - KSP-TourBus contract now requires a command seat, and any wheels - not just stock or SXT.
-- Removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
-- Modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
+- removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
+- modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
+- combined KSP-IslandLanding with KSP-IslandPrep. Now it's only one mission, not two.
 - moved some contracts to GAP Core: Milestones
 - moved some contracts to GAP: Charters and Airlines (requires Milestones)
 - moved some contracts to GAP: Stunts (requires Milestones)
@@ -23,7 +25,7 @@ GAP 1.2
 
 1/31/16 GAP 1.1.2
 - Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)
-- updated KSP-IslandLanding descrption to require Astronaut Complex building level 2 (flag planting requires Astronaut Complex level 2)
+- updated KSP-IslandLanding description to require Astronaut Complex building level 2 (flag planting requires Astronaut Complex level 2)
 - added language to KSP-IslandSurvey contract completion message informing the player to work on upgrading the Astronaut Complex to level 2
 - added land and stop language to contracts since landing is defined as stopping your vehicle's motion while on the ground.
 - added requirement to IslandTours-Shoreline to require a boat only, not a seaplane, to prevent players from building seaplanes before Wright-FirstFlight, but encourage boats before.
