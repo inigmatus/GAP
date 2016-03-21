@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.2 
+- added Operation: Manley Freedom - a BD Armory contract that appears after you survey the islands. Requires BD Armory.
 - added one of three craft definition requirements to all contracts: preflight timer, passenger, or specific part or mission objective completed; to fix all repoted mission completion bugs where when multiple contracts were accepted, the wrong craft could inadvertenly used for one contract could still be required in order to complete remaining contracts, thus making remaining contracts not compleatable.
 - redefined KerbalDeaths to only apply to crew and passengers of GAP vessel and no other vessel or Kerbal.
 - added static fund rewards to SSI-Glider and SSI-First Flight, and bumped reward for KSP-TourBus, to better balance reward with effort for early contracts, and provide a more balanced starting income stream.
