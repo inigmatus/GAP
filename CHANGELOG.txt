@@ -1,5 +1,8 @@
 CHANGELOG:
 
+GAP 1.2.1
+- fixed SSI-Glider now requires Command Seat.
+
 3/21/16 GAP 1.2
 - requires Contract Configurator 1.9.10
 - added Operation: Manley Freedom - a BDArmory contract that appears after you survey the islands. Requires BDArmory and Kerbal Aircraft Expansion. Can you rescue Scott Kerman from the Hackstream brigade?
