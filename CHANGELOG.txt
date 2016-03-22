@@ -1,16 +1,15 @@
 CHANGELOG:
 
 3/21/16 GAP 1.2
-- added Operation: Manley Freedom - a BDArmory contract that appears after you survey the islands. Requires BDArmory.
-- added one of three craft definition requirements to all contracts: preflight timer, passenger, or specific part or mission objective completed; to fix all repoted mission completion bugs where when multiple contracts were accepted, the wrong craft could inadvertenly used for one contract could still be required in order to complete remaining contracts, thus making remaining contracts not compleatable.
-- redefined KerbalDeaths to only apply to crew and passengers of GAP vessel and no other vessel or Kerbal.
+- requires Contract Configurator 1.9.10
+- added Operation: Manley Freedom - a BDArmory contract that appears after you survey the islands. Requires BDArmory and Kerbal Aircraft Expansion. Can you rescue Scott Kerman from the Hackstream brigade?
+- added one of three craft definition requirements to all contracts: preflight timer, passenger, or specific part or mission objective completed; to fix all reported mission completion bugs where unintenteded craft used for other contracts were tripping definition parameters for the intended contract, causing some GAP contracts to require the unrelated craft to complete a mission.
+- redefined KerbalDeaths to only apply to crew and passengers of a GAP vessel and no other vessel or Kerbal. Finally Joe Kerman dying in the void of space won't affect GAP contracts.
 - added static fund rewards to SSI-Glider and SSI-First Flight, and bumped reward for KSP-TourBus, to better balance reward with effort for early contracts, and provide a more balanced starting income stream.
-- added GAP:Economy contracts offering simple prototype parts for funds, and an SSI Venture Capital Bank that loans the amount of your starting funds to players that are running short on funds.
-- removed mission requiremnet from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available.
-- Coast Guard buoys now save as subassemblies rather than showing up in the VAB craft list.
-- KSP-TourBus contract now requires a command seat, and any wheels - not just stock or SXT.
-- removed TourBus from GAP. Moving it to a separate Road Trip contract pack.
-- modularized GAP by removing requirements for some contracts. Now you can remove certain expansions without causing continuity issues.
+- redeveloped the GAP contract tree from scratch. New dependencies, removed dependencies, and added and removed (combined) contracts to support modularity, simplicity, and expansion.
+- removed mission requirement from Join SSI! and added small membership fee as 10% of a player's starting funds. Contract is now required to be accepted before GAP contract tree becomes available. Yes, GAP now costs funds to exploit!
+- added GAP:Economy contracts offering simple prototype parts for funds, as well as an SSI Capital Bank Loan contract that loans the amount of a player's starting funds to players that are running at 10% or less of their starting funds. SSI developed parts are no longer free giveaways and require funds to purchase.
+- modularized GAP by removing requirements for some contracts. Now you can remove certain GAP expansions (folders) without causing continuity issues. Only the Milestones (GAP Core) and the Assets folder should not be removed as it contains all the core contracts required for GAP and its expansions to function. All other folders may be removed.
 - combined KSP-IslandLanding with KSP-IslandPrep. Now it's only one mission, not two.
 - moved some contracts to GAP Core: Milestones
 - moved some contracts to GAP: Charters and Airlines (requires Milestones)
@@ -22,7 +21,8 @@ CHANGELOG:
 - moved contracts into folders as part of modularizing GAP for easy removal of certain parts as desired.
 - added maxCount to Charter Flight 5 to retire flight once player completes Flight 101.
 - redrafted airline flights to allow for more manual loading, and left only manual loading for Charter Flight 4 (passengers) and Charter Flight 40 (science passengers).
-- requires Contract Configurator 1.9.10
+- Coast Guard buoys now save as subassemblies rather than showing up in the VAB craft list.
+- KSP-TourBus contract now requires a command seat, and any wheels - not just stock or SXT.
 
 1/31/16 GAP 1.1.2
 - Kerbals are rather hardy. Bumped Wright-AirplaneRide G limit to 5 Gs (Gimbal line at 5 G is easier to see and watch out for)
