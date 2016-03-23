@@ -1,6 +1,6 @@
 CHANGELOG:
 
-GAP 1.2.1
+3/22/16 GAP 1.2.1
 - corrected grammar and spelling in a few contracts.
 - fixed SSI-Glider to now require a Command Seat tech before being made available in Mission Control.
 - removed conflicting AVC file.
