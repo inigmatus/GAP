@@ -1,7 +1,9 @@
 CHANGELOG:
 
 GAP 1.2.1
+- fixed text for SSI-Glider.
 - fixed SSI-Glider now requires Command Seat.
+- removed conflicting AVC file.
 
 3/21/16 GAP 1.2
 - requires Contract Configurator 1.9.10
