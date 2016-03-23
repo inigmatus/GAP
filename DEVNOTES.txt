@@ -44,8 +44,8 @@ KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Landing and Takeoff
 
 [Economy]
 SSI-Inigma - SSI Aerospace: Purchase Command Seat tech.
-SSI-Ford - SSI Aerospace: Purchase wheel and chassis tech.
-SSI-Tesla - SSI Aerospace: Purchase battery technology.
+SSI-Ford - SSI Aerospace: Purchase chassis tech.
+SSI-Tesla - SSI Aerospace: Purchase EV tech.
 SSI-Wright - SSI Aerospace: Purchase glider tech.
 SSI-Loan - SSI Aerospace: SSI Capital Funding Loan
 
