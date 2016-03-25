@@ -47,7 +47,7 @@ SSI-Inigma - SSI Aerospace: Purchase Command Seat tech.
 SSI-Ford - SSI Aerospace: Purchase structural tech.
 SSI-Tesla - SSI Aerospace: Purchase electric vehicle tech.
 SSI-Wright - SSI Aerospace: Purchase flight control tech.
-SSI-Loan - SSI Aerospace: SSI Capital Funding Loan
+SSI-Loan - SSI Aerospace: Venture Capital Funding Loan: 10k
 
 
 [Milestones] GAP Core (required!)
