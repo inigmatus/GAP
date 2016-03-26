@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.2.2
+- CoastGuard-Certification now requires wheels, and an air breathing engine.
 - Equalized contract weights for TourBus, Glider, and First Flight. They should all be equally available now.
 - SSI VEnture Capital Funding Loan now available at 25% of starting funds, only gives 10k funds instead of full starting funds, and interest charge raised from 25% to 35%. Loan is still interest free for 30 days.
 - rebalanced starting economy contracts. Now select from command seat, structural, electric vehicle, or flight control techs.
