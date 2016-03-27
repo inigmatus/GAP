@@ -43,7 +43,7 @@ KSP-CarrierTakeoff - Kerbal Space Program: Aircraft Carrier Landing and Takeoff
 
 
 [Economy]
-SSI-Inigma - SSI Aerospace: Purchase Command Seat tech.
+SSI-Inigma - SSI Aerospace: Purchase command seat tech.
 SSI-Ford - SSI Aerospace: Purchase structural tech.
 SSI-Tesla - SSI Aerospace: Purchase electric vehicle tech.
 SSI-Wright - SSI Aerospace: Purchase flight control tech.
