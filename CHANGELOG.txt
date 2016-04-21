@@ -1,6 +1,6 @@
 CHANGELOG:
 
-GAP 1.2.3
+4/21/16 GAP 1.2.3
 - Compatibility pass for KSP 1.1.
 - More spelling and grammar fixes.
 
