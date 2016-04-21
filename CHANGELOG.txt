@@ -1,5 +1,9 @@
 CHANGELOG:
 
+GAP 1.2.3
+- Compatibility pass for KSP 1.1.
+- More spelling and grammar fixes.
+
 3/27/16 GAP 1.2.2
 - CoastGuard-Certification now requires wheels, and an air breathing engine to make it appear at the same time with with Shoreline Tour.
 - equalized contract weights for TourBus, Glider, and First Flight. They should all be equally available now.
