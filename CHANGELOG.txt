@@ -1,5 +1,10 @@
 CHANGELOG:
 
+4/26/16
+1.2.4
+- All contracts that require wheel technology have (finally) been fixed.
+- Fixed BDArmory contract exception error when Module Manager is not installed. KSP-IslandLanding should now show up.
+
 4/21/16 GAP 1.2.3
 - Compatibility pass for KSP 1.1.
 - More spelling and grammar fixes.
