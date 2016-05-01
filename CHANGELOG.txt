@@ -4,6 +4,7 @@ GAP 1.2.5
 - Re-added craft definition to TourBus contract now that CC bug #462 was fixed several CC releases ago.
 - Added recognition of Ferram Aerospace Research controllable surfaces for purpose of unlocking Glider and First Flight contracts.
 - Clarified KSP IslandPrep instructions to leave engineers at waypoints.
+- Added cfg for Strategia Pilot Focus.
 - Requires Contract Configurator 1.11.3 or higher
 - Set AVC to make GAP compatible for all KSP versions going forward, since this is anticipated and dependent on Contract Configurator compatibility with KSP.
 
