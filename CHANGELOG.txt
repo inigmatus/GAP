@@ -1,13 +1,13 @@
 CHANGELOG:
 
 GAP 1.2.5
-- removed redundant requirements for KAX and SXT parts for Wright-FirstFlight where were breaking GAP on partial KAX or SXT installs.
+- removed redundant requirements for KAX and SXT parts for Wright-FirstFlight, CoastGuard-Certification, and IslandTours-Shoreline which were breaking GAP on partial KAX or SXT installs.
 - re-added craft definition to TourBus contract now that CC bug #462 was fixed several CC releases ago.
 - added recognition of Ferram Aerospace Research controllable surfaces for purpose of unlocking Glider and First Flight contracts.
 - clarified KSP IslandPrep instructions to leave engineers at waypoints.
 - added cfg for Strategia Pilot Focus.
 - set AVC to make GAP compatible for all KSP versions going forward, since this is anticipated and dependent on Contract Configurator compatibility with KSP.
-- requires Contract Configurator 1.11.3 or higher
+- requires Contract Configurator 1.11.5 or higher
 
 4/26/16 GAP 1.2.4
 - all contracts that require wheel technology have (finally) been fixed.
