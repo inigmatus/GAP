@@ -1,20 +1,21 @@
 CHANGELOG:
 
 GAP 1.2.5
-- Re-added craft definition to TourBus contract now that CC bug #462 was fixed several CC releases ago.
-- Added recognition of Ferram Aerospace Research controllable surfaces for purpose of unlocking Glider and First Flight contracts.
-- Clarified KSP IslandPrep instructions to leave engineers at waypoints.
-- Added cfg for Strategia Pilot Focus.
-- Requires Contract Configurator 1.11.3 or higher
-- Set AVC to make GAP compatible for all KSP versions going forward, since this is anticipated and dependent on Contract Configurator compatibility with KSP.
+- removed redundant requirements for KAX and SXT parts for Wright-FirstFlight where were breaking GAP on partial KAX or SXT installs.
+- re-added craft definition to TourBus contract now that CC bug #462 was fixed several CC releases ago.
+- added recognition of Ferram Aerospace Research controllable surfaces for purpose of unlocking Glider and First Flight contracts.
+- clarified KSP IslandPrep instructions to leave engineers at waypoints.
+- added cfg for Strategia Pilot Focus.
+- requires Contract Configurator 1.11.3 or higher
+- set AVC to make GAP compatible for all KSP versions going forward, since this is anticipated and dependent on Contract Configurator compatibility with KSP.
 
 4/26/16 GAP 1.2.4
-- All contracts that require wheel technology have (finally) been fixed.
-- Fixed BDArmory contract exception error when Module Manager is not installed. KSP-IslandLanding should now show up.
+- all contracts that require wheel technology have (finally) been fixed.
+- fixed BDArmory contract exception error when Module Manager is not installed. KSP-IslandLanding should now show up.
 
 4/21/16 GAP 1.2.3
-- Compatibility pass for KSP 1.1.
-- More spelling and grammar fixes.
+- compatibility pass for KSP 1.1.
+- more spelling and grammar fixes.
 
 3/27/16 GAP 1.2.2
 - CoastGuard-Certification now requires wheels, and an air breathing engine to make it appear at the same time with with Shoreline Tour.
