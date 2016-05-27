@@ -3,7 +3,7 @@ CHANGELOG:
 GAP 1.2.6
 - added patches for part test modules.
 - Wright-Glider and Wright-FirstFlight now recognize Firespitter parts.
-- GAP now requires Module Manager.
+- GAP now requires Module Manager (to add part test capability to various aircraft parts)
 - added SSI-WrightEngine to sell an Oscar-B fuel tank, a prototype KAX kuey tail rotor (makes for a great early propeller) if a player has KAX installed, and a small air intake.
 - reclassified SSI-Loan as an economy contract.
 - fixed SSI-Loan status funds symbol.
