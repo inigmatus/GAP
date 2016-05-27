@@ -1,5 +1,15 @@
 CHANGELOG:
 
+GAP 1.2.6
+- added patches for part test modules.
+- Wright-Glider and Wright-FirstFlight now recognize Firespitter parts.
+- GAP now requires Module Manager.
+- added SSI-WrightEngine to sell an Oscar-B fuel tank, a prototype KAX kuey tail rotor (makes for a great early propeller) if a player has KAX installed, and a small air intake.
+- reclassified SSI-Loan as an economy contract.
+- fixed SSI-Loan status funds symbol.
+- fixed SSI-Loan now requires SSI membership before being offered.
+- Split out SSI-Inigma to offer Command Seat and decoupler tech in separate contracts.
+
 5/8/16 GAP 1.2.5
 - now fully compatible with KSP 1.1.2.
 - removed redundant requirements for KAX and SXT parts for Wright-FirstFlight, CoastGuard-Certification, and IslandTours-Shoreline which were breaking GAP on partial KAX or SXT installs.
