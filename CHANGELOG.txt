@@ -8,7 +8,8 @@ GAP 1.2.6
 - reclassified SSI-Loan as an economy contract.
 - fixed SSI-Loan status funds symbol.
 - fixed SSI-Loan now requires SSI membership before being offered.
-- Split out SSI-Inigma to offer Command Seat and decoupler tech in separate contracts.
+- Split out all GAP: Economy contracts to offer separate contracts for prototype parts instead of bundles.
+- Fixed Coast Guard Certification - command seat rescuing of Lt. Dan now possible
 
 5/8/16 GAP 1.2.5
 - now fully compatible with KSP 1.1.2.
