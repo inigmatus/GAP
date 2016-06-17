@@ -1,7 +1,7 @@
 CHANGELOG:
 
 GAP 1.2.6
-- fixed KSS Rixx spawning on water.
+- fixed all KSS Rixx contracts to spawn carrier without exploding.
 - fixed comments in Charter Flight 45
 - Charter Flight 5 now appears which is required for Flights 101-103. 
 - added patches for part test modules.
