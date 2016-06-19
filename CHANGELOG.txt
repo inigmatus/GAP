@@ -1,7 +1,8 @@
 CHANGELOG:
 
 GAP 1.2.6
-- renamed Coast Guard Rescue Climbers to Coast Guard Rescue Climbers (Hard).
+- removed PQSOffset and randomization from CoastGuard Rescue Climbers contracts to prevent spawn issues of Kerbals with terrain. No more having to dig a materialized Kerbal out of the side of a mountain. It's hard enough already.
+- renamed Coast Guard Rescue Climbers to Coast Guard Rescue Climbers (Hard) and increased the reward accordingly.
 - added Coast Guard Rescue Climbers. (Easy) (thanks million_lights)
 - fixed passenger spawning for Charter Flight 45. (thanks million_lights)
 - fixed all KSS Rixx contracts to spawn carrier without exploding. (thanks LupiDragon)
