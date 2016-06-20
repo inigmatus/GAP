@@ -1,6 +1,11 @@
 CHANGELOG:
 
 GAP 1.2.6
+- Wright Speed 100 now requires Wright 2500m completion (thanks vardicd).
+- decreased appearance of KSP Tour Bus contract. If it continues to appear often, it's because you haven't fulfilled requirements (part unlocks or the contracts mentioned below) for other contract types to appear.
+- made Charter Flight 4, 5, and Flights 101-103 appear more often since these too are critical to GAP progression and are the repeatable bread and butter of GAP.
+- made Glider, First Flight, 2500m, Aerial Island Survey, and Island Prep contracts appear faster. These are one-time contracts anyways and are critical to progressing players in GAP and unlocking dependent contracts.
+- fixed KSP Island Preparation contract. Flag goal works and the goal only appears if you have Astronaut Complex level 2.
 - removed PQSOffset and randomization from CoastGuard Rescue Climbers contracts to prevent spawn issues of Kerbals with terrain. No more having to dig a materialized Kerbal out of the side of a mountain. It's hard enough already.
 - renamed Coast Guard Rescue Climbers to Coast Guard Rescue Climbers (Hard) and increased the reward accordingly.
 - added Coast Guard Rescue Climbers. (Easy) (thanks million_lights)
