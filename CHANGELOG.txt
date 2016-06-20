@@ -1,6 +1,6 @@
 CHANGELOG:
 
-GAP 1.2.6
+6/20/16 GAP 1.2.6
 - 65 total contracts. This release adds 9 contracts: 7 economy contracts (for parts, rather than bundles), 1 starting car contract, and 1 Coast Guard contract for an easier K2 climber rescue version. See notes below.
 - Wright Speed 100 now requires Wright 2500m completion (thanks vardicd).
 - Added KSP Scout contract for players to build their first car and scout out KSC. This will appear before KSP Tour Bus.
