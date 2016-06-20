@@ -75,6 +75,7 @@ SSI-Seaplane - SSI Aerospace: Build and fly a seaplane!
 *SSI-Mining - SSI Aerospace: Test new mining equipment!
 
 [Road Trips]
+KSP-Car - Build a car and scout out KSC!
 KSP-TourBus - Kerbal Space Program: Drive a Tour Bus at KSC!
 *Global-Offroad - Global Escapes: Offroad Adventure: K2 Mountain Trail - Crew: (4) (drive a series of K2 mountain waypoints)
 *Global-Keverest - Global Escapes: Mount Keverest Expedition (2-4) (fly to Mt. Keverest, land and take a rover to the mountain base, then climb the mountain, plant flag)
