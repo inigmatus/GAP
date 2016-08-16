@@ -1,5 +1,8 @@
 CHANGELOG:
 
+GAP 1.3
+- Added code to make GAP compliant with Contract Configurator 1.17 and higher.
+
 GAP 1.2.7
 - certified compatible with KSP 1.1.3
 - removed Command Seat as a requirement for Car and Bus contracts. Now any vehicle with wheels will work (assuming it can carry the required number of passenger seats).
