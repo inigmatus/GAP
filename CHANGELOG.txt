@@ -1,11 +1,12 @@
 CHANGELOG:
 
-GAP 1.3
-- added code to make GAP compliant with Contract Configurator 1.18 and higher.
-- requires at least Contract Configurator version 1.18
+GAP 1.2.7
+- certified fully compatible with KSP 1.1.3
+- added code to make GAP compliant with Contract Configurator 1.18.1 and higher.
+- requires at least Contract Configurator version 1.18.1
 - fixed economy contracts to give only what you intend to purchase.
-- certified compatible with KSP 1.1.3
 - removed Command Seat as a requirement for Car and Bus contracts. Now any vehicle with wheels will work (assuming it can carry the required number of passenger seats).
+- increased all contract payouts, most by as much as 2x as before to make them more worthwhile for the time players will spend in completing them.
 
 
 6/20/16 GAP 1.2.6
