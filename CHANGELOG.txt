@@ -1,5 +1,9 @@
 CHANGELOG:
 
+8/28/16 GAP 1.2.8
+- Commented out G force code to work around critical KSP 1.1.3 bug where Kerbals on EVA spike 15+ G force on exit from craft, causing G force limit contracts (most air passenger contracts) to fail prematurely.
+- fixed Strategia compatibility. GAP now shows up under Pilot Focus.
+
 8/27/16 GAP 1.2.7
 - tested fully compatible with KSP 1.1.3, and Contract Configurator 1.18.1
 - requires CC 1.18.1 or higher which fixes contract generation with repeatable contracts, and to allow players to access contracts past Charter Flight 4.
