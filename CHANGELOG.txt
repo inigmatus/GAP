@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.2.9
+- added Cargo directory in Assets for future cargo subassemblies for GAP 1.3.
 - readjusted min and max passengers for charters and regular service flights.
 - clarified contract titles for Flights 101-103 to inform users that a minimum crew of 3 (two pilots, 1 engineer) is required for all regular service flights.
 - removed crew requirements for Charter Flight 5 so that all charter flights only require a pilot and not additional crew.
