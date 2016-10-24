@@ -1,6 +1,10 @@
 CHANGELOG:
 
 GAP 1.2.9
+- please remove your current GAP folder and install this new.
+- reduced Mk3 crew cabin test requirement to 10,000m from 20,000m.
+- decoupled crew cabin testing from each other, so you can now test crew cabins idependently as you research them, and not in their assumed order.
+- Flight 102 requires either mk2 or mk3 cabin to be tested.
 - added Cargo directory in Assets for future cargo subassemblies for GAP 1.3.
 - readjusted min and max passengers for charters and regular service flights.
 - clarified contract titles for Flights 101-103 to inform users that a minimum crew of 3 (two pilots, 1 engineer) is required for all regular service flights.
