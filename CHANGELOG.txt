@@ -1,7 +1,8 @@
 CHANGELOG:
 
 GAP 1.2.9
-- please remove your current GAP folder and install this new.
+- compatibility upgrade for KSP 1.2 and Contract Configurator 1.20.3
+- please remove your current GAP folder and install this new as many contract filesnames were changed, and some disabled until spawn issues with certain props are resolved.
 - reduced Mk3 crew cabin test requirement to 10,000m from 20,000m.
 - decoupled crew cabin testing from each other, so you can now test crew cabins idependently as you research them, and not in their assumed order.
 - Flight 102 requires either mk2 or mk3 cabin to be tested.
