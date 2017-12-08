@@ -1,4 +1,8 @@
 CHANGELOG:
+GAP 1.3
+- replaced KAX Huey contract with KAX Continued Vintage Propelator for early vintage planes using a wooden propeller (thanks to SpannerMonkey for KAX Continued)
+- added contract to purchase fuel line duct
+- added contract to purchase AirplanePlus engine prototye. Tweakscale will be required (recommend 30% scale with 30% engine thrust for Wright Flyer type craft)
 
 GAP 1.2.9
 - compatibility upgrade for KSP 1.2 and Contract Configurator 1.20.3
