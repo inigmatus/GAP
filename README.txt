@@ -5,9 +5,8 @@ by inigma
 
 GAP is fully stock compatible, however to enhance your experience, we recommend the following mods:
 1. Take Command (on CKAN) - spawn Kerbals in Command Seats
-2. Kerbal Aircraft eXpansion (KAX) (on CKAN) - stock-alike propellers and engines.
-3. SM Chutes (on CKAN) - for parachute contracts
-4. BDArmory by BahamutoD - for BDArmory contracts
+2. Kerbal Aircraft eXpansion Continued (KAX Continued) - stock-alike propellers and engines.
+
 
 
 Download GAP from Github: https://github.com/inigmatus/GAP
