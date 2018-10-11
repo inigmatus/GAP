@@ -4,7 +4,9 @@ GAP 1.4
 - removed all annoying preflight checks requirements before completing contracts.
 - updated text and corrected many embarrassing spelling and grammar mistakes.
 - fixed newlines in contract descriptions.
-- AirplanePlus integration (thank you DrRaphello)
+- added AirplanePlus integration (thank you DrRaphello)
+- added Atmosphere Autopilot compatibility (thank you theonegalen)
+- added compatibility for Advanced Jet Engine (thank you damowang2)
 
 GAP 1.4 beta
 - culled all contracts requiring prebuilt craft. 
