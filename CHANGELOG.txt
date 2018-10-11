@@ -7,6 +7,7 @@ GAP 1.4
 - added AirplanePlus integration (thank you DrRaphello)
 - added Atmosphere Autopilot compatibility (thank you theonegalen)
 - added compatibility for Advanced Jet Engine (thank you damowang2)
+- removed requiring a crew cabin for KSC Airlines contracts for greater freedom of design
 
 GAP 1.4 beta
 - culled all contracts requiring prebuilt craft. 
