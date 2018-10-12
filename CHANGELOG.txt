@@ -1,6 +1,7 @@
 CHANGELOG:
 
 GAP 1.4
+- added Dessert Airfield KSC Airline contracts.
 - removed all annoying preflight checks requirements before completing contracts.
 - updated text and corrected many embarrassing spelling and grammar mistakes.
 - fixed newlines in contract descriptions.
