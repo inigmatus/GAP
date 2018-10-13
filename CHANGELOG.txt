@@ -1,7 +1,9 @@
 CHANGELOG:
 
 GAP 1.4
-- added Dessert Airfield KSC Airline contracts.
+- all KSC Airline flight contracts now check for launch site.
+- added Dessert Airfield as a destination for KSC Airline contracts.
+- added KSC Airline contracts originating from Island Airfield (Flights 2xx) and Dessert Airfield (Flights 3xx).
 - removed all annoying preflight checks requirements before completing contracts.
 - updated text and corrected many embarrassing spelling and grammar mistakes.
 - fixed newlines in contract descriptions.
