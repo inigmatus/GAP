@@ -1,6 +1,6 @@
 CHANGELOG:
 
-GAP 1.4
+GAP 1.4 
 - all KSC Airline flight contracts now check for launch site.
 - added Dessert Airfield as a destination for KSC Airline contracts. (requires Making History DLC)
 - added KSC Airline round trip contracts originating from Island Airfield (Flights 2xx) and Dessert Airfield (Flights 3xx). (requires Making History DLC)
