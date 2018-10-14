@@ -8,7 +8,7 @@ GAP is fully stock compatible, however to enhance your experience, we recommend 
 Regardless if pure stock or DLC, we recommend following mods:
 1. Take Command (on CKAN) - spawn Kerbals in Command Seats
 2. Kerbal Aircraft eXpansion Continued (KAX Continued) - stock-alike propellers and engines.
-3. Airplane Plus - props, jets, wings, cabins, cockpits, and more.
+3. AirplanePlus - props, jets, wings, cabins, cockpits, and more.
 
 
 
