@@ -7,6 +7,7 @@ GAP 1.4
 - added one-way contract from Dessert Airfield to Island Airfield (Flight 30)
 - added multi-leg round trip to all locations (Flight 360 - of course!) (requires Making History DLC)
 - removed all annoying preflight checks requirements before completing contracts.
+- updated Rescue at K2 contract with better instructions.
 - updated text and corrected many embarrassing spelling and grammar mistakes.
 - fixed newlines in contract descriptions.
 - added AirplanePlus integration (thank you DrRaphello)
