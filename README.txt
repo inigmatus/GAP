@@ -6,6 +6,8 @@ by inigma
 GAP is fully stock compatible, however to enhance your experience, we recommend the Making History DLC to take advantage of additional flight destinations. 
 
 Regardless if pure stock or DLC, we recommend following mods:
+
+0. Module Manager (required) this is used to validate many contracts. Please include it in your manual installs.
 1. Take Command (on CKAN) - spawn Kerbals in Command Seats
 2. Kerbal Aircraft eXpansion Continued (KAX Continued) - stock-alike propellers and engines.
 3. AirplanePlus - props, jets, wings, cabins, cockpits, and more.
