@@ -1,4 +1,8 @@
 CHANGELOG:
+GAP 1.5
+- Code update for 1.12.0 through 1.12.5 KSP
+- Updated dependencies for Contract Configurator managed by Liasias, and updated Module Manager (See Read Me).
+- Confirmed testing of all contracts as working as designed, even in a heavily modded KSP running on Luna MultiPlayer.
 
 GAP 1.4 
 - all KSC Airline flight contracts now check for launch site.
