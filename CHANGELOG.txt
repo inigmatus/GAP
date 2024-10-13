@@ -1,6 +1,6 @@
 CHANGELOG:
-GAP 1.5
-- Code update for 1.12.0 through 1.12.5 KSP
+GAP 2.11
+- Code update for 1.12.0 through 1.12.5 KSP using KSP-RO's Contract Configurator 2.11 (matching GAP version to that of the minimum Contract Configurator).
 - Updated dependencies for Contract Configurator managed by Liasias, and updated Module Manager (See Read Me).
 - Confirmed testing of all contracts as working as designed, even in a heavily modded KSP running on Luna MultiPlayer.
 
